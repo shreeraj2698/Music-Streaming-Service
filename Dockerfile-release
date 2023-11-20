@@ -134,7 +134,7 @@ RUN \
 
 ## Release Stage
 FROM		alpine:3.18 AS release
-LABEL		maintainer="Emeric Poupon <itmfr@yahoo.fr>"
+LABEL		maintainer="Shreeraj"
 
 ARG	RUNTIME_PACKAGES=" \
 	libssl3 \
