@@ -53,10 +53,10 @@ RM = /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/shree/Downloads/lms-master
+CMAKE_SOURCE_DIR = /Users/shree/Downloads/Music-Streaming-Service
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/shree/Downloads/lms-master
+CMAKE_BINARY_DIR = /Users/shree/Downloads/Music-Streaming-Service
 
 # Include any dependencies generated for this target.
 include src/libs/image/CMakeFiles/lmsimage.dir/depend.make
@@ -72,30 +72,30 @@ include src/libs/image/CMakeFiles/lmsimage.dir/flags.make
 src/libs/image/CMakeFiles/lmsimage.dir/impl/graphicsmagick/JPEGImage.cpp.o: src/libs/image/CMakeFiles/lmsimage.dir/flags.make
 src/libs/image/CMakeFiles/lmsimage.dir/impl/graphicsmagick/JPEGImage.cpp.o: src/libs/image/impl/graphicsmagick/JPEGImage.cpp
 src/libs/image/CMakeFiles/lmsimage.dir/impl/graphicsmagick/JPEGImage.cpp.o: src/libs/image/CMakeFiles/lmsimage.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/shree/Downloads/lms-master/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/libs/image/CMakeFiles/lmsimage.dir/impl/graphicsmagick/JPEGImage.cpp.o"
-	cd /Users/shree/Downloads/lms-master/src/libs/image && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/libs/image/CMakeFiles/lmsimage.dir/impl/graphicsmagick/JPEGImage.cpp.o -MF CMakeFiles/lmsimage.dir/impl/graphicsmagick/JPEGImage.cpp.o.d -o CMakeFiles/lmsimage.dir/impl/graphicsmagick/JPEGImage.cpp.o -c /Users/shree/Downloads/lms-master/src/libs/image/impl/graphicsmagick/JPEGImage.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/shree/Downloads/Music-Streaming-Service/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/libs/image/CMakeFiles/lmsimage.dir/impl/graphicsmagick/JPEGImage.cpp.o"
+	cd /Users/shree/Downloads/Music-Streaming-Service/src/libs/image && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/libs/image/CMakeFiles/lmsimage.dir/impl/graphicsmagick/JPEGImage.cpp.o -MF CMakeFiles/lmsimage.dir/impl/graphicsmagick/JPEGImage.cpp.o.d -o CMakeFiles/lmsimage.dir/impl/graphicsmagick/JPEGImage.cpp.o -c /Users/shree/Downloads/Music-Streaming-Service/src/libs/image/impl/graphicsmagick/JPEGImage.cpp
 
 src/libs/image/CMakeFiles/lmsimage.dir/impl/graphicsmagick/JPEGImage.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lmsimage.dir/impl/graphicsmagick/JPEGImage.cpp.i"
-	cd /Users/shree/Downloads/lms-master/src/libs/image && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/shree/Downloads/lms-master/src/libs/image/impl/graphicsmagick/JPEGImage.cpp > CMakeFiles/lmsimage.dir/impl/graphicsmagick/JPEGImage.cpp.i
+	cd /Users/shree/Downloads/Music-Streaming-Service/src/libs/image && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/shree/Downloads/Music-Streaming-Service/src/libs/image/impl/graphicsmagick/JPEGImage.cpp > CMakeFiles/lmsimage.dir/impl/graphicsmagick/JPEGImage.cpp.i
 
 src/libs/image/CMakeFiles/lmsimage.dir/impl/graphicsmagick/JPEGImage.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lmsimage.dir/impl/graphicsmagick/JPEGImage.cpp.s"
-	cd /Users/shree/Downloads/lms-master/src/libs/image && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/shree/Downloads/lms-master/src/libs/image/impl/graphicsmagick/JPEGImage.cpp -o CMakeFiles/lmsimage.dir/impl/graphicsmagick/JPEGImage.cpp.s
+	cd /Users/shree/Downloads/Music-Streaming-Service/src/libs/image && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/shree/Downloads/Music-Streaming-Service/src/libs/image/impl/graphicsmagick/JPEGImage.cpp -o CMakeFiles/lmsimage.dir/impl/graphicsmagick/JPEGImage.cpp.s
 
 src/libs/image/CMakeFiles/lmsimage.dir/impl/graphicsmagick/RawImage.cpp.o: src/libs/image/CMakeFiles/lmsimage.dir/flags.make
 src/libs/image/CMakeFiles/lmsimage.dir/impl/graphicsmagick/RawImage.cpp.o: src/libs/image/impl/graphicsmagick/RawImage.cpp
 src/libs/image/CMakeFiles/lmsimage.dir/impl/graphicsmagick/RawImage.cpp.o: src/libs/image/CMakeFiles/lmsimage.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/shree/Downloads/lms-master/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/libs/image/CMakeFiles/lmsimage.dir/impl/graphicsmagick/RawImage.cpp.o"
-	cd /Users/shree/Downloads/lms-master/src/libs/image && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/libs/image/CMakeFiles/lmsimage.dir/impl/graphicsmagick/RawImage.cpp.o -MF CMakeFiles/lmsimage.dir/impl/graphicsmagick/RawImage.cpp.o.d -o CMakeFiles/lmsimage.dir/impl/graphicsmagick/RawImage.cpp.o -c /Users/shree/Downloads/lms-master/src/libs/image/impl/graphicsmagick/RawImage.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/shree/Downloads/Music-Streaming-Service/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/libs/image/CMakeFiles/lmsimage.dir/impl/graphicsmagick/RawImage.cpp.o"
+	cd /Users/shree/Downloads/Music-Streaming-Service/src/libs/image && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/libs/image/CMakeFiles/lmsimage.dir/impl/graphicsmagick/RawImage.cpp.o -MF CMakeFiles/lmsimage.dir/impl/graphicsmagick/RawImage.cpp.o.d -o CMakeFiles/lmsimage.dir/impl/graphicsmagick/RawImage.cpp.o -c /Users/shree/Downloads/Music-Streaming-Service/src/libs/image/impl/graphicsmagick/RawImage.cpp
 
 src/libs/image/CMakeFiles/lmsimage.dir/impl/graphicsmagick/RawImage.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lmsimage.dir/impl/graphicsmagick/RawImage.cpp.i"
-	cd /Users/shree/Downloads/lms-master/src/libs/image && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/shree/Downloads/lms-master/src/libs/image/impl/graphicsmagick/RawImage.cpp > CMakeFiles/lmsimage.dir/impl/graphicsmagick/RawImage.cpp.i
+	cd /Users/shree/Downloads/Music-Streaming-Service/src/libs/image && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/shree/Downloads/Music-Streaming-Service/src/libs/image/impl/graphicsmagick/RawImage.cpp > CMakeFiles/lmsimage.dir/impl/graphicsmagick/RawImage.cpp.i
 
 src/libs/image/CMakeFiles/lmsimage.dir/impl/graphicsmagick/RawImage.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lmsimage.dir/impl/graphicsmagick/RawImage.cpp.s"
-	cd /Users/shree/Downloads/lms-master/src/libs/image && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/shree/Downloads/lms-master/src/libs/image/impl/graphicsmagick/RawImage.cpp -o CMakeFiles/lmsimage.dir/impl/graphicsmagick/RawImage.cpp.s
+	cd /Users/shree/Downloads/Music-Streaming-Service/src/libs/image && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/shree/Downloads/Music-Streaming-Service/src/libs/image/impl/graphicsmagick/RawImage.cpp -o CMakeFiles/lmsimage.dir/impl/graphicsmagick/RawImage.cpp.s
 
 # Object files for target lmsimage
 lmsimage_OBJECTS = \
@@ -117,18 +117,18 @@ src/libs/image/liblmsimage.dylib: /opt/homebrew/lib/libboost_atomic-mt.dylib
 src/libs/image/liblmsimage.dylib: /opt/homebrew/lib/libGraphicsMagick++.dylib
 src/libs/image/liblmsimage.dylib: /opt/homebrew/Cellar/graphicsmagick/1.3.42/lib/libGraphicsMagick.dylib
 src/libs/image/liblmsimage.dylib: src/libs/image/CMakeFiles/lmsimage.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/shree/Downloads/lms-master/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX shared library liblmsimage.dylib"
-	cd /Users/shree/Downloads/lms-master/src/libs/image && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lmsimage.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/shree/Downloads/Music-Streaming-Service/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX shared library liblmsimage.dylib"
+	cd /Users/shree/Downloads/Music-Streaming-Service/src/libs/image && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lmsimage.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/libs/image/CMakeFiles/lmsimage.dir/build: src/libs/image/liblmsimage.dylib
 .PHONY : src/libs/image/CMakeFiles/lmsimage.dir/build
 
 src/libs/image/CMakeFiles/lmsimage.dir/clean:
-	cd /Users/shree/Downloads/lms-master/src/libs/image && $(CMAKE_COMMAND) -P CMakeFiles/lmsimage.dir/cmake_clean.cmake
+	cd /Users/shree/Downloads/Music-Streaming-Service/src/libs/image && $(CMAKE_COMMAND) -P CMakeFiles/lmsimage.dir/cmake_clean.cmake
 .PHONY : src/libs/image/CMakeFiles/lmsimage.dir/clean
 
 src/libs/image/CMakeFiles/lmsimage.dir/depend:
-	cd /Users/shree/Downloads/lms-master && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/shree/Downloads/lms-master /Users/shree/Downloads/lms-master/src/libs/image /Users/shree/Downloads/lms-master /Users/shree/Downloads/lms-master/src/libs/image /Users/shree/Downloads/lms-master/src/libs/image/CMakeFiles/lmsimage.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/shree/Downloads/Music-Streaming-Service /Users/shree/Downloads/Music-Streaming-Service/src/libs/image /Users/shree/Downloads/Music-Streaming-Service /Users/shree/Downloads/Music-Streaming-Service/src/libs/image /Users/shree/Downloads/Music-Streaming-Service/src/libs/image/CMakeFiles/lmsimage.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : src/libs/image/CMakeFiles/lmsimage.dir/depend
 

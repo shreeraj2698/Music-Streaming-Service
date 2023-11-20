@@ -1,5 +1,5 @@
-if(EXISTS "/Users/shree/Downloads/lms-master/src/libs/services/database/test/test-database[1]_tests.cmake")
-  include("/Users/shree/Downloads/lms-master/src/libs/services/database/test/test-database[1]_tests.cmake")
+if(EXISTS "/Users/shree/Downloads/Music-Streaming-Service/src/libs/services/database/test/test-database[1]_tests.cmake")
+  include("/Users/shree/Downloads/Music-Streaming-Service/src/libs/services/database/test/test-database[1]_tests.cmake")
 else()
   add_test(test-database_NOT_BUILT test-database_NOT_BUILT)
 endif()

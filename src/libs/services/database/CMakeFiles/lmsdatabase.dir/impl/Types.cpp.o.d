@@ -1,6 +1,6 @@
 src/libs/services/database/CMakeFiles/lmsdatabase.dir/impl/Types.cpp.o: \
-  /Users/shree/Downloads/lms-master/src/libs/services/database/impl/Types.cpp \
-  /Users/shree/Downloads/lms-master/src/libs/services/database/include/services/database/Types.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/database/impl/Types.cpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/database/include/services/database/Types.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/cstdint \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__assert \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__config \

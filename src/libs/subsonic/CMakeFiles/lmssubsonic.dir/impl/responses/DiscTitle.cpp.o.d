@@ -1,7 +1,7 @@
 src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/responses/DiscTitle.cpp.o: \
-  /Users/shree/Downloads/lms-master/src/libs/subsonic/impl/responses/DiscTitle.cpp \
-  /Users/shree/Downloads/lms-master/src/libs/subsonic/impl/responses/DiscTitle.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/services/database/include/services/database/Types.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/subsonic/impl/responses/DiscTitle.cpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/subsonic/impl/responses/DiscTitle.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/database/include/services/database/Types.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/cstdint \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__assert \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__config \
@@ -806,19 +806,19 @@ src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/responses/DiscTitle.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/istream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/ostream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/bitset \
-  /Users/shree/Downloads/lms-master/src/libs/subsonic/impl/SubsonicResponse.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/subsonic/impl/SubsonicResponse.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/map \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__tree \
-  /Users/shree/Downloads/lms-master/src/libs/subsonic/impl/RequestContext.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/subsonic/impl/RequestContext.hpp \
   /usr/local/include/Wt/Http/Request.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/sstream \
   /usr/local/include/Wt/Http/Message.h \
-  /Users/shree/Downloads/lms-master/src/libs/services/database/include/services/database/UserId.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/services/database/include/services/database/IdType.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/database/include/services/database/UserId.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/database/include/services/database/IdType.hpp \
   /usr/local/include/Wt/Dbo/ptr.h /usr/local/include/Wt/cpp17/any.hpp \
   /usr/local/include/Wt/cpp17/any/any.hpp \
   /usr/local/include/Wt/Dbo/SqlTraits.h \
   /usr/local/include/Wt/Dbo/WDboDllDefs.h \
-  /Users/shree/Downloads/lms-master/src/libs/subsonic/impl/ClientInfo.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/subsonic/impl/ProtocolVersion.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/utils/include/utils/String.hpp
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/subsonic/impl/ClientInfo.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/subsonic/impl/ProtocolVersion.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/utils/include/utils/String.hpp

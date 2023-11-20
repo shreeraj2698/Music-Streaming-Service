@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/shree/Downloads/lms-master/src/libs/som/impl/DataNormalizer.cpp" "src/libs/som/CMakeFiles/lmssom.dir/impl/DataNormalizer.cpp.o" "gcc" "src/libs/som/CMakeFiles/lmssom.dir/impl/DataNormalizer.cpp.o.d"
-  "/Users/shree/Downloads/lms-master/src/libs/som/impl/Network.cpp" "src/libs/som/CMakeFiles/lmssom.dir/impl/Network.cpp.o" "gcc" "src/libs/som/CMakeFiles/lmssom.dir/impl/Network.cpp.o.d"
+  "/Users/shree/Downloads/Music-Streaming-Service/src/libs/som/impl/DataNormalizer.cpp" "src/libs/som/CMakeFiles/lmssom.dir/impl/DataNormalizer.cpp.o" "gcc" "src/libs/som/CMakeFiles/lmssom.dir/impl/DataNormalizer.cpp.o.d"
+  "/Users/shree/Downloads/Music-Streaming-Service/src/libs/som/impl/Network.cpp" "src/libs/som/CMakeFiles/lmssom.dir/impl/Network.cpp.o" "gcc" "src/libs/som/CMakeFiles/lmssom.dir/impl/Network.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

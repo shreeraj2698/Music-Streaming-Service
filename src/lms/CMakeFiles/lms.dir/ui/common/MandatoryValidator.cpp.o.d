@@ -1,6 +1,6 @@
 src/lms/CMakeFiles/lms.dir/ui/common/MandatoryValidator.cpp.o: \
-  /Users/shree/Downloads/lms-master/src/lms/ui/common/MandatoryValidator.cpp \
-  /Users/shree/Downloads/lms-master/src/lms/ui/common/MandatoryValidator.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/lms/ui/common/MandatoryValidator.cpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/lms/ui/common/MandatoryValidator.hpp \
   /usr/local/include/Wt/WValidator.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/iostream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__assert \

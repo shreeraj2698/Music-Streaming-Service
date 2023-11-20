@@ -57,10 +57,10 @@ RM = /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/shree/Downloads/lms-master
+CMAKE_SOURCE_DIR = /Users/shree/Downloads/Music-Streaming-Service
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/shree/Downloads/lms-master
+CMAKE_BINARY_DIR = /Users/shree/Downloads/Music-Streaming-Service
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,14 +142,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/shree/Downloads/lms-master && $(CMAKE_COMMAND) -E cmake_progress_start /Users/shree/Downloads/lms-master/CMakeFiles /Users/shree/Downloads/lms-master/src/libs/subsonic//CMakeFiles/progress.marks
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/libs/subsonic/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/shree/Downloads/lms-master/CMakeFiles 0
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(CMAKE_COMMAND) -E cmake_progress_start /Users/shree/Downloads/Music-Streaming-Service/CMakeFiles /Users/shree/Downloads/Music-Streaming-Service/src/libs/subsonic//CMakeFiles/progress.marks
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/libs/subsonic/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/shree/Downloads/Music-Streaming-Service/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/libs/subsonic/clean
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/libs/subsonic/clean
 .PHONY : clean
 
 # The main clean target
@@ -158,22 +158,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/libs/subsonic/preinstall
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/libs/subsonic/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/libs/subsonic/preinstall
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/libs/subsonic/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/shree/Downloads/lms-master && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/libs/subsonic/CMakeFiles/lmssubsonic.dir/rule:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/libs/subsonic/CMakeFiles/lmssubsonic.dir/rule
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/libs/subsonic/CMakeFiles/lmssubsonic.dir/rule
 .PHONY : src/libs/subsonic/CMakeFiles/lmssubsonic.dir/rule
 
 # Convenience name for target.
@@ -182,7 +182,7 @@ lmssubsonic: src/libs/subsonic/CMakeFiles/lmssubsonic.dir/rule
 
 # fast build rule for target.
 lmssubsonic/fast:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build
 .PHONY : lmssubsonic/fast
 
 impl/ParameterParsing.o: impl/ParameterParsing.cpp.o
@@ -190,7 +190,7 @@ impl/ParameterParsing.o: impl/ParameterParsing.cpp.o
 
 # target to build an object file
 impl/ParameterParsing.cpp.o:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/ParameterParsing.cpp.o
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/ParameterParsing.cpp.o
 .PHONY : impl/ParameterParsing.cpp.o
 
 impl/ParameterParsing.i: impl/ParameterParsing.cpp.i
@@ -198,7 +198,7 @@ impl/ParameterParsing.i: impl/ParameterParsing.cpp.i
 
 # target to preprocess a source file
 impl/ParameterParsing.cpp.i:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/ParameterParsing.cpp.i
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/ParameterParsing.cpp.i
 .PHONY : impl/ParameterParsing.cpp.i
 
 impl/ParameterParsing.s: impl/ParameterParsing.cpp.s
@@ -206,7 +206,7 @@ impl/ParameterParsing.s: impl/ParameterParsing.cpp.s
 
 # target to generate assembly for a file
 impl/ParameterParsing.cpp.s:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/ParameterParsing.cpp.s
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/ParameterParsing.cpp.s
 .PHONY : impl/ParameterParsing.cpp.s
 
 impl/ProtocolVersion.o: impl/ProtocolVersion.cpp.o
@@ -214,7 +214,7 @@ impl/ProtocolVersion.o: impl/ProtocolVersion.cpp.o
 
 # target to build an object file
 impl/ProtocolVersion.cpp.o:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/ProtocolVersion.cpp.o
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/ProtocolVersion.cpp.o
 .PHONY : impl/ProtocolVersion.cpp.o
 
 impl/ProtocolVersion.i: impl/ProtocolVersion.cpp.i
@@ -222,7 +222,7 @@ impl/ProtocolVersion.i: impl/ProtocolVersion.cpp.i
 
 # target to preprocess a source file
 impl/ProtocolVersion.cpp.i:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/ProtocolVersion.cpp.i
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/ProtocolVersion.cpp.i
 .PHONY : impl/ProtocolVersion.cpp.i
 
 impl/ProtocolVersion.s: impl/ProtocolVersion.cpp.s
@@ -230,7 +230,7 @@ impl/ProtocolVersion.s: impl/ProtocolVersion.cpp.s
 
 # target to generate assembly for a file
 impl/ProtocolVersion.cpp.s:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/ProtocolVersion.cpp.s
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/ProtocolVersion.cpp.s
 .PHONY : impl/ProtocolVersion.cpp.s
 
 impl/SubsonicId.o: impl/SubsonicId.cpp.o
@@ -238,7 +238,7 @@ impl/SubsonicId.o: impl/SubsonicId.cpp.o
 
 # target to build an object file
 impl/SubsonicId.cpp.o:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/SubsonicId.cpp.o
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/SubsonicId.cpp.o
 .PHONY : impl/SubsonicId.cpp.o
 
 impl/SubsonicId.i: impl/SubsonicId.cpp.i
@@ -246,7 +246,7 @@ impl/SubsonicId.i: impl/SubsonicId.cpp.i
 
 # target to preprocess a source file
 impl/SubsonicId.cpp.i:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/SubsonicId.cpp.i
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/SubsonicId.cpp.i
 .PHONY : impl/SubsonicId.cpp.i
 
 impl/SubsonicId.s: impl/SubsonicId.cpp.s
@@ -254,7 +254,7 @@ impl/SubsonicId.s: impl/SubsonicId.cpp.s
 
 # target to generate assembly for a file
 impl/SubsonicId.cpp.s:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/SubsonicId.cpp.s
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/SubsonicId.cpp.s
 .PHONY : impl/SubsonicId.cpp.s
 
 impl/SubsonicResource.o: impl/SubsonicResource.cpp.o
@@ -262,7 +262,7 @@ impl/SubsonicResource.o: impl/SubsonicResource.cpp.o
 
 # target to build an object file
 impl/SubsonicResource.cpp.o:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/SubsonicResource.cpp.o
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/SubsonicResource.cpp.o
 .PHONY : impl/SubsonicResource.cpp.o
 
 impl/SubsonicResource.i: impl/SubsonicResource.cpp.i
@@ -270,7 +270,7 @@ impl/SubsonicResource.i: impl/SubsonicResource.cpp.i
 
 # target to preprocess a source file
 impl/SubsonicResource.cpp.i:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/SubsonicResource.cpp.i
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/SubsonicResource.cpp.i
 .PHONY : impl/SubsonicResource.cpp.i
 
 impl/SubsonicResource.s: impl/SubsonicResource.cpp.s
@@ -278,7 +278,7 @@ impl/SubsonicResource.s: impl/SubsonicResource.cpp.s
 
 # target to generate assembly for a file
 impl/SubsonicResource.cpp.s:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/SubsonicResource.cpp.s
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/SubsonicResource.cpp.s
 .PHONY : impl/SubsonicResource.cpp.s
 
 impl/SubsonicResponse.o: impl/SubsonicResponse.cpp.o
@@ -286,7 +286,7 @@ impl/SubsonicResponse.o: impl/SubsonicResponse.cpp.o
 
 # target to build an object file
 impl/SubsonicResponse.cpp.o:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/SubsonicResponse.cpp.o
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/SubsonicResponse.cpp.o
 .PHONY : impl/SubsonicResponse.cpp.o
 
 impl/SubsonicResponse.i: impl/SubsonicResponse.cpp.i
@@ -294,7 +294,7 @@ impl/SubsonicResponse.i: impl/SubsonicResponse.cpp.i
 
 # target to preprocess a source file
 impl/SubsonicResponse.cpp.i:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/SubsonicResponse.cpp.i
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/SubsonicResponse.cpp.i
 .PHONY : impl/SubsonicResponse.cpp.i
 
 impl/SubsonicResponse.s: impl/SubsonicResponse.cpp.s
@@ -302,7 +302,7 @@ impl/SubsonicResponse.s: impl/SubsonicResponse.cpp.s
 
 # target to generate assembly for a file
 impl/SubsonicResponse.cpp.s:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/SubsonicResponse.cpp.s
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/SubsonicResponse.cpp.s
 .PHONY : impl/SubsonicResponse.cpp.s
 
 impl/Utils.o: impl/Utils.cpp.o
@@ -310,7 +310,7 @@ impl/Utils.o: impl/Utils.cpp.o
 
 # target to build an object file
 impl/Utils.cpp.o:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/Utils.cpp.o
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/Utils.cpp.o
 .PHONY : impl/Utils.cpp.o
 
 impl/Utils.i: impl/Utils.cpp.i
@@ -318,7 +318,7 @@ impl/Utils.i: impl/Utils.cpp.i
 
 # target to preprocess a source file
 impl/Utils.cpp.i:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/Utils.cpp.i
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/Utils.cpp.i
 .PHONY : impl/Utils.cpp.i
 
 impl/Utils.s: impl/Utils.cpp.s
@@ -326,7 +326,7 @@ impl/Utils.s: impl/Utils.cpp.s
 
 # target to generate assembly for a file
 impl/Utils.cpp.s:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/Utils.cpp.s
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/Utils.cpp.s
 .PHONY : impl/Utils.cpp.s
 
 impl/entrypoints/AlbumSongLists.o: impl/entrypoints/AlbumSongLists.cpp.o
@@ -334,7 +334,7 @@ impl/entrypoints/AlbumSongLists.o: impl/entrypoints/AlbumSongLists.cpp.o
 
 # target to build an object file
 impl/entrypoints/AlbumSongLists.cpp.o:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/entrypoints/AlbumSongLists.cpp.o
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/entrypoints/AlbumSongLists.cpp.o
 .PHONY : impl/entrypoints/AlbumSongLists.cpp.o
 
 impl/entrypoints/AlbumSongLists.i: impl/entrypoints/AlbumSongLists.cpp.i
@@ -342,7 +342,7 @@ impl/entrypoints/AlbumSongLists.i: impl/entrypoints/AlbumSongLists.cpp.i
 
 # target to preprocess a source file
 impl/entrypoints/AlbumSongLists.cpp.i:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/entrypoints/AlbumSongLists.cpp.i
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/entrypoints/AlbumSongLists.cpp.i
 .PHONY : impl/entrypoints/AlbumSongLists.cpp.i
 
 impl/entrypoints/AlbumSongLists.s: impl/entrypoints/AlbumSongLists.cpp.s
@@ -350,7 +350,7 @@ impl/entrypoints/AlbumSongLists.s: impl/entrypoints/AlbumSongLists.cpp.s
 
 # target to generate assembly for a file
 impl/entrypoints/AlbumSongLists.cpp.s:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/entrypoints/AlbumSongLists.cpp.s
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/entrypoints/AlbumSongLists.cpp.s
 .PHONY : impl/entrypoints/AlbumSongLists.cpp.s
 
 impl/entrypoints/Bookmarks.o: impl/entrypoints/Bookmarks.cpp.o
@@ -358,7 +358,7 @@ impl/entrypoints/Bookmarks.o: impl/entrypoints/Bookmarks.cpp.o
 
 # target to build an object file
 impl/entrypoints/Bookmarks.cpp.o:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/entrypoints/Bookmarks.cpp.o
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/entrypoints/Bookmarks.cpp.o
 .PHONY : impl/entrypoints/Bookmarks.cpp.o
 
 impl/entrypoints/Bookmarks.i: impl/entrypoints/Bookmarks.cpp.i
@@ -366,7 +366,7 @@ impl/entrypoints/Bookmarks.i: impl/entrypoints/Bookmarks.cpp.i
 
 # target to preprocess a source file
 impl/entrypoints/Bookmarks.cpp.i:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/entrypoints/Bookmarks.cpp.i
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/entrypoints/Bookmarks.cpp.i
 .PHONY : impl/entrypoints/Bookmarks.cpp.i
 
 impl/entrypoints/Bookmarks.s: impl/entrypoints/Bookmarks.cpp.s
@@ -374,7 +374,7 @@ impl/entrypoints/Bookmarks.s: impl/entrypoints/Bookmarks.cpp.s
 
 # target to generate assembly for a file
 impl/entrypoints/Bookmarks.cpp.s:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/entrypoints/Bookmarks.cpp.s
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/entrypoints/Bookmarks.cpp.s
 .PHONY : impl/entrypoints/Bookmarks.cpp.s
 
 impl/entrypoints/Browsing.o: impl/entrypoints/Browsing.cpp.o
@@ -382,7 +382,7 @@ impl/entrypoints/Browsing.o: impl/entrypoints/Browsing.cpp.o
 
 # target to build an object file
 impl/entrypoints/Browsing.cpp.o:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/entrypoints/Browsing.cpp.o
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/entrypoints/Browsing.cpp.o
 .PHONY : impl/entrypoints/Browsing.cpp.o
 
 impl/entrypoints/Browsing.i: impl/entrypoints/Browsing.cpp.i
@@ -390,7 +390,7 @@ impl/entrypoints/Browsing.i: impl/entrypoints/Browsing.cpp.i
 
 # target to preprocess a source file
 impl/entrypoints/Browsing.cpp.i:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/entrypoints/Browsing.cpp.i
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/entrypoints/Browsing.cpp.i
 .PHONY : impl/entrypoints/Browsing.cpp.i
 
 impl/entrypoints/Browsing.s: impl/entrypoints/Browsing.cpp.s
@@ -398,7 +398,7 @@ impl/entrypoints/Browsing.s: impl/entrypoints/Browsing.cpp.s
 
 # target to generate assembly for a file
 impl/entrypoints/Browsing.cpp.s:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/entrypoints/Browsing.cpp.s
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/entrypoints/Browsing.cpp.s
 .PHONY : impl/entrypoints/Browsing.cpp.s
 
 impl/entrypoints/MediaAnnotation.o: impl/entrypoints/MediaAnnotation.cpp.o
@@ -406,7 +406,7 @@ impl/entrypoints/MediaAnnotation.o: impl/entrypoints/MediaAnnotation.cpp.o
 
 # target to build an object file
 impl/entrypoints/MediaAnnotation.cpp.o:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/entrypoints/MediaAnnotation.cpp.o
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/entrypoints/MediaAnnotation.cpp.o
 .PHONY : impl/entrypoints/MediaAnnotation.cpp.o
 
 impl/entrypoints/MediaAnnotation.i: impl/entrypoints/MediaAnnotation.cpp.i
@@ -414,7 +414,7 @@ impl/entrypoints/MediaAnnotation.i: impl/entrypoints/MediaAnnotation.cpp.i
 
 # target to preprocess a source file
 impl/entrypoints/MediaAnnotation.cpp.i:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/entrypoints/MediaAnnotation.cpp.i
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/entrypoints/MediaAnnotation.cpp.i
 .PHONY : impl/entrypoints/MediaAnnotation.cpp.i
 
 impl/entrypoints/MediaAnnotation.s: impl/entrypoints/MediaAnnotation.cpp.s
@@ -422,7 +422,7 @@ impl/entrypoints/MediaAnnotation.s: impl/entrypoints/MediaAnnotation.cpp.s
 
 # target to generate assembly for a file
 impl/entrypoints/MediaAnnotation.cpp.s:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/entrypoints/MediaAnnotation.cpp.s
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/entrypoints/MediaAnnotation.cpp.s
 .PHONY : impl/entrypoints/MediaAnnotation.cpp.s
 
 impl/entrypoints/MediaLibraryScanning.o: impl/entrypoints/MediaLibraryScanning.cpp.o
@@ -430,7 +430,7 @@ impl/entrypoints/MediaLibraryScanning.o: impl/entrypoints/MediaLibraryScanning.c
 
 # target to build an object file
 impl/entrypoints/MediaLibraryScanning.cpp.o:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/entrypoints/MediaLibraryScanning.cpp.o
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/entrypoints/MediaLibraryScanning.cpp.o
 .PHONY : impl/entrypoints/MediaLibraryScanning.cpp.o
 
 impl/entrypoints/MediaLibraryScanning.i: impl/entrypoints/MediaLibraryScanning.cpp.i
@@ -438,7 +438,7 @@ impl/entrypoints/MediaLibraryScanning.i: impl/entrypoints/MediaLibraryScanning.c
 
 # target to preprocess a source file
 impl/entrypoints/MediaLibraryScanning.cpp.i:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/entrypoints/MediaLibraryScanning.cpp.i
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/entrypoints/MediaLibraryScanning.cpp.i
 .PHONY : impl/entrypoints/MediaLibraryScanning.cpp.i
 
 impl/entrypoints/MediaLibraryScanning.s: impl/entrypoints/MediaLibraryScanning.cpp.s
@@ -446,7 +446,7 @@ impl/entrypoints/MediaLibraryScanning.s: impl/entrypoints/MediaLibraryScanning.c
 
 # target to generate assembly for a file
 impl/entrypoints/MediaLibraryScanning.cpp.s:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/entrypoints/MediaLibraryScanning.cpp.s
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/entrypoints/MediaLibraryScanning.cpp.s
 .PHONY : impl/entrypoints/MediaLibraryScanning.cpp.s
 
 impl/entrypoints/MediaRetrieval.o: impl/entrypoints/MediaRetrieval.cpp.o
@@ -454,7 +454,7 @@ impl/entrypoints/MediaRetrieval.o: impl/entrypoints/MediaRetrieval.cpp.o
 
 # target to build an object file
 impl/entrypoints/MediaRetrieval.cpp.o:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/entrypoints/MediaRetrieval.cpp.o
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/entrypoints/MediaRetrieval.cpp.o
 .PHONY : impl/entrypoints/MediaRetrieval.cpp.o
 
 impl/entrypoints/MediaRetrieval.i: impl/entrypoints/MediaRetrieval.cpp.i
@@ -462,7 +462,7 @@ impl/entrypoints/MediaRetrieval.i: impl/entrypoints/MediaRetrieval.cpp.i
 
 # target to preprocess a source file
 impl/entrypoints/MediaRetrieval.cpp.i:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/entrypoints/MediaRetrieval.cpp.i
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/entrypoints/MediaRetrieval.cpp.i
 .PHONY : impl/entrypoints/MediaRetrieval.cpp.i
 
 impl/entrypoints/MediaRetrieval.s: impl/entrypoints/MediaRetrieval.cpp.s
@@ -470,7 +470,7 @@ impl/entrypoints/MediaRetrieval.s: impl/entrypoints/MediaRetrieval.cpp.s
 
 # target to generate assembly for a file
 impl/entrypoints/MediaRetrieval.cpp.s:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/entrypoints/MediaRetrieval.cpp.s
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/entrypoints/MediaRetrieval.cpp.s
 .PHONY : impl/entrypoints/MediaRetrieval.cpp.s
 
 impl/entrypoints/Playlists.o: impl/entrypoints/Playlists.cpp.o
@@ -478,7 +478,7 @@ impl/entrypoints/Playlists.o: impl/entrypoints/Playlists.cpp.o
 
 # target to build an object file
 impl/entrypoints/Playlists.cpp.o:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/entrypoints/Playlists.cpp.o
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/entrypoints/Playlists.cpp.o
 .PHONY : impl/entrypoints/Playlists.cpp.o
 
 impl/entrypoints/Playlists.i: impl/entrypoints/Playlists.cpp.i
@@ -486,7 +486,7 @@ impl/entrypoints/Playlists.i: impl/entrypoints/Playlists.cpp.i
 
 # target to preprocess a source file
 impl/entrypoints/Playlists.cpp.i:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/entrypoints/Playlists.cpp.i
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/entrypoints/Playlists.cpp.i
 .PHONY : impl/entrypoints/Playlists.cpp.i
 
 impl/entrypoints/Playlists.s: impl/entrypoints/Playlists.cpp.s
@@ -494,7 +494,7 @@ impl/entrypoints/Playlists.s: impl/entrypoints/Playlists.cpp.s
 
 # target to generate assembly for a file
 impl/entrypoints/Playlists.cpp.s:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/entrypoints/Playlists.cpp.s
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/entrypoints/Playlists.cpp.s
 .PHONY : impl/entrypoints/Playlists.cpp.s
 
 impl/entrypoints/Searching.o: impl/entrypoints/Searching.cpp.o
@@ -502,7 +502,7 @@ impl/entrypoints/Searching.o: impl/entrypoints/Searching.cpp.o
 
 # target to build an object file
 impl/entrypoints/Searching.cpp.o:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/entrypoints/Searching.cpp.o
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/entrypoints/Searching.cpp.o
 .PHONY : impl/entrypoints/Searching.cpp.o
 
 impl/entrypoints/Searching.i: impl/entrypoints/Searching.cpp.i
@@ -510,7 +510,7 @@ impl/entrypoints/Searching.i: impl/entrypoints/Searching.cpp.i
 
 # target to preprocess a source file
 impl/entrypoints/Searching.cpp.i:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/entrypoints/Searching.cpp.i
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/entrypoints/Searching.cpp.i
 .PHONY : impl/entrypoints/Searching.cpp.i
 
 impl/entrypoints/Searching.s: impl/entrypoints/Searching.cpp.s
@@ -518,7 +518,7 @@ impl/entrypoints/Searching.s: impl/entrypoints/Searching.cpp.s
 
 # target to generate assembly for a file
 impl/entrypoints/Searching.cpp.s:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/entrypoints/Searching.cpp.s
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/entrypoints/Searching.cpp.s
 .PHONY : impl/entrypoints/Searching.cpp.s
 
 impl/entrypoints/System.o: impl/entrypoints/System.cpp.o
@@ -526,7 +526,7 @@ impl/entrypoints/System.o: impl/entrypoints/System.cpp.o
 
 # target to build an object file
 impl/entrypoints/System.cpp.o:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/entrypoints/System.cpp.o
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/entrypoints/System.cpp.o
 .PHONY : impl/entrypoints/System.cpp.o
 
 impl/entrypoints/System.i: impl/entrypoints/System.cpp.i
@@ -534,7 +534,7 @@ impl/entrypoints/System.i: impl/entrypoints/System.cpp.i
 
 # target to preprocess a source file
 impl/entrypoints/System.cpp.i:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/entrypoints/System.cpp.i
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/entrypoints/System.cpp.i
 .PHONY : impl/entrypoints/System.cpp.i
 
 impl/entrypoints/System.s: impl/entrypoints/System.cpp.s
@@ -542,7 +542,7 @@ impl/entrypoints/System.s: impl/entrypoints/System.cpp.s
 
 # target to generate assembly for a file
 impl/entrypoints/System.cpp.s:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/entrypoints/System.cpp.s
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/entrypoints/System.cpp.s
 .PHONY : impl/entrypoints/System.cpp.s
 
 impl/entrypoints/UserManagement.o: impl/entrypoints/UserManagement.cpp.o
@@ -550,7 +550,7 @@ impl/entrypoints/UserManagement.o: impl/entrypoints/UserManagement.cpp.o
 
 # target to build an object file
 impl/entrypoints/UserManagement.cpp.o:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/entrypoints/UserManagement.cpp.o
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/entrypoints/UserManagement.cpp.o
 .PHONY : impl/entrypoints/UserManagement.cpp.o
 
 impl/entrypoints/UserManagement.i: impl/entrypoints/UserManagement.cpp.i
@@ -558,7 +558,7 @@ impl/entrypoints/UserManagement.i: impl/entrypoints/UserManagement.cpp.i
 
 # target to preprocess a source file
 impl/entrypoints/UserManagement.cpp.i:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/entrypoints/UserManagement.cpp.i
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/entrypoints/UserManagement.cpp.i
 .PHONY : impl/entrypoints/UserManagement.cpp.i
 
 impl/entrypoints/UserManagement.s: impl/entrypoints/UserManagement.cpp.s
@@ -566,7 +566,7 @@ impl/entrypoints/UserManagement.s: impl/entrypoints/UserManagement.cpp.s
 
 # target to generate assembly for a file
 impl/entrypoints/UserManagement.cpp.s:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/entrypoints/UserManagement.cpp.s
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/entrypoints/UserManagement.cpp.s
 .PHONY : impl/entrypoints/UserManagement.cpp.s
 
 impl/responses/Album.o: impl/responses/Album.cpp.o
@@ -574,7 +574,7 @@ impl/responses/Album.o: impl/responses/Album.cpp.o
 
 # target to build an object file
 impl/responses/Album.cpp.o:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/responses/Album.cpp.o
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/responses/Album.cpp.o
 .PHONY : impl/responses/Album.cpp.o
 
 impl/responses/Album.i: impl/responses/Album.cpp.i
@@ -582,7 +582,7 @@ impl/responses/Album.i: impl/responses/Album.cpp.i
 
 # target to preprocess a source file
 impl/responses/Album.cpp.i:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/responses/Album.cpp.i
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/responses/Album.cpp.i
 .PHONY : impl/responses/Album.cpp.i
 
 impl/responses/Album.s: impl/responses/Album.cpp.s
@@ -590,7 +590,7 @@ impl/responses/Album.s: impl/responses/Album.cpp.s
 
 # target to generate assembly for a file
 impl/responses/Album.cpp.s:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/responses/Album.cpp.s
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/responses/Album.cpp.s
 .PHONY : impl/responses/Album.cpp.s
 
 impl/responses/Artist.o: impl/responses/Artist.cpp.o
@@ -598,7 +598,7 @@ impl/responses/Artist.o: impl/responses/Artist.cpp.o
 
 # target to build an object file
 impl/responses/Artist.cpp.o:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/responses/Artist.cpp.o
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/responses/Artist.cpp.o
 .PHONY : impl/responses/Artist.cpp.o
 
 impl/responses/Artist.i: impl/responses/Artist.cpp.i
@@ -606,7 +606,7 @@ impl/responses/Artist.i: impl/responses/Artist.cpp.i
 
 # target to preprocess a source file
 impl/responses/Artist.cpp.i:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/responses/Artist.cpp.i
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/responses/Artist.cpp.i
 .PHONY : impl/responses/Artist.cpp.i
 
 impl/responses/Artist.s: impl/responses/Artist.cpp.s
@@ -614,7 +614,7 @@ impl/responses/Artist.s: impl/responses/Artist.cpp.s
 
 # target to generate assembly for a file
 impl/responses/Artist.cpp.s:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/responses/Artist.cpp.s
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/responses/Artist.cpp.s
 .PHONY : impl/responses/Artist.cpp.s
 
 impl/responses/Bookmark.o: impl/responses/Bookmark.cpp.o
@@ -622,7 +622,7 @@ impl/responses/Bookmark.o: impl/responses/Bookmark.cpp.o
 
 # target to build an object file
 impl/responses/Bookmark.cpp.o:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/responses/Bookmark.cpp.o
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/responses/Bookmark.cpp.o
 .PHONY : impl/responses/Bookmark.cpp.o
 
 impl/responses/Bookmark.i: impl/responses/Bookmark.cpp.i
@@ -630,7 +630,7 @@ impl/responses/Bookmark.i: impl/responses/Bookmark.cpp.i
 
 # target to preprocess a source file
 impl/responses/Bookmark.cpp.i:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/responses/Bookmark.cpp.i
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/responses/Bookmark.cpp.i
 .PHONY : impl/responses/Bookmark.cpp.i
 
 impl/responses/Bookmark.s: impl/responses/Bookmark.cpp.s
@@ -638,7 +638,7 @@ impl/responses/Bookmark.s: impl/responses/Bookmark.cpp.s
 
 # target to generate assembly for a file
 impl/responses/Bookmark.cpp.s:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/responses/Bookmark.cpp.s
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/responses/Bookmark.cpp.s
 .PHONY : impl/responses/Bookmark.cpp.s
 
 impl/responses/Contributor.o: impl/responses/Contributor.cpp.o
@@ -646,7 +646,7 @@ impl/responses/Contributor.o: impl/responses/Contributor.cpp.o
 
 # target to build an object file
 impl/responses/Contributor.cpp.o:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/responses/Contributor.cpp.o
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/responses/Contributor.cpp.o
 .PHONY : impl/responses/Contributor.cpp.o
 
 impl/responses/Contributor.i: impl/responses/Contributor.cpp.i
@@ -654,7 +654,7 @@ impl/responses/Contributor.i: impl/responses/Contributor.cpp.i
 
 # target to preprocess a source file
 impl/responses/Contributor.cpp.i:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/responses/Contributor.cpp.i
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/responses/Contributor.cpp.i
 .PHONY : impl/responses/Contributor.cpp.i
 
 impl/responses/Contributor.s: impl/responses/Contributor.cpp.s
@@ -662,7 +662,7 @@ impl/responses/Contributor.s: impl/responses/Contributor.cpp.s
 
 # target to generate assembly for a file
 impl/responses/Contributor.cpp.s:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/responses/Contributor.cpp.s
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/responses/Contributor.cpp.s
 .PHONY : impl/responses/Contributor.cpp.s
 
 impl/responses/DiscTitle.o: impl/responses/DiscTitle.cpp.o
@@ -670,7 +670,7 @@ impl/responses/DiscTitle.o: impl/responses/DiscTitle.cpp.o
 
 # target to build an object file
 impl/responses/DiscTitle.cpp.o:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/responses/DiscTitle.cpp.o
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/responses/DiscTitle.cpp.o
 .PHONY : impl/responses/DiscTitle.cpp.o
 
 impl/responses/DiscTitle.i: impl/responses/DiscTitle.cpp.i
@@ -678,7 +678,7 @@ impl/responses/DiscTitle.i: impl/responses/DiscTitle.cpp.i
 
 # target to preprocess a source file
 impl/responses/DiscTitle.cpp.i:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/responses/DiscTitle.cpp.i
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/responses/DiscTitle.cpp.i
 .PHONY : impl/responses/DiscTitle.cpp.i
 
 impl/responses/DiscTitle.s: impl/responses/DiscTitle.cpp.s
@@ -686,7 +686,7 @@ impl/responses/DiscTitle.s: impl/responses/DiscTitle.cpp.s
 
 # target to generate assembly for a file
 impl/responses/DiscTitle.cpp.s:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/responses/DiscTitle.cpp.s
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/responses/DiscTitle.cpp.s
 .PHONY : impl/responses/DiscTitle.cpp.s
 
 impl/responses/Genre.o: impl/responses/Genre.cpp.o
@@ -694,7 +694,7 @@ impl/responses/Genre.o: impl/responses/Genre.cpp.o
 
 # target to build an object file
 impl/responses/Genre.cpp.o:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/responses/Genre.cpp.o
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/responses/Genre.cpp.o
 .PHONY : impl/responses/Genre.cpp.o
 
 impl/responses/Genre.i: impl/responses/Genre.cpp.i
@@ -702,7 +702,7 @@ impl/responses/Genre.i: impl/responses/Genre.cpp.i
 
 # target to preprocess a source file
 impl/responses/Genre.cpp.i:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/responses/Genre.cpp.i
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/responses/Genre.cpp.i
 .PHONY : impl/responses/Genre.cpp.i
 
 impl/responses/Genre.s: impl/responses/Genre.cpp.s
@@ -710,7 +710,7 @@ impl/responses/Genre.s: impl/responses/Genre.cpp.s
 
 # target to generate assembly for a file
 impl/responses/Genre.cpp.s:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/responses/Genre.cpp.s
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/responses/Genre.cpp.s
 .PHONY : impl/responses/Genre.cpp.s
 
 impl/responses/ItemGenre.o: impl/responses/ItemGenre.cpp.o
@@ -718,7 +718,7 @@ impl/responses/ItemGenre.o: impl/responses/ItemGenre.cpp.o
 
 # target to build an object file
 impl/responses/ItemGenre.cpp.o:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/responses/ItemGenre.cpp.o
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/responses/ItemGenre.cpp.o
 .PHONY : impl/responses/ItemGenre.cpp.o
 
 impl/responses/ItemGenre.i: impl/responses/ItemGenre.cpp.i
@@ -726,7 +726,7 @@ impl/responses/ItemGenre.i: impl/responses/ItemGenre.cpp.i
 
 # target to preprocess a source file
 impl/responses/ItemGenre.cpp.i:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/responses/ItemGenre.cpp.i
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/responses/ItemGenre.cpp.i
 .PHONY : impl/responses/ItemGenre.cpp.i
 
 impl/responses/ItemGenre.s: impl/responses/ItemGenre.cpp.s
@@ -734,7 +734,7 @@ impl/responses/ItemGenre.s: impl/responses/ItemGenre.cpp.s
 
 # target to generate assembly for a file
 impl/responses/ItemGenre.cpp.s:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/responses/ItemGenre.cpp.s
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/responses/ItemGenre.cpp.s
 .PHONY : impl/responses/ItemGenre.cpp.s
 
 impl/responses/Playlist.o: impl/responses/Playlist.cpp.o
@@ -742,7 +742,7 @@ impl/responses/Playlist.o: impl/responses/Playlist.cpp.o
 
 # target to build an object file
 impl/responses/Playlist.cpp.o:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/responses/Playlist.cpp.o
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/responses/Playlist.cpp.o
 .PHONY : impl/responses/Playlist.cpp.o
 
 impl/responses/Playlist.i: impl/responses/Playlist.cpp.i
@@ -750,7 +750,7 @@ impl/responses/Playlist.i: impl/responses/Playlist.cpp.i
 
 # target to preprocess a source file
 impl/responses/Playlist.cpp.i:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/responses/Playlist.cpp.i
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/responses/Playlist.cpp.i
 .PHONY : impl/responses/Playlist.cpp.i
 
 impl/responses/Playlist.s: impl/responses/Playlist.cpp.s
@@ -758,7 +758,7 @@ impl/responses/Playlist.s: impl/responses/Playlist.cpp.s
 
 # target to generate assembly for a file
 impl/responses/Playlist.cpp.s:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/responses/Playlist.cpp.s
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/responses/Playlist.cpp.s
 .PHONY : impl/responses/Playlist.cpp.s
 
 impl/responses/ReplayGain.o: impl/responses/ReplayGain.cpp.o
@@ -766,7 +766,7 @@ impl/responses/ReplayGain.o: impl/responses/ReplayGain.cpp.o
 
 # target to build an object file
 impl/responses/ReplayGain.cpp.o:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/responses/ReplayGain.cpp.o
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/responses/ReplayGain.cpp.o
 .PHONY : impl/responses/ReplayGain.cpp.o
 
 impl/responses/ReplayGain.i: impl/responses/ReplayGain.cpp.i
@@ -774,7 +774,7 @@ impl/responses/ReplayGain.i: impl/responses/ReplayGain.cpp.i
 
 # target to preprocess a source file
 impl/responses/ReplayGain.cpp.i:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/responses/ReplayGain.cpp.i
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/responses/ReplayGain.cpp.i
 .PHONY : impl/responses/ReplayGain.cpp.i
 
 impl/responses/ReplayGain.s: impl/responses/ReplayGain.cpp.s
@@ -782,7 +782,7 @@ impl/responses/ReplayGain.s: impl/responses/ReplayGain.cpp.s
 
 # target to generate assembly for a file
 impl/responses/ReplayGain.cpp.s:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/responses/ReplayGain.cpp.s
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/responses/ReplayGain.cpp.s
 .PHONY : impl/responses/ReplayGain.cpp.s
 
 impl/responses/Song.o: impl/responses/Song.cpp.o
@@ -790,7 +790,7 @@ impl/responses/Song.o: impl/responses/Song.cpp.o
 
 # target to build an object file
 impl/responses/Song.cpp.o:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/responses/Song.cpp.o
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/responses/Song.cpp.o
 .PHONY : impl/responses/Song.cpp.o
 
 impl/responses/Song.i: impl/responses/Song.cpp.i
@@ -798,7 +798,7 @@ impl/responses/Song.i: impl/responses/Song.cpp.i
 
 # target to preprocess a source file
 impl/responses/Song.cpp.i:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/responses/Song.cpp.i
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/responses/Song.cpp.i
 .PHONY : impl/responses/Song.cpp.i
 
 impl/responses/Song.s: impl/responses/Song.cpp.s
@@ -806,7 +806,7 @@ impl/responses/Song.s: impl/responses/Song.cpp.s
 
 # target to generate assembly for a file
 impl/responses/Song.cpp.s:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/responses/Song.cpp.s
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/responses/Song.cpp.s
 .PHONY : impl/responses/Song.cpp.s
 
 impl/responses/User.o: impl/responses/User.cpp.o
@@ -814,7 +814,7 @@ impl/responses/User.o: impl/responses/User.cpp.o
 
 # target to build an object file
 impl/responses/User.cpp.o:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/responses/User.cpp.o
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/responses/User.cpp.o
 .PHONY : impl/responses/User.cpp.o
 
 impl/responses/User.i: impl/responses/User.cpp.i
@@ -822,7 +822,7 @@ impl/responses/User.i: impl/responses/User.cpp.i
 
 # target to preprocess a source file
 impl/responses/User.cpp.i:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/responses/User.cpp.i
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/responses/User.cpp.i
 .PHONY : impl/responses/User.cpp.i
 
 impl/responses/User.s: impl/responses/User.cpp.s
@@ -830,7 +830,7 @@ impl/responses/User.s: impl/responses/User.cpp.s
 
 # target to generate assembly for a file
 impl/responses/User.cpp.s:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/responses/User.cpp.s
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/subsonic/CMakeFiles/lmssubsonic.dir/build.make src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/responses/User.cpp.s
 .PHONY : impl/responses/User.cpp.s
 
 # Help Target
@@ -939,6 +939,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/shree/Downloads/lms-master && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

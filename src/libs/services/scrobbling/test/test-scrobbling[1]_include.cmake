@@ -1,5 +1,5 @@
-if(EXISTS "/Users/shree/Downloads/lms-master/src/libs/services/scrobbling/test/test-scrobbling[1]_tests.cmake")
-  include("/Users/shree/Downloads/lms-master/src/libs/services/scrobbling/test/test-scrobbling[1]_tests.cmake")
+if(EXISTS "/Users/shree/Downloads/Music-Streaming-Service/src/libs/services/scrobbling/test/test-scrobbling[1]_tests.cmake")
+  include("/Users/shree/Downloads/Music-Streaming-Service/src/libs/services/scrobbling/test/test-scrobbling[1]_tests.cmake")
 else()
   add_test(test-scrobbling_NOT_BUILT test-scrobbling_NOT_BUILT)
 endif()

@@ -1,8 +1,8 @@
-# Install script for directory: /Users/shree/Downloads/lms-master
+# Install script for directory: /Users/shree/Downloads/Music-Streaming-Service
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/Users/shree/Downloads/lms-master")
+  set(CMAKE_INSTALL_PREFIX "/Users/shree/Downloads/Music-Streaming-Service")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,28 +38,28 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/lms" TYPE DIRECTORY FILES "/Users/shree/Downloads/lms-master/approot")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/lms" TYPE DIRECTORY FILES "/Users/shree/Downloads/Music-Streaming-Service/approot")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/lms" TYPE DIRECTORY FILES "/Users/shree/Downloads/lms-master/docroot")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/lms" TYPE DIRECTORY FILES "/Users/shree/Downloads/Music-Streaming-Service/docroot")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/lms" TYPE FILE FILES "/Users/shree/Downloads/lms-master/conf/systemd/default.service")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/lms" TYPE FILE FILES "/Users/shree/Downloads/Music-Streaming-Service/conf/systemd/default.service")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/lms" TYPE FILE FILES "/Users/shree/Downloads/lms-master/conf/pam/lms")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/lms" TYPE FILE FILES "/Users/shree/Downloads/Music-Streaming-Service/conf/pam/lms")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/lms" TYPE FILE FILES "/Users/shree/Downloads/lms-master/conf/lms.conf")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/lms" TYPE FILE FILES "/Users/shree/Downloads/Music-Streaming-Service/conf/lms.conf")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/shree/Downloads/lms-master/src/cmake_install.cmake")
+  include("/Users/shree/Downloads/Music-Streaming-Service/src/cmake_install.cmake")
 
 endif()
 
@@ -71,5 +71,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/shree/Downloads/lms-master/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/shree/Downloads/Music-Streaming-Service/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

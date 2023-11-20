@@ -1,6 +1,6 @@
 src/lms/CMakeFiles/lms.dir/ui/common/LoadingIndicator.cpp.o: \
-  /Users/shree/Downloads/lms-master/src/lms/ui/common/LoadingIndicator.cpp \
-  /Users/shree/Downloads/lms-master/src/lms/ui/common/LoadingIndicator.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/lms/ui/common/LoadingIndicator.cpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/lms/ui/common/LoadingIndicator.hpp \
   /usr/local/include/Wt/WTemplate.h \
   /usr/local/include/Wt/WInteractWidget.h \
   /usr/local/include/Wt/WWebWidget.h \

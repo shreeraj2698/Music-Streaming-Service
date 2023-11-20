@@ -1,8 +1,8 @@
-# Install script for directory: /Users/shree/Downloads/lms-master/src/libs/som
+# Install script for directory: /Users/shree/Downloads/Music-Streaming-Service/src/libs/som
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/Users/shree/Downloads/lms-master")
+  set(CMAKE_INSTALL_PREFIX "/Users/shree/Downloads/Music-Streaming-Service")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,11 +38,11 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/Users/shree/Downloads/lms-master/src/libs/som/liblmssom.dylib")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/Users/shree/Downloads/Music-Streaming-Service/src/libs/som/liblmssom.dylib")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/liblmssom.dylib" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/liblmssom.dylib")
     execute_process(COMMAND /usr/bin/install_name_tool
-      -delete_rpath "/Users/shree/Downloads/lms-master/src/libs/utils"
+      -delete_rpath "/Users/shree/Downloads/Music-Streaming-Service/src/libs/utils"
       -delete_rpath "/usr/local/lib"
       "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/liblmssom.dylib")
     if(CMAKE_INSTALL_DO_STRIP)
@@ -56,7 +56,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/shree/Downloads/lms-master/src/libs/som/test/cmake_install.cmake")
+  include("/Users/shree/Downloads/Music-Streaming-Service/src/libs/som/test/cmake_install.cmake")
 
 endif()
 

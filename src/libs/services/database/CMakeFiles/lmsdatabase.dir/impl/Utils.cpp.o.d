@@ -1,6 +1,6 @@
 src/libs/services/database/CMakeFiles/lmsdatabase.dir/impl/Utils.cpp.o: \
-  /Users/shree/Downloads/lms-master/src/libs/services/database/impl/Utils.cpp \
-  /Users/shree/Downloads/lms-master/src/libs/services/database/impl/Utils.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/database/impl/Utils.cpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/database/impl/Utils.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/string \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__algorithm/max.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__algorithm/comp.h \
@@ -832,6 +832,6 @@ src/libs/services/database/CMakeFiles/lmsdatabase.dir/impl/Utils.cpp.o: \
   /usr/local/include/Wt/Core/observable.hpp \
   /usr/local/include/Wt/Core/observable_impl.hpp \
   /usr/local/include/Wt/WString.h \
-  /Users/shree/Downloads/lms-master/src/libs/services/database/include/services/database/Types.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/database/include/services/database/Types.hpp \
   /usr/local/include/Wt/WDate.h /usr/local/include/Wt/WStringStream.h \
-  /Users/shree/Downloads/lms-master/src/libs/utils/include/utils/String.hpp
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/utils/include/utils/String.hpp

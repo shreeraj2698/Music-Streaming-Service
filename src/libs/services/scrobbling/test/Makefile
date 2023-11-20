@@ -57,10 +57,10 @@ RM = /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/shree/Downloads/lms-master
+CMAKE_SOURCE_DIR = /Users/shree/Downloads/Music-Streaming-Service
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/shree/Downloads/lms-master
+CMAKE_BINARY_DIR = /Users/shree/Downloads/Music-Streaming-Service
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,14 +142,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/shree/Downloads/lms-master && $(CMAKE_COMMAND) -E cmake_progress_start /Users/shree/Downloads/lms-master/CMakeFiles /Users/shree/Downloads/lms-master/src/libs/services/scrobbling/test//CMakeFiles/progress.marks
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/libs/services/scrobbling/test/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/shree/Downloads/lms-master/CMakeFiles 0
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(CMAKE_COMMAND) -E cmake_progress_start /Users/shree/Downloads/Music-Streaming-Service/CMakeFiles /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/scrobbling/test//CMakeFiles/progress.marks
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/libs/services/scrobbling/test/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/shree/Downloads/Music-Streaming-Service/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/libs/services/scrobbling/test/clean
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/libs/services/scrobbling/test/clean
 .PHONY : clean
 
 # The main clean target
@@ -158,22 +158,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/libs/services/scrobbling/test/preinstall
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/libs/services/scrobbling/test/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/libs/services/scrobbling/test/preinstall
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/libs/services/scrobbling/test/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/shree/Downloads/lms-master && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/libs/services/scrobbling/test/CMakeFiles/test-scrobbling.dir/rule:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/libs/services/scrobbling/test/CMakeFiles/test-scrobbling.dir/rule
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/libs/services/scrobbling/test/CMakeFiles/test-scrobbling.dir/rule
 .PHONY : src/libs/services/scrobbling/test/CMakeFiles/test-scrobbling.dir/rule
 
 # Convenience name for target.
@@ -182,7 +182,7 @@ test-scrobbling: src/libs/services/scrobbling/test/CMakeFiles/test-scrobbling.di
 
 # fast build rule for target.
 test-scrobbling/fast:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/services/scrobbling/test/CMakeFiles/test-scrobbling.dir/build.make src/libs/services/scrobbling/test/CMakeFiles/test-scrobbling.dir/build
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/services/scrobbling/test/CMakeFiles/test-scrobbling.dir/build.make src/libs/services/scrobbling/test/CMakeFiles/test-scrobbling.dir/build
 .PHONY : test-scrobbling/fast
 
 Listenbrainz.o: Listenbrainz.cpp.o
@@ -190,7 +190,7 @@ Listenbrainz.o: Listenbrainz.cpp.o
 
 # target to build an object file
 Listenbrainz.cpp.o:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/services/scrobbling/test/CMakeFiles/test-scrobbling.dir/build.make src/libs/services/scrobbling/test/CMakeFiles/test-scrobbling.dir/Listenbrainz.cpp.o
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/services/scrobbling/test/CMakeFiles/test-scrobbling.dir/build.make src/libs/services/scrobbling/test/CMakeFiles/test-scrobbling.dir/Listenbrainz.cpp.o
 .PHONY : Listenbrainz.cpp.o
 
 Listenbrainz.i: Listenbrainz.cpp.i
@@ -198,7 +198,7 @@ Listenbrainz.i: Listenbrainz.cpp.i
 
 # target to preprocess a source file
 Listenbrainz.cpp.i:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/services/scrobbling/test/CMakeFiles/test-scrobbling.dir/build.make src/libs/services/scrobbling/test/CMakeFiles/test-scrobbling.dir/Listenbrainz.cpp.i
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/services/scrobbling/test/CMakeFiles/test-scrobbling.dir/build.make src/libs/services/scrobbling/test/CMakeFiles/test-scrobbling.dir/Listenbrainz.cpp.i
 .PHONY : Listenbrainz.cpp.i
 
 Listenbrainz.s: Listenbrainz.cpp.s
@@ -206,7 +206,7 @@ Listenbrainz.s: Listenbrainz.cpp.s
 
 # target to generate assembly for a file
 Listenbrainz.cpp.s:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/services/scrobbling/test/CMakeFiles/test-scrobbling.dir/build.make src/libs/services/scrobbling/test/CMakeFiles/test-scrobbling.dir/Listenbrainz.cpp.s
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/services/scrobbling/test/CMakeFiles/test-scrobbling.dir/build.make src/libs/services/scrobbling/test/CMakeFiles/test-scrobbling.dir/Listenbrainz.cpp.s
 .PHONY : Listenbrainz.cpp.s
 
 Scrobbling.o: Scrobbling.cpp.o
@@ -214,7 +214,7 @@ Scrobbling.o: Scrobbling.cpp.o
 
 # target to build an object file
 Scrobbling.cpp.o:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/services/scrobbling/test/CMakeFiles/test-scrobbling.dir/build.make src/libs/services/scrobbling/test/CMakeFiles/test-scrobbling.dir/Scrobbling.cpp.o
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/services/scrobbling/test/CMakeFiles/test-scrobbling.dir/build.make src/libs/services/scrobbling/test/CMakeFiles/test-scrobbling.dir/Scrobbling.cpp.o
 .PHONY : Scrobbling.cpp.o
 
 Scrobbling.i: Scrobbling.cpp.i
@@ -222,7 +222,7 @@ Scrobbling.i: Scrobbling.cpp.i
 
 # target to preprocess a source file
 Scrobbling.cpp.i:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/services/scrobbling/test/CMakeFiles/test-scrobbling.dir/build.make src/libs/services/scrobbling/test/CMakeFiles/test-scrobbling.dir/Scrobbling.cpp.i
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/services/scrobbling/test/CMakeFiles/test-scrobbling.dir/build.make src/libs/services/scrobbling/test/CMakeFiles/test-scrobbling.dir/Scrobbling.cpp.i
 .PHONY : Scrobbling.cpp.i
 
 Scrobbling.s: Scrobbling.cpp.s
@@ -230,7 +230,7 @@ Scrobbling.s: Scrobbling.cpp.s
 
 # target to generate assembly for a file
 Scrobbling.cpp.s:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/services/scrobbling/test/CMakeFiles/test-scrobbling.dir/build.make src/libs/services/scrobbling/test/CMakeFiles/test-scrobbling.dir/Scrobbling.cpp.s
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/services/scrobbling/test/CMakeFiles/test-scrobbling.dir/build.make src/libs/services/scrobbling/test/CMakeFiles/test-scrobbling.dir/Scrobbling.cpp.s
 .PHONY : Scrobbling.cpp.s
 
 # Help Target
@@ -264,6 +264,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/shree/Downloads/lms-master && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

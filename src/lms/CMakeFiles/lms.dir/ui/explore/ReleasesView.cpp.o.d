@@ -1,7 +1,7 @@
 src/lms/CMakeFiles/lms.dir/ui/explore/ReleasesView.cpp.o: \
-  /Users/shree/Downloads/lms-master/src/lms/ui/explore/ReleasesView.cpp \
-  /Users/shree/Downloads/lms-master/src/lms/ui/explore/ReleasesView.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/services/database/include/services/database/Types.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/lms/ui/explore/ReleasesView.cpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/lms/ui/explore/ReleasesView.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/database/include/services/database/Types.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/cstdint \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__assert \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__config \
@@ -806,7 +806,7 @@ src/lms/CMakeFiles/lms.dir/ui/explore/ReleasesView.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/istream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/ostream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/bitset \
-  /Users/shree/Downloads/lms-master/src/lms/ui/common/Template.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/lms/ui/common/Template.hpp \
   /usr/local/include/Wt/WTemplate.h \
   /usr/local/include/Wt/WInteractWidget.h \
   /usr/local/include/Wt/WWebWidget.h \
@@ -824,21 +824,21 @@ src/lms/CMakeFiles/lms.dir/ui/explore/ReleasesView.cpp.o: \
   /usr/local/include/Wt/WJavaScriptSlot.h \
   /usr/local/include/Wt/WLogger.h /usr/local/include/Wt/WLogSink.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/list \
-  /Users/shree/Downloads/lms-master/src/lms/ui/explore/ReleaseCollector.hpp \
-  /Users/shree/Downloads/lms-master/src/lms/ui/explore/DatabaseCollectorBase.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/services/database/include/services/database/Object.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/lms/ui/explore/ReleaseCollector.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/lms/ui/explore/DatabaseCollectorBase.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/database/include/services/database/Object.hpp \
   /usr/local/include/Wt/Dbo/ptr.h /usr/local/include/Wt/cpp17/any.hpp \
   /usr/local/include/Wt/cpp17/any/any.hpp \
   /usr/local/include/Wt/Dbo/SqlTraits.h \
   /usr/local/include/Wt/Dbo/WDboDllDefs.h \
-  /Users/shree/Downloads/lms-master/src/libs/services/database/include/services/database/IdType.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/services/database/include/services/database/ReleaseId.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/database/include/services/database/IdType.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/database/include/services/database/ReleaseId.hpp \
   /usr/local/include/Wt/WPushButton.h /usr/local/include/Wt/WAnchor.h \
   /usr/local/include/Wt/WContainerWidget.h \
   /usr/local/include/Wt/WImage.h /usr/local/include/Wt/WLink.h \
   /usr/local/include/Wt/WFormWidget.h /usr/local/include/Wt/WValidator.h \
   /usr/local/include/Wt/WText.h \
-  /Users/shree/Downloads/lms-master/src/libs/services/database/include/services/database/Release.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/database/include/services/database/Release.hpp \
   /usr/local/include/Wt/Dbo/Dbo.h /usr/local/include/Wt/Dbo/Types.h \
   /usr/local/include/Wt/Dbo/weak_ptr.h \
   /usr/local/include/Wt/Dbo/Session.h /usr/local/include/Wt/Dbo/Field.h \
@@ -860,24 +860,24 @@ src/lms/CMakeFiles/lms.dir/ui/explore/ReleasesView.cpp.o: \
   /usr/local/include/Wt/Dbo/Field_impl.h \
   /usr/local/include/Wt/Dbo/SqlTraits_impl.h \
   /usr/local/include/Wt/Dbo/Session_impl.h \
-  /Users/shree/Downloads/lms-master/src/libs/services/database/include/services/database/ArtistId.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/services/database/include/services/database/ClusterId.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/services/database/include/services/database/UserId.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/utils/include/utils/EnumSet.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/utils/include/utils/UUID.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/utils/include/utils/String.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/services/database/include/services/database/Session.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/database/include/services/database/ArtistId.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/database/include/services/database/ClusterId.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/database/include/services/database/UserId.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/utils/include/utils/EnumSet.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/utils/include/utils/UUID.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/utils/include/utils/String.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/database/include/services/database/Session.hpp \
   /usr/local/include/Wt/Dbo/SqlConnectionPool.h \
-  /Users/shree/Downloads/lms-master/src/libs/utils/include/utils/RecursiveSharedMutex.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/utils/include/utils/RecursiveSharedMutex.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/shared_mutex \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/thread \
-  /Users/shree/Downloads/lms-master/src/lms/ui/common/InfiniteScrollingContainer.hpp \
-  /Users/shree/Downloads/lms-master/src/lms/ui/explore/Filters.hpp \
-  /Users/shree/Downloads/lms-master/src/lms/ui/explore/PlayQueueController.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/services/database/include/services/database/TrackId.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/services/database/include/services/database/TrackListId.hpp \
-  /Users/shree/Downloads/lms-master/src/lms/ui/explore/ReleaseHelpers.hpp \
-  /Users/shree/Downloads/lms-master/src/lms/ui/LmsApplication.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/lms/ui/common/InfiniteScrollingContainer.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/lms/ui/explore/Filters.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/lms/ui/explore/PlayQueueController.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/database/include/services/database/TrackId.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/database/include/services/database/TrackListId.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/lms/ui/explore/ReleaseHelpers.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/lms/ui/LmsApplication.hpp \
   /usr/local/include/Wt/WApplication.h \
   /usr/local/include/Wt/WCssStyleSheet.h /usr/local/include/Wt/WBreak.h \
   /usr/local/include/Wt/WCssDecorationStyle.h \
@@ -886,8 +886,8 @@ src/lms/CMakeFiles/lms.dir/ui/explore/ReleasesView.cpp.o: \
   /usr/local/include/Wt/WJavaScriptPreamble.h \
   /usr/local/include/Wt/WMessageResourceBundle.h \
   /usr/local/include/Wt/WLocalizedStrings.h \
-  /Users/shree/Downloads/lms-master/src/libs/services/scanner/include/services/scanner/ScannerEvents.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/services/scanner/include/services/scanner/ScannerStats.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/scanner/include/services/scanner/ScannerEvents.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/scanner/include/services/scanner/ScannerStats.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/filesystem \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/copy_options.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/directory_entry.h \
@@ -906,4 +906,4 @@ src/lms/CMakeFiles/lms.dir/ui/explore/ReleasesView.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/path_iterator.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/recursive_directory_iterator.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/u8path.h \
-  /Users/shree/Downloads/lms-master/src/lms/ui/Notification.hpp
+  /Users/shree/Downloads/Music-Streaming-Service/src/lms/ui/Notification.hpp

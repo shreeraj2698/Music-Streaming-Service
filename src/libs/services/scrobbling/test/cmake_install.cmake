@@ -1,8 +1,8 @@
-# Install script for directory: /Users/shree/Downloads/lms-master/src/libs/services/scrobbling/test
+# Install script for directory: /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/scrobbling/test
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/Users/shree/Downloads/lms-master")
+  set(CMAKE_INSTALL_PREFIX "/Users/shree/Downloads/Music-Streaming-Service")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

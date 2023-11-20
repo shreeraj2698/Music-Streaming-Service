@@ -1,7 +1,7 @@
 src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/entrypoints/UserManagement.cpp.o: \
-  /Users/shree/Downloads/lms-master/src/libs/subsonic/impl/entrypoints/UserManagement.cpp \
-  /Users/shree/Downloads/lms-master/src/libs/subsonic/impl/entrypoints/UserManagement.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/subsonic/impl/RequestContext.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/subsonic/impl/entrypoints/UserManagement.cpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/subsonic/impl/entrypoints/UserManagement.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/subsonic/impl/RequestContext.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/string \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__algorithm/max.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__algorithm/comp.h \
@@ -800,19 +800,19 @@ src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/entrypoints/UserManagement.cpp
   /usr/local/include/Wt/WStringStream.h /usr/local/include/Wt/WDllDefs.h \
   /usr/local/include/Wt/WConfig.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/iostream \
-  /Users/shree/Downloads/lms-master/src/libs/services/database/include/services/database/UserId.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/services/database/include/services/database/IdType.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/database/include/services/database/UserId.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/database/include/services/database/IdType.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/cassert \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/assert.h \
   /usr/local/include/Wt/Dbo/ptr.h /usr/local/include/Wt/cpp17/any.hpp \
   /usr/local/include/Wt/cpp17/any/any.hpp \
   /usr/local/include/Wt/Dbo/SqlTraits.h \
   /usr/local/include/Wt/Dbo/WDboDllDefs.h \
-  /Users/shree/Downloads/lms-master/src/libs/subsonic/impl/ClientInfo.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/subsonic/impl/ProtocolVersion.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/utils/include/utils/String.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/subsonic/impl/SubsonicResponse.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/services/database/include/services/database/Session.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/subsonic/impl/ClientInfo.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/subsonic/impl/ProtocolVersion.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/utils/include/utils/String.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/subsonic/impl/SubsonicResponse.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/database/include/services/database/Session.hpp \
   /usr/local/include/Wt/Dbo/Dbo.h /usr/local/include/Wt/Dbo/Types.h \
   /usr/local/include/Wt/Dbo/weak_ptr.h \
   /usr/local/include/Wt/Dbo/Session.h \
@@ -836,10 +836,10 @@ src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/entrypoints/UserManagement.cpp
   /usr/local/include/Wt/Dbo/SqlTraits_impl.h \
   /usr/local/include/Wt/Dbo/Session_impl.h \
   /usr/local/include/Wt/Dbo/SqlConnectionPool.h \
-  /Users/shree/Downloads/lms-master/src/libs/utils/include/utils/RecursiveSharedMutex.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/utils/include/utils/RecursiveSharedMutex.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/shared_mutex \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/thread \
-  /Users/shree/Downloads/lms-master/src/libs/services/database/include/services/database/Object.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/database/include/services/database/Object.hpp \
   /usr/local/include/Wt/WSignal.h /usr/local/include/Wt/WObject.h \
   /usr/local/include/Wt/WGlobal.h /usr/local/include/Wt/WFlags.h \
   /usr/local/include/Wt/Core/observing_ptr.hpp \
@@ -847,13 +847,13 @@ src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/entrypoints/UserManagement.cpp
   /usr/local/include/Wt/Core/observable.hpp \
   /usr/local/include/Wt/Core/observable_impl.hpp \
   /usr/local/include/Wt/Signals/signals.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/services/database/include/services/database/User.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/database/include/services/database/User.hpp \
   /usr/local/include/Wt/WDateTime.h /usr/local/include/Wt/WException.h \
   /usr/local/include/Wt/WLocale.h /usr/local/include/Wt/WString.h \
-  /Users/shree/Downloads/lms-master/src/libs/services/database/include/services/database/Types.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/database/include/services/database/Types.hpp \
   /usr/local/include/Wt/WDate.h \
-  /Users/shree/Downloads/lms-master/src/libs/utils/include/utils/UUID.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/services/auth/include/services/auth/IPasswordService.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/utils/include/utils/UUID.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/auth/include/services/auth/IPasswordService.hpp \
   /opt/homebrew/include/boost/asio/ip/address.hpp \
   /opt/homebrew/include/boost/asio/detail/config.hpp \
   /opt/homebrew/include/boost/config.hpp \
@@ -989,9 +989,9 @@ src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/entrypoints/UserManagement.cpp
   /opt/homebrew/include/boost/asio/ip/bad_address_cast.hpp \
   /opt/homebrew/include/boost/asio/ip/impl/address.hpp \
   /opt/homebrew/include/boost/asio/ip/impl/address.ipp \
-  /Users/shree/Downloads/lms-master/src/libs/services/auth/include/services/auth/Types.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/utils/include/utils/Exception.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/utils/include/utils/Service.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/subsonic/impl/responses/User.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/subsonic/impl/ParameterParsing.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/subsonic/impl/Utils.hpp
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/auth/include/services/auth/Types.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/utils/include/utils/Exception.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/utils/include/utils/Service.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/subsonic/impl/responses/User.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/subsonic/impl/ParameterParsing.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/subsonic/impl/Utils.hpp

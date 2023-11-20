@@ -53,10 +53,10 @@ RM = /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/shree/Downloads/lms-master
+CMAKE_SOURCE_DIR = /Users/shree/Downloads/Music-Streaming-Service
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/shree/Downloads/lms-master
+CMAKE_BINARY_DIR = /Users/shree/Downloads/Music-Streaming-Service
 
 # Include any dependencies generated for this target.
 include src/libs/av/CMakeFiles/lmsav.dir/depend.make
@@ -72,58 +72,58 @@ include src/libs/av/CMakeFiles/lmsav.dir/flags.make
 src/libs/av/CMakeFiles/lmsav.dir/impl/AudioFile.cpp.o: src/libs/av/CMakeFiles/lmsav.dir/flags.make
 src/libs/av/CMakeFiles/lmsav.dir/impl/AudioFile.cpp.o: src/libs/av/impl/AudioFile.cpp
 src/libs/av/CMakeFiles/lmsav.dir/impl/AudioFile.cpp.o: src/libs/av/CMakeFiles/lmsav.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/shree/Downloads/lms-master/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/libs/av/CMakeFiles/lmsav.dir/impl/AudioFile.cpp.o"
-	cd /Users/shree/Downloads/lms-master/src/libs/av && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/libs/av/CMakeFiles/lmsav.dir/impl/AudioFile.cpp.o -MF CMakeFiles/lmsav.dir/impl/AudioFile.cpp.o.d -o CMakeFiles/lmsav.dir/impl/AudioFile.cpp.o -c /Users/shree/Downloads/lms-master/src/libs/av/impl/AudioFile.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/shree/Downloads/Music-Streaming-Service/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/libs/av/CMakeFiles/lmsav.dir/impl/AudioFile.cpp.o"
+	cd /Users/shree/Downloads/Music-Streaming-Service/src/libs/av && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/libs/av/CMakeFiles/lmsav.dir/impl/AudioFile.cpp.o -MF CMakeFiles/lmsav.dir/impl/AudioFile.cpp.o.d -o CMakeFiles/lmsav.dir/impl/AudioFile.cpp.o -c /Users/shree/Downloads/Music-Streaming-Service/src/libs/av/impl/AudioFile.cpp
 
 src/libs/av/CMakeFiles/lmsav.dir/impl/AudioFile.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lmsav.dir/impl/AudioFile.cpp.i"
-	cd /Users/shree/Downloads/lms-master/src/libs/av && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/shree/Downloads/lms-master/src/libs/av/impl/AudioFile.cpp > CMakeFiles/lmsav.dir/impl/AudioFile.cpp.i
+	cd /Users/shree/Downloads/Music-Streaming-Service/src/libs/av && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/shree/Downloads/Music-Streaming-Service/src/libs/av/impl/AudioFile.cpp > CMakeFiles/lmsav.dir/impl/AudioFile.cpp.i
 
 src/libs/av/CMakeFiles/lmsav.dir/impl/AudioFile.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lmsav.dir/impl/AudioFile.cpp.s"
-	cd /Users/shree/Downloads/lms-master/src/libs/av && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/shree/Downloads/lms-master/src/libs/av/impl/AudioFile.cpp -o CMakeFiles/lmsav.dir/impl/AudioFile.cpp.s
+	cd /Users/shree/Downloads/Music-Streaming-Service/src/libs/av && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/shree/Downloads/Music-Streaming-Service/src/libs/av/impl/AudioFile.cpp -o CMakeFiles/lmsav.dir/impl/AudioFile.cpp.s
 
 src/libs/av/CMakeFiles/lmsav.dir/impl/Transcoder.cpp.o: src/libs/av/CMakeFiles/lmsav.dir/flags.make
 src/libs/av/CMakeFiles/lmsav.dir/impl/Transcoder.cpp.o: src/libs/av/impl/Transcoder.cpp
 src/libs/av/CMakeFiles/lmsav.dir/impl/Transcoder.cpp.o: src/libs/av/CMakeFiles/lmsav.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/shree/Downloads/lms-master/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/libs/av/CMakeFiles/lmsav.dir/impl/Transcoder.cpp.o"
-	cd /Users/shree/Downloads/lms-master/src/libs/av && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/libs/av/CMakeFiles/lmsav.dir/impl/Transcoder.cpp.o -MF CMakeFiles/lmsav.dir/impl/Transcoder.cpp.o.d -o CMakeFiles/lmsav.dir/impl/Transcoder.cpp.o -c /Users/shree/Downloads/lms-master/src/libs/av/impl/Transcoder.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/shree/Downloads/Music-Streaming-Service/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/libs/av/CMakeFiles/lmsav.dir/impl/Transcoder.cpp.o"
+	cd /Users/shree/Downloads/Music-Streaming-Service/src/libs/av && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/libs/av/CMakeFiles/lmsav.dir/impl/Transcoder.cpp.o -MF CMakeFiles/lmsav.dir/impl/Transcoder.cpp.o.d -o CMakeFiles/lmsav.dir/impl/Transcoder.cpp.o -c /Users/shree/Downloads/Music-Streaming-Service/src/libs/av/impl/Transcoder.cpp
 
 src/libs/av/CMakeFiles/lmsav.dir/impl/Transcoder.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lmsav.dir/impl/Transcoder.cpp.i"
-	cd /Users/shree/Downloads/lms-master/src/libs/av && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/shree/Downloads/lms-master/src/libs/av/impl/Transcoder.cpp > CMakeFiles/lmsav.dir/impl/Transcoder.cpp.i
+	cd /Users/shree/Downloads/Music-Streaming-Service/src/libs/av && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/shree/Downloads/Music-Streaming-Service/src/libs/av/impl/Transcoder.cpp > CMakeFiles/lmsav.dir/impl/Transcoder.cpp.i
 
 src/libs/av/CMakeFiles/lmsav.dir/impl/Transcoder.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lmsav.dir/impl/Transcoder.cpp.s"
-	cd /Users/shree/Downloads/lms-master/src/libs/av && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/shree/Downloads/lms-master/src/libs/av/impl/Transcoder.cpp -o CMakeFiles/lmsav.dir/impl/Transcoder.cpp.s
+	cd /Users/shree/Downloads/Music-Streaming-Service/src/libs/av && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/shree/Downloads/Music-Streaming-Service/src/libs/av/impl/Transcoder.cpp -o CMakeFiles/lmsav.dir/impl/Transcoder.cpp.s
 
 src/libs/av/CMakeFiles/lmsav.dir/impl/TranscodeResourceHandler.cpp.o: src/libs/av/CMakeFiles/lmsav.dir/flags.make
 src/libs/av/CMakeFiles/lmsav.dir/impl/TranscodeResourceHandler.cpp.o: src/libs/av/impl/TranscodeResourceHandler.cpp
 src/libs/av/CMakeFiles/lmsav.dir/impl/TranscodeResourceHandler.cpp.o: src/libs/av/CMakeFiles/lmsav.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/shree/Downloads/lms-master/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/libs/av/CMakeFiles/lmsav.dir/impl/TranscodeResourceHandler.cpp.o"
-	cd /Users/shree/Downloads/lms-master/src/libs/av && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/libs/av/CMakeFiles/lmsav.dir/impl/TranscodeResourceHandler.cpp.o -MF CMakeFiles/lmsav.dir/impl/TranscodeResourceHandler.cpp.o.d -o CMakeFiles/lmsav.dir/impl/TranscodeResourceHandler.cpp.o -c /Users/shree/Downloads/lms-master/src/libs/av/impl/TranscodeResourceHandler.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/shree/Downloads/Music-Streaming-Service/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/libs/av/CMakeFiles/lmsav.dir/impl/TranscodeResourceHandler.cpp.o"
+	cd /Users/shree/Downloads/Music-Streaming-Service/src/libs/av && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/libs/av/CMakeFiles/lmsav.dir/impl/TranscodeResourceHandler.cpp.o -MF CMakeFiles/lmsav.dir/impl/TranscodeResourceHandler.cpp.o.d -o CMakeFiles/lmsav.dir/impl/TranscodeResourceHandler.cpp.o -c /Users/shree/Downloads/Music-Streaming-Service/src/libs/av/impl/TranscodeResourceHandler.cpp
 
 src/libs/av/CMakeFiles/lmsav.dir/impl/TranscodeResourceHandler.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lmsav.dir/impl/TranscodeResourceHandler.cpp.i"
-	cd /Users/shree/Downloads/lms-master/src/libs/av && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/shree/Downloads/lms-master/src/libs/av/impl/TranscodeResourceHandler.cpp > CMakeFiles/lmsav.dir/impl/TranscodeResourceHandler.cpp.i
+	cd /Users/shree/Downloads/Music-Streaming-Service/src/libs/av && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/shree/Downloads/Music-Streaming-Service/src/libs/av/impl/TranscodeResourceHandler.cpp > CMakeFiles/lmsav.dir/impl/TranscodeResourceHandler.cpp.i
 
 src/libs/av/CMakeFiles/lmsav.dir/impl/TranscodeResourceHandler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lmsav.dir/impl/TranscodeResourceHandler.cpp.s"
-	cd /Users/shree/Downloads/lms-master/src/libs/av && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/shree/Downloads/lms-master/src/libs/av/impl/TranscodeResourceHandler.cpp -o CMakeFiles/lmsav.dir/impl/TranscodeResourceHandler.cpp.s
+	cd /Users/shree/Downloads/Music-Streaming-Service/src/libs/av && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/shree/Downloads/Music-Streaming-Service/src/libs/av/impl/TranscodeResourceHandler.cpp -o CMakeFiles/lmsav.dir/impl/TranscodeResourceHandler.cpp.s
 
 src/libs/av/CMakeFiles/lmsav.dir/impl/Types.cpp.o: src/libs/av/CMakeFiles/lmsav.dir/flags.make
 src/libs/av/CMakeFiles/lmsav.dir/impl/Types.cpp.o: src/libs/av/impl/Types.cpp
 src/libs/av/CMakeFiles/lmsav.dir/impl/Types.cpp.o: src/libs/av/CMakeFiles/lmsav.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/shree/Downloads/lms-master/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/libs/av/CMakeFiles/lmsav.dir/impl/Types.cpp.o"
-	cd /Users/shree/Downloads/lms-master/src/libs/av && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/libs/av/CMakeFiles/lmsav.dir/impl/Types.cpp.o -MF CMakeFiles/lmsav.dir/impl/Types.cpp.o.d -o CMakeFiles/lmsav.dir/impl/Types.cpp.o -c /Users/shree/Downloads/lms-master/src/libs/av/impl/Types.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/shree/Downloads/Music-Streaming-Service/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/libs/av/CMakeFiles/lmsav.dir/impl/Types.cpp.o"
+	cd /Users/shree/Downloads/Music-Streaming-Service/src/libs/av && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/libs/av/CMakeFiles/lmsav.dir/impl/Types.cpp.o -MF CMakeFiles/lmsav.dir/impl/Types.cpp.o.d -o CMakeFiles/lmsav.dir/impl/Types.cpp.o -c /Users/shree/Downloads/Music-Streaming-Service/src/libs/av/impl/Types.cpp
 
 src/libs/av/CMakeFiles/lmsav.dir/impl/Types.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lmsav.dir/impl/Types.cpp.i"
-	cd /Users/shree/Downloads/lms-master/src/libs/av && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/shree/Downloads/lms-master/src/libs/av/impl/Types.cpp > CMakeFiles/lmsav.dir/impl/Types.cpp.i
+	cd /Users/shree/Downloads/Music-Streaming-Service/src/libs/av && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/shree/Downloads/Music-Streaming-Service/src/libs/av/impl/Types.cpp > CMakeFiles/lmsav.dir/impl/Types.cpp.i
 
 src/libs/av/CMakeFiles/lmsav.dir/impl/Types.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lmsav.dir/impl/Types.cpp.s"
-	cd /Users/shree/Downloads/lms-master/src/libs/av && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/shree/Downloads/lms-master/src/libs/av/impl/Types.cpp -o CMakeFiles/lmsav.dir/impl/Types.cpp.s
+	cd /Users/shree/Downloads/Music-Streaming-Service/src/libs/av && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/shree/Downloads/Music-Streaming-Service/src/libs/av/impl/Types.cpp -o CMakeFiles/lmsav.dir/impl/Types.cpp.s
 
 # Object files for target lmsav
 lmsav_OBJECTS = \
@@ -150,18 +150,18 @@ src/libs/av/liblmsav.dylib: /opt/homebrew/Cellar/ffmpeg/6.0_1/lib/libavcodec.dyl
 src/libs/av/liblmsav.dylib: /opt/homebrew/Cellar/ffmpeg/6.0_1/lib/libavutil.dylib
 src/libs/av/liblmsav.dylib: /opt/homebrew/Cellar/ffmpeg/6.0_1/lib/libavformat.dylib
 src/libs/av/liblmsav.dylib: src/libs/av/CMakeFiles/lmsav.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/shree/Downloads/lms-master/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX shared library liblmsav.dylib"
-	cd /Users/shree/Downloads/lms-master/src/libs/av && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lmsav.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/shree/Downloads/Music-Streaming-Service/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX shared library liblmsav.dylib"
+	cd /Users/shree/Downloads/Music-Streaming-Service/src/libs/av && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lmsav.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/libs/av/CMakeFiles/lmsav.dir/build: src/libs/av/liblmsav.dylib
 .PHONY : src/libs/av/CMakeFiles/lmsav.dir/build
 
 src/libs/av/CMakeFiles/lmsav.dir/clean:
-	cd /Users/shree/Downloads/lms-master/src/libs/av && $(CMAKE_COMMAND) -P CMakeFiles/lmsav.dir/cmake_clean.cmake
+	cd /Users/shree/Downloads/Music-Streaming-Service/src/libs/av && $(CMAKE_COMMAND) -P CMakeFiles/lmsav.dir/cmake_clean.cmake
 .PHONY : src/libs/av/CMakeFiles/lmsav.dir/clean
 
 src/libs/av/CMakeFiles/lmsav.dir/depend:
-	cd /Users/shree/Downloads/lms-master && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/shree/Downloads/lms-master /Users/shree/Downloads/lms-master/src/libs/av /Users/shree/Downloads/lms-master /Users/shree/Downloads/lms-master/src/libs/av /Users/shree/Downloads/lms-master/src/libs/av/CMakeFiles/lmsav.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/shree/Downloads/Music-Streaming-Service /Users/shree/Downloads/Music-Streaming-Service/src/libs/av /Users/shree/Downloads/Music-Streaming-Service /Users/shree/Downloads/Music-Streaming-Service/src/libs/av /Users/shree/Downloads/Music-Streaming-Service/src/libs/av/CMakeFiles/lmsav.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : src/libs/av/CMakeFiles/lmsav.dir/depend
 

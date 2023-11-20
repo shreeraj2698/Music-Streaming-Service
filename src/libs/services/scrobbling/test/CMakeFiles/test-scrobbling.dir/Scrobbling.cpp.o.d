@@ -1,5 +1,5 @@
 src/libs/services/scrobbling/test/CMakeFiles/test-scrobbling.dir/Scrobbling.cpp.o: \
-  /Users/shree/Downloads/lms-master/src/libs/services/scrobbling/test/Scrobbling.cpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/scrobbling/test/Scrobbling.cpp \
   /opt/homebrew/include/gtest/gtest.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/cstddef \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__assert \
@@ -841,7 +841,7 @@ src/libs/services/scrobbling/test/CMakeFiles/test-scrobbling.dir/Scrobbling.cpp.
   /opt/homebrew/include/gtest/gtest-typed-test.h \
   /opt/homebrew/include/gtest/gtest_pred_impl.h \
   /opt/homebrew/include/gtest/gtest_prod.h \
-  /Users/shree/Downloads/lms-master/src/libs/utils/include/utils/Logger.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/utils/include/utils/Service.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/utils/include/utils/StreamLogger.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/utils/include/utils/EnumSet.hpp
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/utils/include/utils/Logger.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/utils/include/utils/Service.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/utils/include/utils/StreamLogger.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/utils/include/utils/EnumSet.hpp

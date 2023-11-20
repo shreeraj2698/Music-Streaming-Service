@@ -1,7 +1,7 @@
 src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/entrypoints/System.cpp.o: \
-  /Users/shree/Downloads/lms-master/src/libs/subsonic/impl/entrypoints/System.cpp \
-  /Users/shree/Downloads/lms-master/src/libs/subsonic/impl/entrypoints/System.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/subsonic/impl/RequestContext.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/subsonic/impl/entrypoints/System.cpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/subsonic/impl/entrypoints/System.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/subsonic/impl/RequestContext.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/string \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__algorithm/max.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__algorithm/comp.h \
@@ -800,15 +800,15 @@ src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/entrypoints/System.cpp.o: \
   /usr/local/include/Wt/WStringStream.h /usr/local/include/Wt/WDllDefs.h \
   /usr/local/include/Wt/WConfig.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/iostream \
-  /Users/shree/Downloads/lms-master/src/libs/services/database/include/services/database/UserId.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/services/database/include/services/database/IdType.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/database/include/services/database/UserId.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/database/include/services/database/IdType.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/cassert \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/assert.h \
   /usr/local/include/Wt/Dbo/ptr.h /usr/local/include/Wt/cpp17/any.hpp \
   /usr/local/include/Wt/cpp17/any/any.hpp \
   /usr/local/include/Wt/Dbo/SqlTraits.h \
   /usr/local/include/Wt/Dbo/WDboDllDefs.h \
-  /Users/shree/Downloads/lms-master/src/libs/subsonic/impl/ClientInfo.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/subsonic/impl/ProtocolVersion.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/utils/include/utils/String.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/subsonic/impl/SubsonicResponse.hpp
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/subsonic/impl/ClientInfo.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/subsonic/impl/ProtocolVersion.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/utils/include/utils/String.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/subsonic/impl/SubsonicResponse.hpp

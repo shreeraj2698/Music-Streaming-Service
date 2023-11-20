@@ -1,6 +1,6 @@
 src/libs/image/CMakeFiles/lmsimage.dir/impl/graphicsmagick/JPEGImage.cpp.o: \
-  /Users/shree/Downloads/lms-master/src/libs/image/impl/graphicsmagick/JPEGImage.cpp \
-  /Users/shree/Downloads/lms-master/src/libs/image/impl/graphicsmagick/JPEGImage.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/image/impl/graphicsmagick/JPEGImage.cpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/image/impl/graphicsmagick/JPEGImage.hpp \
   /opt/homebrew/Cellar/graphicsmagick/1.3.42/include/GraphicsMagick/Magick++.h \
   /opt/homebrew/Cellar/graphicsmagick/1.3.42/include/GraphicsMagick/Magick++/Include.h \
   /opt/homebrew/Cellar/graphicsmagick/1.3.42/include/GraphicsMagick/magick/magick_config.h \
@@ -842,8 +842,8 @@ src/libs/image/CMakeFiles/lmsimage.dir/impl/graphicsmagick/JPEGImage.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__tree \
   /opt/homebrew/Cellar/graphicsmagick/1.3.42/include/GraphicsMagick/Magick++/CoderInfo.h \
   /opt/homebrew/Cellar/graphicsmagick/1.3.42/include/GraphicsMagick/Magick++/Montage.h \
-  /Users/shree/Downloads/lms-master/src/libs/image/include/image/IEncodedImage.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/image/impl/graphicsmagick/RawImage.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/image/include/image/IEncodedImage.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/image/impl/graphicsmagick/RawImage.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/filesystem \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/copy_options.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/directory_entry.h \
@@ -891,11 +891,11 @@ src/libs/image/CMakeFiles/lmsimage.dir/impl/graphicsmagick/JPEGImage.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/path_iterator.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/recursive_directory_iterator.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/u8path.h \
-  /Users/shree/Downloads/lms-master/src/libs/image/include/image/IRawImage.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/image/include/image/Exception.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/utils/include/utils/Exception.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/utils/include/utils/Logger.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/image/include/image/IRawImage.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/image/include/image/Exception.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/utils/include/utils/Exception.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/utils/include/utils/Logger.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/sstream \
-  /Users/shree/Downloads/lms-master/src/libs/utils/include/utils/Service.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/utils/include/utils/Service.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/cassert \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/assert.h

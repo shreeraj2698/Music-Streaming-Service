@@ -1,6 +1,6 @@
 src/lms/CMakeFiles/lms.dir/ui/common/DoubleValidator.cpp.o: \
-  /Users/shree/Downloads/lms-master/src/lms/ui/common/DoubleValidator.cpp \
-  /Users/shree/Downloads/lms-master/src/lms/ui/common/DoubleValidator.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/lms/ui/common/DoubleValidator.cpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/lms/ui/common/DoubleValidator.hpp \
   /usr/local/include/Wt/WValidator.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/iostream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__assert \

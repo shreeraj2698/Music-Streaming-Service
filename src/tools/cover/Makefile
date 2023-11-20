@@ -57,10 +57,10 @@ RM = /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/shree/Downloads/lms-master
+CMAKE_SOURCE_DIR = /Users/shree/Downloads/Music-Streaming-Service
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/shree/Downloads/lms-master
+CMAKE_BINARY_DIR = /Users/shree/Downloads/Music-Streaming-Service
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,14 +142,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/shree/Downloads/lms-master && $(CMAKE_COMMAND) -E cmake_progress_start /Users/shree/Downloads/lms-master/CMakeFiles /Users/shree/Downloads/lms-master/src/tools/cover//CMakeFiles/progress.marks
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/tools/cover/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/shree/Downloads/lms-master/CMakeFiles 0
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(CMAKE_COMMAND) -E cmake_progress_start /Users/shree/Downloads/Music-Streaming-Service/CMakeFiles /Users/shree/Downloads/Music-Streaming-Service/src/tools/cover//CMakeFiles/progress.marks
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/tools/cover/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/shree/Downloads/Music-Streaming-Service/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/tools/cover/clean
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/tools/cover/clean
 .PHONY : clean
 
 # The main clean target
@@ -158,22 +158,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/tools/cover/preinstall
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/tools/cover/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/tools/cover/preinstall
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/tools/cover/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/shree/Downloads/lms-master && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/tools/cover/CMakeFiles/lms-cover.dir/rule:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/tools/cover/CMakeFiles/lms-cover.dir/rule
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/tools/cover/CMakeFiles/lms-cover.dir/rule
 .PHONY : src/tools/cover/CMakeFiles/lms-cover.dir/rule
 
 # Convenience name for target.
@@ -182,7 +182,7 @@ lms-cover: src/tools/cover/CMakeFiles/lms-cover.dir/rule
 
 # fast build rule for target.
 lms-cover/fast:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/tools/cover/CMakeFiles/lms-cover.dir/build.make src/tools/cover/CMakeFiles/lms-cover.dir/build
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/tools/cover/CMakeFiles/lms-cover.dir/build.make src/tools/cover/CMakeFiles/lms-cover.dir/build
 .PHONY : lms-cover/fast
 
 LmsCover.o: LmsCover.cpp.o
@@ -190,7 +190,7 @@ LmsCover.o: LmsCover.cpp.o
 
 # target to build an object file
 LmsCover.cpp.o:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/tools/cover/CMakeFiles/lms-cover.dir/build.make src/tools/cover/CMakeFiles/lms-cover.dir/LmsCover.cpp.o
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/tools/cover/CMakeFiles/lms-cover.dir/build.make src/tools/cover/CMakeFiles/lms-cover.dir/LmsCover.cpp.o
 .PHONY : LmsCover.cpp.o
 
 LmsCover.i: LmsCover.cpp.i
@@ -198,7 +198,7 @@ LmsCover.i: LmsCover.cpp.i
 
 # target to preprocess a source file
 LmsCover.cpp.i:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/tools/cover/CMakeFiles/lms-cover.dir/build.make src/tools/cover/CMakeFiles/lms-cover.dir/LmsCover.cpp.i
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/tools/cover/CMakeFiles/lms-cover.dir/build.make src/tools/cover/CMakeFiles/lms-cover.dir/LmsCover.cpp.i
 .PHONY : LmsCover.cpp.i
 
 LmsCover.s: LmsCover.cpp.s
@@ -206,7 +206,7 @@ LmsCover.s: LmsCover.cpp.s
 
 # target to generate assembly for a file
 LmsCover.cpp.s:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/tools/cover/CMakeFiles/lms-cover.dir/build.make src/tools/cover/CMakeFiles/lms-cover.dir/LmsCover.cpp.s
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/tools/cover/CMakeFiles/lms-cover.dir/build.make src/tools/cover/CMakeFiles/lms-cover.dir/LmsCover.cpp.s
 .PHONY : LmsCover.cpp.s
 
 # Help Target
@@ -237,6 +237,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/shree/Downloads/lms-master && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

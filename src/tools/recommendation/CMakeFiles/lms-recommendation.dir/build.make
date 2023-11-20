@@ -53,10 +53,10 @@ RM = /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/shree/Downloads/lms-master
+CMAKE_SOURCE_DIR = /Users/shree/Downloads/Music-Streaming-Service
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/shree/Downloads/lms-master
+CMAKE_BINARY_DIR = /Users/shree/Downloads/Music-Streaming-Service
 
 # Include any dependencies generated for this target.
 include src/tools/recommendation/CMakeFiles/lms-recommendation.dir/depend.make
@@ -72,16 +72,16 @@ include src/tools/recommendation/CMakeFiles/lms-recommendation.dir/flags.make
 src/tools/recommendation/CMakeFiles/lms-recommendation.dir/LmsRecommendation.cpp.o: src/tools/recommendation/CMakeFiles/lms-recommendation.dir/flags.make
 src/tools/recommendation/CMakeFiles/lms-recommendation.dir/LmsRecommendation.cpp.o: src/tools/recommendation/LmsRecommendation.cpp
 src/tools/recommendation/CMakeFiles/lms-recommendation.dir/LmsRecommendation.cpp.o: src/tools/recommendation/CMakeFiles/lms-recommendation.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/shree/Downloads/lms-master/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/tools/recommendation/CMakeFiles/lms-recommendation.dir/LmsRecommendation.cpp.o"
-	cd /Users/shree/Downloads/lms-master/src/tools/recommendation && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/tools/recommendation/CMakeFiles/lms-recommendation.dir/LmsRecommendation.cpp.o -MF CMakeFiles/lms-recommendation.dir/LmsRecommendation.cpp.o.d -o CMakeFiles/lms-recommendation.dir/LmsRecommendation.cpp.o -c /Users/shree/Downloads/lms-master/src/tools/recommendation/LmsRecommendation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/shree/Downloads/Music-Streaming-Service/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/tools/recommendation/CMakeFiles/lms-recommendation.dir/LmsRecommendation.cpp.o"
+	cd /Users/shree/Downloads/Music-Streaming-Service/src/tools/recommendation && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/tools/recommendation/CMakeFiles/lms-recommendation.dir/LmsRecommendation.cpp.o -MF CMakeFiles/lms-recommendation.dir/LmsRecommendation.cpp.o.d -o CMakeFiles/lms-recommendation.dir/LmsRecommendation.cpp.o -c /Users/shree/Downloads/Music-Streaming-Service/src/tools/recommendation/LmsRecommendation.cpp
 
 src/tools/recommendation/CMakeFiles/lms-recommendation.dir/LmsRecommendation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lms-recommendation.dir/LmsRecommendation.cpp.i"
-	cd /Users/shree/Downloads/lms-master/src/tools/recommendation && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/shree/Downloads/lms-master/src/tools/recommendation/LmsRecommendation.cpp > CMakeFiles/lms-recommendation.dir/LmsRecommendation.cpp.i
+	cd /Users/shree/Downloads/Music-Streaming-Service/src/tools/recommendation && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/shree/Downloads/Music-Streaming-Service/src/tools/recommendation/LmsRecommendation.cpp > CMakeFiles/lms-recommendation.dir/LmsRecommendation.cpp.i
 
 src/tools/recommendation/CMakeFiles/lms-recommendation.dir/LmsRecommendation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lms-recommendation.dir/LmsRecommendation.cpp.s"
-	cd /Users/shree/Downloads/lms-master/src/tools/recommendation && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/shree/Downloads/lms-master/src/tools/recommendation/LmsRecommendation.cpp -o CMakeFiles/lms-recommendation.dir/LmsRecommendation.cpp.s
+	cd /Users/shree/Downloads/Music-Streaming-Service/src/tools/recommendation && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/shree/Downloads/Music-Streaming-Service/src/tools/recommendation/LmsRecommendation.cpp -o CMakeFiles/lms-recommendation.dir/LmsRecommendation.cpp.s
 
 # Object files for target lms-recommendation
 lms__recommendation_OBJECTS = \
@@ -103,18 +103,18 @@ src/tools/recommendation/lms-recommendation: /opt/homebrew/lib/libboost_thread-m
 src/tools/recommendation/lms-recommendation: /opt/homebrew/lib/libboost_filesystem-mt.dylib
 src/tools/recommendation/lms-recommendation: /opt/homebrew/lib/libboost_atomic-mt.dylib
 src/tools/recommendation/lms-recommendation: src/tools/recommendation/CMakeFiles/lms-recommendation.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/shree/Downloads/lms-master/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable lms-recommendation"
-	cd /Users/shree/Downloads/lms-master/src/tools/recommendation && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lms-recommendation.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/shree/Downloads/Music-Streaming-Service/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable lms-recommendation"
+	cd /Users/shree/Downloads/Music-Streaming-Service/src/tools/recommendation && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lms-recommendation.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/tools/recommendation/CMakeFiles/lms-recommendation.dir/build: src/tools/recommendation/lms-recommendation
 .PHONY : src/tools/recommendation/CMakeFiles/lms-recommendation.dir/build
 
 src/tools/recommendation/CMakeFiles/lms-recommendation.dir/clean:
-	cd /Users/shree/Downloads/lms-master/src/tools/recommendation && $(CMAKE_COMMAND) -P CMakeFiles/lms-recommendation.dir/cmake_clean.cmake
+	cd /Users/shree/Downloads/Music-Streaming-Service/src/tools/recommendation && $(CMAKE_COMMAND) -P CMakeFiles/lms-recommendation.dir/cmake_clean.cmake
 .PHONY : src/tools/recommendation/CMakeFiles/lms-recommendation.dir/clean
 
 src/tools/recommendation/CMakeFiles/lms-recommendation.dir/depend:
-	cd /Users/shree/Downloads/lms-master && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/shree/Downloads/lms-master /Users/shree/Downloads/lms-master/src/tools/recommendation /Users/shree/Downloads/lms-master /Users/shree/Downloads/lms-master/src/tools/recommendation /Users/shree/Downloads/lms-master/src/tools/recommendation/CMakeFiles/lms-recommendation.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/shree/Downloads/Music-Streaming-Service /Users/shree/Downloads/Music-Streaming-Service/src/tools/recommendation /Users/shree/Downloads/Music-Streaming-Service /Users/shree/Downloads/Music-Streaming-Service/src/tools/recommendation /Users/shree/Downloads/Music-Streaming-Service/src/tools/recommendation/CMakeFiles/lms-recommendation.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : src/tools/recommendation/CMakeFiles/lms-recommendation.dir/depend
 

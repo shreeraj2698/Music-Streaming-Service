@@ -57,10 +57,10 @@ RM = /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/shree/Downloads/lms-master
+CMAKE_SOURCE_DIR = /Users/shree/Downloads/Music-Streaming-Service
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/shree/Downloads/lms-master
+CMAKE_BINARY_DIR = /Users/shree/Downloads/Music-Streaming-Service
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,14 +142,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/shree/Downloads/lms-master && $(CMAKE_COMMAND) -E cmake_progress_start /Users/shree/Downloads/lms-master/CMakeFiles /Users/shree/Downloads/lms-master/src/libs/som//CMakeFiles/progress.marks
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/libs/som/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/shree/Downloads/lms-master/CMakeFiles 0
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(CMAKE_COMMAND) -E cmake_progress_start /Users/shree/Downloads/Music-Streaming-Service/CMakeFiles /Users/shree/Downloads/Music-Streaming-Service/src/libs/som//CMakeFiles/progress.marks
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/libs/som/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/shree/Downloads/Music-Streaming-Service/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/libs/som/clean
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/libs/som/clean
 .PHONY : clean
 
 # The main clean target
@@ -158,22 +158,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/libs/som/preinstall
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/libs/som/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/libs/som/preinstall
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/libs/som/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/shree/Downloads/lms-master && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/libs/som/CMakeFiles/lmssom.dir/rule:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/libs/som/CMakeFiles/lmssom.dir/rule
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/libs/som/CMakeFiles/lmssom.dir/rule
 .PHONY : src/libs/som/CMakeFiles/lmssom.dir/rule
 
 # Convenience name for target.
@@ -182,7 +182,7 @@ lmssom: src/libs/som/CMakeFiles/lmssom.dir/rule
 
 # fast build rule for target.
 lmssom/fast:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/som/CMakeFiles/lmssom.dir/build.make src/libs/som/CMakeFiles/lmssom.dir/build
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/som/CMakeFiles/lmssom.dir/build.make src/libs/som/CMakeFiles/lmssom.dir/build
 .PHONY : lmssom/fast
 
 impl/DataNormalizer.o: impl/DataNormalizer.cpp.o
@@ -190,7 +190,7 @@ impl/DataNormalizer.o: impl/DataNormalizer.cpp.o
 
 # target to build an object file
 impl/DataNormalizer.cpp.o:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/som/CMakeFiles/lmssom.dir/build.make src/libs/som/CMakeFiles/lmssom.dir/impl/DataNormalizer.cpp.o
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/som/CMakeFiles/lmssom.dir/build.make src/libs/som/CMakeFiles/lmssom.dir/impl/DataNormalizer.cpp.o
 .PHONY : impl/DataNormalizer.cpp.o
 
 impl/DataNormalizer.i: impl/DataNormalizer.cpp.i
@@ -198,7 +198,7 @@ impl/DataNormalizer.i: impl/DataNormalizer.cpp.i
 
 # target to preprocess a source file
 impl/DataNormalizer.cpp.i:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/som/CMakeFiles/lmssom.dir/build.make src/libs/som/CMakeFiles/lmssom.dir/impl/DataNormalizer.cpp.i
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/som/CMakeFiles/lmssom.dir/build.make src/libs/som/CMakeFiles/lmssom.dir/impl/DataNormalizer.cpp.i
 .PHONY : impl/DataNormalizer.cpp.i
 
 impl/DataNormalizer.s: impl/DataNormalizer.cpp.s
@@ -206,7 +206,7 @@ impl/DataNormalizer.s: impl/DataNormalizer.cpp.s
 
 # target to generate assembly for a file
 impl/DataNormalizer.cpp.s:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/som/CMakeFiles/lmssom.dir/build.make src/libs/som/CMakeFiles/lmssom.dir/impl/DataNormalizer.cpp.s
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/som/CMakeFiles/lmssom.dir/build.make src/libs/som/CMakeFiles/lmssom.dir/impl/DataNormalizer.cpp.s
 .PHONY : impl/DataNormalizer.cpp.s
 
 impl/Network.o: impl/Network.cpp.o
@@ -214,7 +214,7 @@ impl/Network.o: impl/Network.cpp.o
 
 # target to build an object file
 impl/Network.cpp.o:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/som/CMakeFiles/lmssom.dir/build.make src/libs/som/CMakeFiles/lmssom.dir/impl/Network.cpp.o
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/som/CMakeFiles/lmssom.dir/build.make src/libs/som/CMakeFiles/lmssom.dir/impl/Network.cpp.o
 .PHONY : impl/Network.cpp.o
 
 impl/Network.i: impl/Network.cpp.i
@@ -222,7 +222,7 @@ impl/Network.i: impl/Network.cpp.i
 
 # target to preprocess a source file
 impl/Network.cpp.i:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/som/CMakeFiles/lmssom.dir/build.make src/libs/som/CMakeFiles/lmssom.dir/impl/Network.cpp.i
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/som/CMakeFiles/lmssom.dir/build.make src/libs/som/CMakeFiles/lmssom.dir/impl/Network.cpp.i
 .PHONY : impl/Network.cpp.i
 
 impl/Network.s: impl/Network.cpp.s
@@ -230,7 +230,7 @@ impl/Network.s: impl/Network.cpp.s
 
 # target to generate assembly for a file
 impl/Network.cpp.s:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/som/CMakeFiles/lmssom.dir/build.make src/libs/som/CMakeFiles/lmssom.dir/impl/Network.cpp.s
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/som/CMakeFiles/lmssom.dir/build.make src/libs/som/CMakeFiles/lmssom.dir/impl/Network.cpp.s
 .PHONY : impl/Network.cpp.s
 
 # Help Target
@@ -264,6 +264,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/shree/Downloads/lms-master && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

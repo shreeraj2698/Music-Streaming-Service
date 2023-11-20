@@ -183,7 +183,7 @@ proxyScannerEventsToApplication(Scanner::IScannerService& scanner, Wt::WServer& 
 
 int main(int argc, char* argv[])
 {
-	std::filesystem::path configFilePath {"/Users/shree/Downloads/lms-master/share/lms/lms.conf"};
+	std::filesystem::path configFilePath {"/Users/shree/Downloads/Music-Streaming-Service/share/lms/lms.conf"};
 	int res {EXIT_FAILURE};
 
 	assert(argc > 0);

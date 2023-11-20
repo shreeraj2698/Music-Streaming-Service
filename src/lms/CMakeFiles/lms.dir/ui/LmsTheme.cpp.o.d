@@ -1,6 +1,6 @@
 src/lms/CMakeFiles/lms.dir/ui/LmsTheme.cpp.o: \
-  /Users/shree/Downloads/lms-master/src/lms/ui/LmsTheme.cpp \
-  /Users/shree/Downloads/lms-master/src/lms/ui/LmsTheme.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/lms/ui/LmsTheme.cpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/lms/ui/LmsTheme.hpp \
   /usr/local/include/Wt/WTheme.h /usr/local/include/Wt/WObject.h \
   /usr/local/include/Wt/WDllDefs.h /usr/local/include/Wt/WConfig.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/stdint.h \

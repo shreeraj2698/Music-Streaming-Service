@@ -1,6 +1,6 @@
 src/lms/CMakeFiles/lms.dir/ui/admin/DatabaseSettingsView.cpp.o: \
-  /Users/shree/Downloads/lms-master/src/lms/ui/admin/DatabaseSettingsView.cpp \
-  /Users/shree/Downloads/lms-master/src/lms/ui/admin/DatabaseSettingsView.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/lms/ui/admin/DatabaseSettingsView.cpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/lms/ui/admin/DatabaseSettingsView.hpp \
   /usr/local/include/Wt/WContainerWidget.h \
   /usr/local/include/Wt/WInteractWidget.h \
   /usr/local/include/Wt/WWebWidget.h \
@@ -829,7 +829,7 @@ src/lms/CMakeFiles/lms.dir/ui/admin/DatabaseSettingsView.cpp.o: \
   /usr/local/include/Wt/WLink.h /usr/local/include/Wt/WText.h \
   /usr/local/include/Wt/WTemplateFormView.h \
   /usr/local/include/Wt/WTemplate.h \
-  /Users/shree/Downloads/lms-master/src/libs/services/database/include/services/database/Cluster.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/database/include/services/database/Cluster.hpp \
   /usr/local/include/Wt/Dbo/Dbo.h /usr/local/include/Wt/Dbo/Types.h \
   /usr/local/include/Wt/Dbo/ptr.h /usr/local/include/Wt/Dbo/SqlTraits.h \
   /usr/local/include/Wt/Dbo/WDboDllDefs.h \
@@ -854,20 +854,20 @@ src/lms/CMakeFiles/lms.dir/ui/admin/DatabaseSettingsView.cpp.o: \
   /usr/local/include/Wt/Dbo/SqlTraits_impl.h \
   /usr/local/include/Wt/Dbo/Session_impl.h \
   /usr/local/include/Wt/WDateTime.h /usr/local/include/Wt/WLocale.h \
-  /Users/shree/Downloads/lms-master/src/libs/services/database/include/services/database/ClusterId.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/services/database/include/services/database/IdType.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/services/database/include/services/database/Object.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/services/database/include/services/database/Release.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/services/database/include/services/database/ArtistId.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/services/database/include/services/database/ReleaseId.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/services/database/include/services/database/Types.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/database/include/services/database/ClusterId.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/database/include/services/database/IdType.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/database/include/services/database/Object.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/database/include/services/database/Release.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/database/include/services/database/ArtistId.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/database/include/services/database/ReleaseId.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/database/include/services/database/Types.hpp \
   /usr/local/include/Wt/WDate.h \
-  /Users/shree/Downloads/lms-master/src/libs/services/database/include/services/database/UserId.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/utils/include/utils/EnumSet.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/utils/include/utils/UUID.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/utils/include/utils/String.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/services/database/include/services/database/TrackId.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/services/database/include/services/database/ScanSettings.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/database/include/services/database/UserId.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/utils/include/utils/EnumSet.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/utils/include/utils/UUID.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/utils/include/utils/String.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/database/include/services/database/TrackId.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/database/include/services/database/ScanSettings.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/filesystem \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/copy_options.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/directory_entry.h \
@@ -887,26 +887,26 @@ src/lms/CMakeFiles/lms.dir/ui/admin/DatabaseSettingsView.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/recursive_directory_iterator.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/u8path.h \
   /usr/local/include/Wt/WTime.h \
-  /Users/shree/Downloads/lms-master/src/libs/services/database/include/services/database/Session.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/database/include/services/database/Session.hpp \
   /usr/local/include/Wt/Dbo/SqlConnectionPool.h \
-  /Users/shree/Downloads/lms-master/src/libs/utils/include/utils/RecursiveSharedMutex.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/utils/include/utils/RecursiveSharedMutex.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/shared_mutex \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/thread \
-  /Users/shree/Downloads/lms-master/src/libs/services/scanner/include/services/scanner/IScannerService.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/services/scanner/include/services/scanner/ScannerEvents.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/services/scanner/include/services/scanner/ScannerStats.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/utils/include/utils/Logger.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/utils/include/utils/Service.hpp \
-  /Users/shree/Downloads/lms-master/src/lms/ui/common/DirectoryValidator.hpp \
-  /Users/shree/Downloads/lms-master/src/lms/ui/common/MandatoryValidator.hpp \
-  /Users/shree/Downloads/lms-master/src/lms/ui/common/ValueStringModel.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/scanner/include/services/scanner/IScannerService.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/scanner/include/services/scanner/ScannerEvents.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/scanner/include/services/scanner/ScannerStats.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/utils/include/utils/Logger.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/utils/include/utils/Service.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/lms/ui/common/DirectoryValidator.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/lms/ui/common/MandatoryValidator.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/lms/ui/common/ValueStringModel.hpp \
   /usr/local/include/Wt/WStringListModel.h \
   /usr/local/include/Wt/WAbstractListModel.h \
   /usr/local/include/Wt/WAbstractItemModel.h \
   /usr/local/include/Wt/WModelIndex.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/unordered_set \
-  /Users/shree/Downloads/lms-master/src/lms/ui/admin/ScannerController.hpp \
-  /Users/shree/Downloads/lms-master/src/lms/ui/LmsApplication.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/lms/ui/admin/ScannerController.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/lms/ui/LmsApplication.hpp \
   /usr/local/include/Wt/WApplication.h \
   /usr/local/include/Wt/WCssStyleSheet.h /usr/local/include/Wt/WBreak.h \
   /usr/local/include/Wt/WCssDecorationStyle.h \
@@ -915,4 +915,4 @@ src/lms/CMakeFiles/lms.dir/ui/admin/DatabaseSettingsView.cpp.o: \
   /usr/local/include/Wt/WJavaScriptPreamble.h \
   /usr/local/include/Wt/WMessageResourceBundle.h \
   /usr/local/include/Wt/WLocalizedStrings.h \
-  /Users/shree/Downloads/lms-master/src/lms/ui/Notification.hpp
+  /Users/shree/Downloads/Music-Streaming-Service/src/lms/ui/Notification.hpp

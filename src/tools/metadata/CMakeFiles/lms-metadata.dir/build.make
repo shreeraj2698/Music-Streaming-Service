@@ -53,10 +53,10 @@ RM = /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/shree/Downloads/lms-master
+CMAKE_SOURCE_DIR = /Users/shree/Downloads/Music-Streaming-Service
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/shree/Downloads/lms-master
+CMAKE_BINARY_DIR = /Users/shree/Downloads/Music-Streaming-Service
 
 # Include any dependencies generated for this target.
 include src/tools/metadata/CMakeFiles/lms-metadata.dir/depend.make
@@ -72,16 +72,16 @@ include src/tools/metadata/CMakeFiles/lms-metadata.dir/flags.make
 src/tools/metadata/CMakeFiles/lms-metadata.dir/LmsMetadata.cpp.o: src/tools/metadata/CMakeFiles/lms-metadata.dir/flags.make
 src/tools/metadata/CMakeFiles/lms-metadata.dir/LmsMetadata.cpp.o: src/tools/metadata/LmsMetadata.cpp
 src/tools/metadata/CMakeFiles/lms-metadata.dir/LmsMetadata.cpp.o: src/tools/metadata/CMakeFiles/lms-metadata.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/shree/Downloads/lms-master/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/tools/metadata/CMakeFiles/lms-metadata.dir/LmsMetadata.cpp.o"
-	cd /Users/shree/Downloads/lms-master/src/tools/metadata && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/tools/metadata/CMakeFiles/lms-metadata.dir/LmsMetadata.cpp.o -MF CMakeFiles/lms-metadata.dir/LmsMetadata.cpp.o.d -o CMakeFiles/lms-metadata.dir/LmsMetadata.cpp.o -c /Users/shree/Downloads/lms-master/src/tools/metadata/LmsMetadata.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/shree/Downloads/Music-Streaming-Service/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/tools/metadata/CMakeFiles/lms-metadata.dir/LmsMetadata.cpp.o"
+	cd /Users/shree/Downloads/Music-Streaming-Service/src/tools/metadata && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/tools/metadata/CMakeFiles/lms-metadata.dir/LmsMetadata.cpp.o -MF CMakeFiles/lms-metadata.dir/LmsMetadata.cpp.o.d -o CMakeFiles/lms-metadata.dir/LmsMetadata.cpp.o -c /Users/shree/Downloads/Music-Streaming-Service/src/tools/metadata/LmsMetadata.cpp
 
 src/tools/metadata/CMakeFiles/lms-metadata.dir/LmsMetadata.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lms-metadata.dir/LmsMetadata.cpp.i"
-	cd /Users/shree/Downloads/lms-master/src/tools/metadata && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/shree/Downloads/lms-master/src/tools/metadata/LmsMetadata.cpp > CMakeFiles/lms-metadata.dir/LmsMetadata.cpp.i
+	cd /Users/shree/Downloads/Music-Streaming-Service/src/tools/metadata && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/shree/Downloads/Music-Streaming-Service/src/tools/metadata/LmsMetadata.cpp > CMakeFiles/lms-metadata.dir/LmsMetadata.cpp.i
 
 src/tools/metadata/CMakeFiles/lms-metadata.dir/LmsMetadata.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lms-metadata.dir/LmsMetadata.cpp.s"
-	cd /Users/shree/Downloads/lms-master/src/tools/metadata && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/shree/Downloads/lms-master/src/tools/metadata/LmsMetadata.cpp -o CMakeFiles/lms-metadata.dir/LmsMetadata.cpp.s
+	cd /Users/shree/Downloads/Music-Streaming-Service/src/tools/metadata && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/shree/Downloads/Music-Streaming-Service/src/tools/metadata/LmsMetadata.cpp -o CMakeFiles/lms-metadata.dir/LmsMetadata.cpp.s
 
 # Object files for target lms-metadata
 lms__metadata_OBJECTS = \
@@ -100,18 +100,18 @@ src/tools/metadata/lms-metadata: /opt/homebrew/lib/libboost_thread-mt.dylib
 src/tools/metadata/lms-metadata: /opt/homebrew/lib/libboost_filesystem-mt.dylib
 src/tools/metadata/lms-metadata: /opt/homebrew/lib/libboost_atomic-mt.dylib
 src/tools/metadata/lms-metadata: src/tools/metadata/CMakeFiles/lms-metadata.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/shree/Downloads/lms-master/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable lms-metadata"
-	cd /Users/shree/Downloads/lms-master/src/tools/metadata && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lms-metadata.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/shree/Downloads/Music-Streaming-Service/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable lms-metadata"
+	cd /Users/shree/Downloads/Music-Streaming-Service/src/tools/metadata && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lms-metadata.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/tools/metadata/CMakeFiles/lms-metadata.dir/build: src/tools/metadata/lms-metadata
 .PHONY : src/tools/metadata/CMakeFiles/lms-metadata.dir/build
 
 src/tools/metadata/CMakeFiles/lms-metadata.dir/clean:
-	cd /Users/shree/Downloads/lms-master/src/tools/metadata && $(CMAKE_COMMAND) -P CMakeFiles/lms-metadata.dir/cmake_clean.cmake
+	cd /Users/shree/Downloads/Music-Streaming-Service/src/tools/metadata && $(CMAKE_COMMAND) -P CMakeFiles/lms-metadata.dir/cmake_clean.cmake
 .PHONY : src/tools/metadata/CMakeFiles/lms-metadata.dir/clean
 
 src/tools/metadata/CMakeFiles/lms-metadata.dir/depend:
-	cd /Users/shree/Downloads/lms-master && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/shree/Downloads/lms-master /Users/shree/Downloads/lms-master/src/tools/metadata /Users/shree/Downloads/lms-master /Users/shree/Downloads/lms-master/src/tools/metadata /Users/shree/Downloads/lms-master/src/tools/metadata/CMakeFiles/lms-metadata.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/shree/Downloads/Music-Streaming-Service /Users/shree/Downloads/Music-Streaming-Service/src/tools/metadata /Users/shree/Downloads/Music-Streaming-Service /Users/shree/Downloads/Music-Streaming-Service/src/tools/metadata /Users/shree/Downloads/Music-Streaming-Service/src/tools/metadata/CMakeFiles/lms-metadata.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : src/tools/metadata/CMakeFiles/lms-metadata.dir/depend
 

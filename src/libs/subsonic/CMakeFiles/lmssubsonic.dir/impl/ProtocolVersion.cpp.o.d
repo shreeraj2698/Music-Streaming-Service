@@ -1,7 +1,7 @@
 src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/ProtocolVersion.cpp.o: \
-  /Users/shree/Downloads/lms-master/src/libs/subsonic/impl/ProtocolVersion.cpp \
-  /Users/shree/Downloads/lms-master/src/libs/subsonic/impl/ProtocolVersion.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/utils/include/utils/String.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/subsonic/impl/ProtocolVersion.cpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/subsonic/impl/ProtocolVersion.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/utils/include/utils/String.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/initializer_list \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__assert \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__config \

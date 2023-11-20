@@ -1,6 +1,6 @@
 src/libs/som/CMakeFiles/lmssom.dir/impl/DataNormalizer.cpp.o: \
-  /Users/shree/Downloads/lms-master/src/libs/som/impl/DataNormalizer.cpp \
-  /Users/shree/Downloads/lms-master/src/libs/som/include/som/DataNormalizer.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/som/impl/DataNormalizer.cpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/som/include/som/DataNormalizer.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/vector \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__algorithm/copy.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__algorithm/copy_move_common.h \
@@ -790,10 +790,10 @@ src/libs/som/CMakeFiles/lmssom.dir/impl/DataNormalizer.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/_types/_nl_item.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__bsd_locale_defaults.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/cstdarg \
-  /Users/shree/Downloads/lms-master/src/libs/som/include/som/Network.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/som/include/som/InputVector.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/utils/include/utils/Exception.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/som/include/som/Matrix.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/som/include/som/Network.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/som/include/som/InputVector.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/utils/include/utils/Exception.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/som/include/som/Matrix.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/cassert \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/assert.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/numeric \

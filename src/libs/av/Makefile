@@ -57,10 +57,10 @@ RM = /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/shree/Downloads/lms-master
+CMAKE_SOURCE_DIR = /Users/shree/Downloads/Music-Streaming-Service
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/shree/Downloads/lms-master
+CMAKE_BINARY_DIR = /Users/shree/Downloads/Music-Streaming-Service
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,14 +142,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/shree/Downloads/lms-master && $(CMAKE_COMMAND) -E cmake_progress_start /Users/shree/Downloads/lms-master/CMakeFiles /Users/shree/Downloads/lms-master/src/libs/av//CMakeFiles/progress.marks
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/libs/av/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/shree/Downloads/lms-master/CMakeFiles 0
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(CMAKE_COMMAND) -E cmake_progress_start /Users/shree/Downloads/Music-Streaming-Service/CMakeFiles /Users/shree/Downloads/Music-Streaming-Service/src/libs/av//CMakeFiles/progress.marks
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/libs/av/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/shree/Downloads/Music-Streaming-Service/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/libs/av/clean
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/libs/av/clean
 .PHONY : clean
 
 # The main clean target
@@ -158,22 +158,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/libs/av/preinstall
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/libs/av/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/libs/av/preinstall
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/libs/av/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/shree/Downloads/lms-master && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/libs/av/CMakeFiles/lmsav.dir/rule:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/libs/av/CMakeFiles/lmsav.dir/rule
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/libs/av/CMakeFiles/lmsav.dir/rule
 .PHONY : src/libs/av/CMakeFiles/lmsav.dir/rule
 
 # Convenience name for target.
@@ -182,7 +182,7 @@ lmsav: src/libs/av/CMakeFiles/lmsav.dir/rule
 
 # fast build rule for target.
 lmsav/fast:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/av/CMakeFiles/lmsav.dir/build.make src/libs/av/CMakeFiles/lmsav.dir/build
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/av/CMakeFiles/lmsav.dir/build.make src/libs/av/CMakeFiles/lmsav.dir/build
 .PHONY : lmsav/fast
 
 impl/AudioFile.o: impl/AudioFile.cpp.o
@@ -190,7 +190,7 @@ impl/AudioFile.o: impl/AudioFile.cpp.o
 
 # target to build an object file
 impl/AudioFile.cpp.o:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/av/CMakeFiles/lmsav.dir/build.make src/libs/av/CMakeFiles/lmsav.dir/impl/AudioFile.cpp.o
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/av/CMakeFiles/lmsav.dir/build.make src/libs/av/CMakeFiles/lmsav.dir/impl/AudioFile.cpp.o
 .PHONY : impl/AudioFile.cpp.o
 
 impl/AudioFile.i: impl/AudioFile.cpp.i
@@ -198,7 +198,7 @@ impl/AudioFile.i: impl/AudioFile.cpp.i
 
 # target to preprocess a source file
 impl/AudioFile.cpp.i:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/av/CMakeFiles/lmsav.dir/build.make src/libs/av/CMakeFiles/lmsav.dir/impl/AudioFile.cpp.i
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/av/CMakeFiles/lmsav.dir/build.make src/libs/av/CMakeFiles/lmsav.dir/impl/AudioFile.cpp.i
 .PHONY : impl/AudioFile.cpp.i
 
 impl/AudioFile.s: impl/AudioFile.cpp.s
@@ -206,7 +206,7 @@ impl/AudioFile.s: impl/AudioFile.cpp.s
 
 # target to generate assembly for a file
 impl/AudioFile.cpp.s:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/av/CMakeFiles/lmsav.dir/build.make src/libs/av/CMakeFiles/lmsav.dir/impl/AudioFile.cpp.s
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/av/CMakeFiles/lmsav.dir/build.make src/libs/av/CMakeFiles/lmsav.dir/impl/AudioFile.cpp.s
 .PHONY : impl/AudioFile.cpp.s
 
 impl/TranscodeResourceHandler.o: impl/TranscodeResourceHandler.cpp.o
@@ -214,7 +214,7 @@ impl/TranscodeResourceHandler.o: impl/TranscodeResourceHandler.cpp.o
 
 # target to build an object file
 impl/TranscodeResourceHandler.cpp.o:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/av/CMakeFiles/lmsav.dir/build.make src/libs/av/CMakeFiles/lmsav.dir/impl/TranscodeResourceHandler.cpp.o
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/av/CMakeFiles/lmsav.dir/build.make src/libs/av/CMakeFiles/lmsav.dir/impl/TranscodeResourceHandler.cpp.o
 .PHONY : impl/TranscodeResourceHandler.cpp.o
 
 impl/TranscodeResourceHandler.i: impl/TranscodeResourceHandler.cpp.i
@@ -222,7 +222,7 @@ impl/TranscodeResourceHandler.i: impl/TranscodeResourceHandler.cpp.i
 
 # target to preprocess a source file
 impl/TranscodeResourceHandler.cpp.i:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/av/CMakeFiles/lmsav.dir/build.make src/libs/av/CMakeFiles/lmsav.dir/impl/TranscodeResourceHandler.cpp.i
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/av/CMakeFiles/lmsav.dir/build.make src/libs/av/CMakeFiles/lmsav.dir/impl/TranscodeResourceHandler.cpp.i
 .PHONY : impl/TranscodeResourceHandler.cpp.i
 
 impl/TranscodeResourceHandler.s: impl/TranscodeResourceHandler.cpp.s
@@ -230,7 +230,7 @@ impl/TranscodeResourceHandler.s: impl/TranscodeResourceHandler.cpp.s
 
 # target to generate assembly for a file
 impl/TranscodeResourceHandler.cpp.s:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/av/CMakeFiles/lmsav.dir/build.make src/libs/av/CMakeFiles/lmsav.dir/impl/TranscodeResourceHandler.cpp.s
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/av/CMakeFiles/lmsav.dir/build.make src/libs/av/CMakeFiles/lmsav.dir/impl/TranscodeResourceHandler.cpp.s
 .PHONY : impl/TranscodeResourceHandler.cpp.s
 
 impl/Transcoder.o: impl/Transcoder.cpp.o
@@ -238,7 +238,7 @@ impl/Transcoder.o: impl/Transcoder.cpp.o
 
 # target to build an object file
 impl/Transcoder.cpp.o:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/av/CMakeFiles/lmsav.dir/build.make src/libs/av/CMakeFiles/lmsav.dir/impl/Transcoder.cpp.o
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/av/CMakeFiles/lmsav.dir/build.make src/libs/av/CMakeFiles/lmsav.dir/impl/Transcoder.cpp.o
 .PHONY : impl/Transcoder.cpp.o
 
 impl/Transcoder.i: impl/Transcoder.cpp.i
@@ -246,7 +246,7 @@ impl/Transcoder.i: impl/Transcoder.cpp.i
 
 # target to preprocess a source file
 impl/Transcoder.cpp.i:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/av/CMakeFiles/lmsav.dir/build.make src/libs/av/CMakeFiles/lmsav.dir/impl/Transcoder.cpp.i
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/av/CMakeFiles/lmsav.dir/build.make src/libs/av/CMakeFiles/lmsav.dir/impl/Transcoder.cpp.i
 .PHONY : impl/Transcoder.cpp.i
 
 impl/Transcoder.s: impl/Transcoder.cpp.s
@@ -254,7 +254,7 @@ impl/Transcoder.s: impl/Transcoder.cpp.s
 
 # target to generate assembly for a file
 impl/Transcoder.cpp.s:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/av/CMakeFiles/lmsav.dir/build.make src/libs/av/CMakeFiles/lmsav.dir/impl/Transcoder.cpp.s
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/av/CMakeFiles/lmsav.dir/build.make src/libs/av/CMakeFiles/lmsav.dir/impl/Transcoder.cpp.s
 .PHONY : impl/Transcoder.cpp.s
 
 impl/Types.o: impl/Types.cpp.o
@@ -262,7 +262,7 @@ impl/Types.o: impl/Types.cpp.o
 
 # target to build an object file
 impl/Types.cpp.o:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/av/CMakeFiles/lmsav.dir/build.make src/libs/av/CMakeFiles/lmsav.dir/impl/Types.cpp.o
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/av/CMakeFiles/lmsav.dir/build.make src/libs/av/CMakeFiles/lmsav.dir/impl/Types.cpp.o
 .PHONY : impl/Types.cpp.o
 
 impl/Types.i: impl/Types.cpp.i
@@ -270,7 +270,7 @@ impl/Types.i: impl/Types.cpp.i
 
 # target to preprocess a source file
 impl/Types.cpp.i:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/av/CMakeFiles/lmsav.dir/build.make src/libs/av/CMakeFiles/lmsav.dir/impl/Types.cpp.i
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/av/CMakeFiles/lmsav.dir/build.make src/libs/av/CMakeFiles/lmsav.dir/impl/Types.cpp.i
 .PHONY : impl/Types.cpp.i
 
 impl/Types.s: impl/Types.cpp.s
@@ -278,7 +278,7 @@ impl/Types.s: impl/Types.cpp.s
 
 # target to generate assembly for a file
 impl/Types.cpp.s:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/av/CMakeFiles/lmsav.dir/build.make src/libs/av/CMakeFiles/lmsav.dir/impl/Types.cpp.s
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/av/CMakeFiles/lmsav.dir/build.make src/libs/av/CMakeFiles/lmsav.dir/impl/Types.cpp.s
 .PHONY : impl/Types.cpp.s
 
 # Help Target
@@ -318,6 +318,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/shree/Downloads/lms-master && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

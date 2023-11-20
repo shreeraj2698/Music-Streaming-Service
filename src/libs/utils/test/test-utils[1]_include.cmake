@@ -1,5 +1,5 @@
-if(EXISTS "/Users/shree/Downloads/lms-master/src/libs/utils/test/test-utils[1]_tests.cmake")
-  include("/Users/shree/Downloads/lms-master/src/libs/utils/test/test-utils[1]_tests.cmake")
+if(EXISTS "/Users/shree/Downloads/Music-Streaming-Service/src/libs/utils/test/test-utils[1]_tests.cmake")
+  include("/Users/shree/Downloads/Music-Streaming-Service/src/libs/utils/test/test-utils[1]_tests.cmake")
 else()
   add_test(test-utils_NOT_BUILT test-utils_NOT_BUILT)
 endif()

@@ -1,6 +1,6 @@
 src/lms/CMakeFiles/lms.dir/ui/common/InfiniteScrollingContainer.cpp.o: \
-  /Users/shree/Downloads/lms-master/src/lms/ui/common/InfiniteScrollingContainer.cpp \
-  /Users/shree/Downloads/lms-master/src/lms/ui/common/InfiniteScrollingContainer.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/lms/ui/common/InfiniteScrollingContainer.cpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/lms/ui/common/InfiniteScrollingContainer.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/memory \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__assert \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__config \
@@ -821,4 +821,4 @@ src/lms/CMakeFiles/lms.dir/ui/common/InfiniteScrollingContainer.cpp.o: \
   /usr/local/include/Wt/WLogger.h /usr/local/include/Wt/WLogSink.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/list \
   /usr/local/include/Wt/WTemplate.h \
-  /Users/shree/Downloads/lms-master/src/lms/ui/common/LoadingIndicator.hpp
+  /Users/shree/Downloads/Music-Streaming-Service/src/lms/ui/common/LoadingIndicator.hpp

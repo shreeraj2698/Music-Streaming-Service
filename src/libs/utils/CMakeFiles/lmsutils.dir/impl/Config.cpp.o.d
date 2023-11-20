@@ -1,7 +1,7 @@
 src/libs/utils/CMakeFiles/lmsutils.dir/impl/Config.cpp.o: \
-  /Users/shree/Downloads/lms-master/src/libs/utils/impl/Config.cpp \
-  /Users/shree/Downloads/lms-master/src/libs/utils/impl/Config.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/utils/include/utils/IConfig.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/utils/impl/Config.cpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/utils/impl/Config.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/utils/include/utils/IConfig.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/filesystem \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__assert \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__config \
@@ -811,9 +811,9 @@ src/libs/utils/CMakeFiles/lmsutils.dir/impl/Config.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/recursive_directory_iterator.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/u8path.h \
   /opt/homebrew/Cellar/libconfig/1.7.3/include/libconfig.h++ \
-  /Users/shree/Downloads/lms-master/src/libs/utils/include/utils/Exception.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/utils/include/utils/Logger.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/utils/include/utils/Exception.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/utils/include/utils/Logger.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/sstream \
-  /Users/shree/Downloads/lms-master/src/libs/utils/include/utils/Service.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/utils/include/utils/Service.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/cassert \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/assert.h

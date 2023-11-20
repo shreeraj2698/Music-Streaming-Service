@@ -1,6 +1,6 @@
 src/lms/CMakeFiles/lms.dir/ui/common/Template.cpp.o: \
-  /Users/shree/Downloads/lms-master/src/lms/ui/common/Template.cpp \
-  /Users/shree/Downloads/lms-master/src/lms/ui/common/Template.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/lms/ui/common/Template.cpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/lms/ui/common/Template.hpp \
   /usr/local/include/Wt/WTemplate.h \
   /usr/local/include/Wt/WInteractWidget.h \
   /usr/local/include/Wt/WWebWidget.h \
@@ -820,4 +820,4 @@ src/lms/CMakeFiles/lms.dir/ui/common/Template.cpp.o: \
   /usr/local/include/Wt/WJavaScriptSlot.h \
   /usr/local/include/Wt/WLogger.h /usr/local/include/Wt/WLogSink.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/list \
-  /Users/shree/Downloads/lms-master/src/libs/utils/include/utils/String.hpp
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/utils/include/utils/String.hpp

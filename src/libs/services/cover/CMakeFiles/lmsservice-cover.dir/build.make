@@ -53,10 +53,10 @@ RM = /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/shree/Downloads/lms-master
+CMAKE_SOURCE_DIR = /Users/shree/Downloads/Music-Streaming-Service
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/shree/Downloads/lms-master
+CMAKE_BINARY_DIR = /Users/shree/Downloads/Music-Streaming-Service
 
 # Include any dependencies generated for this target.
 include src/libs/services/cover/CMakeFiles/lmsservice-cover.dir/depend.make
@@ -72,16 +72,16 @@ include src/libs/services/cover/CMakeFiles/lmsservice-cover.dir/flags.make
 src/libs/services/cover/CMakeFiles/lmsservice-cover.dir/impl/CoverService.cpp.o: src/libs/services/cover/CMakeFiles/lmsservice-cover.dir/flags.make
 src/libs/services/cover/CMakeFiles/lmsservice-cover.dir/impl/CoverService.cpp.o: src/libs/services/cover/impl/CoverService.cpp
 src/libs/services/cover/CMakeFiles/lmsservice-cover.dir/impl/CoverService.cpp.o: src/libs/services/cover/CMakeFiles/lmsservice-cover.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/shree/Downloads/lms-master/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/libs/services/cover/CMakeFiles/lmsservice-cover.dir/impl/CoverService.cpp.o"
-	cd /Users/shree/Downloads/lms-master/src/libs/services/cover && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/libs/services/cover/CMakeFiles/lmsservice-cover.dir/impl/CoverService.cpp.o -MF CMakeFiles/lmsservice-cover.dir/impl/CoverService.cpp.o.d -o CMakeFiles/lmsservice-cover.dir/impl/CoverService.cpp.o -c /Users/shree/Downloads/lms-master/src/libs/services/cover/impl/CoverService.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/shree/Downloads/Music-Streaming-Service/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/libs/services/cover/CMakeFiles/lmsservice-cover.dir/impl/CoverService.cpp.o"
+	cd /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/cover && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/libs/services/cover/CMakeFiles/lmsservice-cover.dir/impl/CoverService.cpp.o -MF CMakeFiles/lmsservice-cover.dir/impl/CoverService.cpp.o.d -o CMakeFiles/lmsservice-cover.dir/impl/CoverService.cpp.o -c /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/cover/impl/CoverService.cpp
 
 src/libs/services/cover/CMakeFiles/lmsservice-cover.dir/impl/CoverService.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lmsservice-cover.dir/impl/CoverService.cpp.i"
-	cd /Users/shree/Downloads/lms-master/src/libs/services/cover && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/shree/Downloads/lms-master/src/libs/services/cover/impl/CoverService.cpp > CMakeFiles/lmsservice-cover.dir/impl/CoverService.cpp.i
+	cd /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/cover && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/cover/impl/CoverService.cpp > CMakeFiles/lmsservice-cover.dir/impl/CoverService.cpp.i
 
 src/libs/services/cover/CMakeFiles/lmsservice-cover.dir/impl/CoverService.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lmsservice-cover.dir/impl/CoverService.cpp.s"
-	cd /Users/shree/Downloads/lms-master/src/libs/services/cover && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/shree/Downloads/lms-master/src/libs/services/cover/impl/CoverService.cpp -o CMakeFiles/lmsservice-cover.dir/impl/CoverService.cpp.s
+	cd /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/cover && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/cover/impl/CoverService.cpp -o CMakeFiles/lmsservice-cover.dir/impl/CoverService.cpp.s
 
 # Object files for target lmsservice-cover
 lmsservice__cover_OBJECTS = \
@@ -103,18 +103,18 @@ src/libs/services/cover/liblmsservice-cover.dylib: /opt/homebrew/lib/libboost_fi
 src/libs/services/cover/liblmsservice-cover.dylib: /opt/homebrew/lib/libboost_atomic-mt.dylib
 src/libs/services/cover/liblmsservice-cover.dylib: /usr/local/lib/libwtdbo.4.10.1.dylib
 src/libs/services/cover/liblmsservice-cover.dylib: src/libs/services/cover/CMakeFiles/lmsservice-cover.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/shree/Downloads/lms-master/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library liblmsservice-cover.dylib"
-	cd /Users/shree/Downloads/lms-master/src/libs/services/cover && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lmsservice-cover.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/shree/Downloads/Music-Streaming-Service/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library liblmsservice-cover.dylib"
+	cd /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/cover && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lmsservice-cover.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/libs/services/cover/CMakeFiles/lmsservice-cover.dir/build: src/libs/services/cover/liblmsservice-cover.dylib
 .PHONY : src/libs/services/cover/CMakeFiles/lmsservice-cover.dir/build
 
 src/libs/services/cover/CMakeFiles/lmsservice-cover.dir/clean:
-	cd /Users/shree/Downloads/lms-master/src/libs/services/cover && $(CMAKE_COMMAND) -P CMakeFiles/lmsservice-cover.dir/cmake_clean.cmake
+	cd /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/cover && $(CMAKE_COMMAND) -P CMakeFiles/lmsservice-cover.dir/cmake_clean.cmake
 .PHONY : src/libs/services/cover/CMakeFiles/lmsservice-cover.dir/clean
 
 src/libs/services/cover/CMakeFiles/lmsservice-cover.dir/depend:
-	cd /Users/shree/Downloads/lms-master && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/shree/Downloads/lms-master /Users/shree/Downloads/lms-master/src/libs/services/cover /Users/shree/Downloads/lms-master /Users/shree/Downloads/lms-master/src/libs/services/cover /Users/shree/Downloads/lms-master/src/libs/services/cover/CMakeFiles/lmsservice-cover.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/shree/Downloads/Music-Streaming-Service /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/cover /Users/shree/Downloads/Music-Streaming-Service /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/cover /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/cover/CMakeFiles/lmsservice-cover.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : src/libs/services/cover/CMakeFiles/lmsservice-cover.dir/depend
 

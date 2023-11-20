@@ -57,10 +57,10 @@ RM = /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/shree/Downloads/lms-master
+CMAKE_SOURCE_DIR = /Users/shree/Downloads/Music-Streaming-Service
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/shree/Downloads/lms-master
+CMAKE_BINARY_DIR = /Users/shree/Downloads/Music-Streaming-Service
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,14 +142,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/shree/Downloads/lms-master && $(CMAKE_COMMAND) -E cmake_progress_start /Users/shree/Downloads/lms-master/CMakeFiles /Users/shree/Downloads/lms-master/src/libs/services/scanner//CMakeFiles/progress.marks
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/libs/services/scanner/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/shree/Downloads/lms-master/CMakeFiles 0
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(CMAKE_COMMAND) -E cmake_progress_start /Users/shree/Downloads/Music-Streaming-Service/CMakeFiles /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/scanner//CMakeFiles/progress.marks
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/libs/services/scanner/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/shree/Downloads/Music-Streaming-Service/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/libs/services/scanner/clean
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/libs/services/scanner/clean
 .PHONY : clean
 
 # The main clean target
@@ -158,22 +158,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/libs/services/scanner/preinstall
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/libs/services/scanner/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/libs/services/scanner/preinstall
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/libs/services/scanner/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/shree/Downloads/lms-master && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/libs/services/scanner/CMakeFiles/lmsscanner.dir/rule:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/libs/services/scanner/CMakeFiles/lmsscanner.dir/rule
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/libs/services/scanner/CMakeFiles/lmsscanner.dir/rule
 .PHONY : src/libs/services/scanner/CMakeFiles/lmsscanner.dir/rule
 
 # Convenience name for target.
@@ -182,7 +182,7 @@ lmsscanner: src/libs/services/scanner/CMakeFiles/lmsscanner.dir/rule
 
 # fast build rule for target.
 lmsscanner/fast:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/services/scanner/CMakeFiles/lmsscanner.dir/build.make src/libs/services/scanner/CMakeFiles/lmsscanner.dir/build
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/services/scanner/CMakeFiles/lmsscanner.dir/build.make src/libs/services/scanner/CMakeFiles/lmsscanner.dir/build
 .PHONY : lmsscanner/fast
 
 impl/ScanStepCheckDuplicatedDbFiles.o: impl/ScanStepCheckDuplicatedDbFiles.cpp.o
@@ -190,7 +190,7 @@ impl/ScanStepCheckDuplicatedDbFiles.o: impl/ScanStepCheckDuplicatedDbFiles.cpp.o
 
 # target to build an object file
 impl/ScanStepCheckDuplicatedDbFiles.cpp.o:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/services/scanner/CMakeFiles/lmsscanner.dir/build.make src/libs/services/scanner/CMakeFiles/lmsscanner.dir/impl/ScanStepCheckDuplicatedDbFiles.cpp.o
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/services/scanner/CMakeFiles/lmsscanner.dir/build.make src/libs/services/scanner/CMakeFiles/lmsscanner.dir/impl/ScanStepCheckDuplicatedDbFiles.cpp.o
 .PHONY : impl/ScanStepCheckDuplicatedDbFiles.cpp.o
 
 impl/ScanStepCheckDuplicatedDbFiles.i: impl/ScanStepCheckDuplicatedDbFiles.cpp.i
@@ -198,7 +198,7 @@ impl/ScanStepCheckDuplicatedDbFiles.i: impl/ScanStepCheckDuplicatedDbFiles.cpp.i
 
 # target to preprocess a source file
 impl/ScanStepCheckDuplicatedDbFiles.cpp.i:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/services/scanner/CMakeFiles/lmsscanner.dir/build.make src/libs/services/scanner/CMakeFiles/lmsscanner.dir/impl/ScanStepCheckDuplicatedDbFiles.cpp.i
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/services/scanner/CMakeFiles/lmsscanner.dir/build.make src/libs/services/scanner/CMakeFiles/lmsscanner.dir/impl/ScanStepCheckDuplicatedDbFiles.cpp.i
 .PHONY : impl/ScanStepCheckDuplicatedDbFiles.cpp.i
 
 impl/ScanStepCheckDuplicatedDbFiles.s: impl/ScanStepCheckDuplicatedDbFiles.cpp.s
@@ -206,7 +206,7 @@ impl/ScanStepCheckDuplicatedDbFiles.s: impl/ScanStepCheckDuplicatedDbFiles.cpp.s
 
 # target to generate assembly for a file
 impl/ScanStepCheckDuplicatedDbFiles.cpp.s:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/services/scanner/CMakeFiles/lmsscanner.dir/build.make src/libs/services/scanner/CMakeFiles/lmsscanner.dir/impl/ScanStepCheckDuplicatedDbFiles.cpp.s
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/services/scanner/CMakeFiles/lmsscanner.dir/build.make src/libs/services/scanner/CMakeFiles/lmsscanner.dir/impl/ScanStepCheckDuplicatedDbFiles.cpp.s
 .PHONY : impl/ScanStepCheckDuplicatedDbFiles.cpp.s
 
 impl/ScanStepDiscoverFiles.o: impl/ScanStepDiscoverFiles.cpp.o
@@ -214,7 +214,7 @@ impl/ScanStepDiscoverFiles.o: impl/ScanStepDiscoverFiles.cpp.o
 
 # target to build an object file
 impl/ScanStepDiscoverFiles.cpp.o:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/services/scanner/CMakeFiles/lmsscanner.dir/build.make src/libs/services/scanner/CMakeFiles/lmsscanner.dir/impl/ScanStepDiscoverFiles.cpp.o
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/services/scanner/CMakeFiles/lmsscanner.dir/build.make src/libs/services/scanner/CMakeFiles/lmsscanner.dir/impl/ScanStepDiscoverFiles.cpp.o
 .PHONY : impl/ScanStepDiscoverFiles.cpp.o
 
 impl/ScanStepDiscoverFiles.i: impl/ScanStepDiscoverFiles.cpp.i
@@ -222,7 +222,7 @@ impl/ScanStepDiscoverFiles.i: impl/ScanStepDiscoverFiles.cpp.i
 
 # target to preprocess a source file
 impl/ScanStepDiscoverFiles.cpp.i:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/services/scanner/CMakeFiles/lmsscanner.dir/build.make src/libs/services/scanner/CMakeFiles/lmsscanner.dir/impl/ScanStepDiscoverFiles.cpp.i
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/services/scanner/CMakeFiles/lmsscanner.dir/build.make src/libs/services/scanner/CMakeFiles/lmsscanner.dir/impl/ScanStepDiscoverFiles.cpp.i
 .PHONY : impl/ScanStepDiscoverFiles.cpp.i
 
 impl/ScanStepDiscoverFiles.s: impl/ScanStepDiscoverFiles.cpp.s
@@ -230,7 +230,7 @@ impl/ScanStepDiscoverFiles.s: impl/ScanStepDiscoverFiles.cpp.s
 
 # target to generate assembly for a file
 impl/ScanStepDiscoverFiles.cpp.s:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/services/scanner/CMakeFiles/lmsscanner.dir/build.make src/libs/services/scanner/CMakeFiles/lmsscanner.dir/impl/ScanStepDiscoverFiles.cpp.s
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/services/scanner/CMakeFiles/lmsscanner.dir/build.make src/libs/services/scanner/CMakeFiles/lmsscanner.dir/impl/ScanStepDiscoverFiles.cpp.s
 .PHONY : impl/ScanStepDiscoverFiles.cpp.s
 
 impl/ScanStepRemoveOrphanDbFiles.o: impl/ScanStepRemoveOrphanDbFiles.cpp.o
@@ -238,7 +238,7 @@ impl/ScanStepRemoveOrphanDbFiles.o: impl/ScanStepRemoveOrphanDbFiles.cpp.o
 
 # target to build an object file
 impl/ScanStepRemoveOrphanDbFiles.cpp.o:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/services/scanner/CMakeFiles/lmsscanner.dir/build.make src/libs/services/scanner/CMakeFiles/lmsscanner.dir/impl/ScanStepRemoveOrphanDbFiles.cpp.o
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/services/scanner/CMakeFiles/lmsscanner.dir/build.make src/libs/services/scanner/CMakeFiles/lmsscanner.dir/impl/ScanStepRemoveOrphanDbFiles.cpp.o
 .PHONY : impl/ScanStepRemoveOrphanDbFiles.cpp.o
 
 impl/ScanStepRemoveOrphanDbFiles.i: impl/ScanStepRemoveOrphanDbFiles.cpp.i
@@ -246,7 +246,7 @@ impl/ScanStepRemoveOrphanDbFiles.i: impl/ScanStepRemoveOrphanDbFiles.cpp.i
 
 # target to preprocess a source file
 impl/ScanStepRemoveOrphanDbFiles.cpp.i:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/services/scanner/CMakeFiles/lmsscanner.dir/build.make src/libs/services/scanner/CMakeFiles/lmsscanner.dir/impl/ScanStepRemoveOrphanDbFiles.cpp.i
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/services/scanner/CMakeFiles/lmsscanner.dir/build.make src/libs/services/scanner/CMakeFiles/lmsscanner.dir/impl/ScanStepRemoveOrphanDbFiles.cpp.i
 .PHONY : impl/ScanStepRemoveOrphanDbFiles.cpp.i
 
 impl/ScanStepRemoveOrphanDbFiles.s: impl/ScanStepRemoveOrphanDbFiles.cpp.s
@@ -254,7 +254,7 @@ impl/ScanStepRemoveOrphanDbFiles.s: impl/ScanStepRemoveOrphanDbFiles.cpp.s
 
 # target to generate assembly for a file
 impl/ScanStepRemoveOrphanDbFiles.cpp.s:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/services/scanner/CMakeFiles/lmsscanner.dir/build.make src/libs/services/scanner/CMakeFiles/lmsscanner.dir/impl/ScanStepRemoveOrphanDbFiles.cpp.s
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/services/scanner/CMakeFiles/lmsscanner.dir/build.make src/libs/services/scanner/CMakeFiles/lmsscanner.dir/impl/ScanStepRemoveOrphanDbFiles.cpp.s
 .PHONY : impl/ScanStepRemoveOrphanDbFiles.cpp.s
 
 impl/ScanStepScanFiles.o: impl/ScanStepScanFiles.cpp.o
@@ -262,7 +262,7 @@ impl/ScanStepScanFiles.o: impl/ScanStepScanFiles.cpp.o
 
 # target to build an object file
 impl/ScanStepScanFiles.cpp.o:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/services/scanner/CMakeFiles/lmsscanner.dir/build.make src/libs/services/scanner/CMakeFiles/lmsscanner.dir/impl/ScanStepScanFiles.cpp.o
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/services/scanner/CMakeFiles/lmsscanner.dir/build.make src/libs/services/scanner/CMakeFiles/lmsscanner.dir/impl/ScanStepScanFiles.cpp.o
 .PHONY : impl/ScanStepScanFiles.cpp.o
 
 impl/ScanStepScanFiles.i: impl/ScanStepScanFiles.cpp.i
@@ -270,7 +270,7 @@ impl/ScanStepScanFiles.i: impl/ScanStepScanFiles.cpp.i
 
 # target to preprocess a source file
 impl/ScanStepScanFiles.cpp.i:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/services/scanner/CMakeFiles/lmsscanner.dir/build.make src/libs/services/scanner/CMakeFiles/lmsscanner.dir/impl/ScanStepScanFiles.cpp.i
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/services/scanner/CMakeFiles/lmsscanner.dir/build.make src/libs/services/scanner/CMakeFiles/lmsscanner.dir/impl/ScanStepScanFiles.cpp.i
 .PHONY : impl/ScanStepScanFiles.cpp.i
 
 impl/ScanStepScanFiles.s: impl/ScanStepScanFiles.cpp.s
@@ -278,7 +278,7 @@ impl/ScanStepScanFiles.s: impl/ScanStepScanFiles.cpp.s
 
 # target to generate assembly for a file
 impl/ScanStepScanFiles.cpp.s:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/services/scanner/CMakeFiles/lmsscanner.dir/build.make src/libs/services/scanner/CMakeFiles/lmsscanner.dir/impl/ScanStepScanFiles.cpp.s
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/services/scanner/CMakeFiles/lmsscanner.dir/build.make src/libs/services/scanner/CMakeFiles/lmsscanner.dir/impl/ScanStepScanFiles.cpp.s
 .PHONY : impl/ScanStepScanFiles.cpp.s
 
 impl/ScannerService.o: impl/ScannerService.cpp.o
@@ -286,7 +286,7 @@ impl/ScannerService.o: impl/ScannerService.cpp.o
 
 # target to build an object file
 impl/ScannerService.cpp.o:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/services/scanner/CMakeFiles/lmsscanner.dir/build.make src/libs/services/scanner/CMakeFiles/lmsscanner.dir/impl/ScannerService.cpp.o
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/services/scanner/CMakeFiles/lmsscanner.dir/build.make src/libs/services/scanner/CMakeFiles/lmsscanner.dir/impl/ScannerService.cpp.o
 .PHONY : impl/ScannerService.cpp.o
 
 impl/ScannerService.i: impl/ScannerService.cpp.i
@@ -294,7 +294,7 @@ impl/ScannerService.i: impl/ScannerService.cpp.i
 
 # target to preprocess a source file
 impl/ScannerService.cpp.i:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/services/scanner/CMakeFiles/lmsscanner.dir/build.make src/libs/services/scanner/CMakeFiles/lmsscanner.dir/impl/ScannerService.cpp.i
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/services/scanner/CMakeFiles/lmsscanner.dir/build.make src/libs/services/scanner/CMakeFiles/lmsscanner.dir/impl/ScannerService.cpp.i
 .PHONY : impl/ScannerService.cpp.i
 
 impl/ScannerService.s: impl/ScannerService.cpp.s
@@ -302,7 +302,7 @@ impl/ScannerService.s: impl/ScannerService.cpp.s
 
 # target to generate assembly for a file
 impl/ScannerService.cpp.s:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/services/scanner/CMakeFiles/lmsscanner.dir/build.make src/libs/services/scanner/CMakeFiles/lmsscanner.dir/impl/ScannerService.cpp.s
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/services/scanner/CMakeFiles/lmsscanner.dir/build.make src/libs/services/scanner/CMakeFiles/lmsscanner.dir/impl/ScannerService.cpp.s
 .PHONY : impl/ScannerService.cpp.s
 
 impl/ScannerStats.o: impl/ScannerStats.cpp.o
@@ -310,7 +310,7 @@ impl/ScannerStats.o: impl/ScannerStats.cpp.o
 
 # target to build an object file
 impl/ScannerStats.cpp.o:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/services/scanner/CMakeFiles/lmsscanner.dir/build.make src/libs/services/scanner/CMakeFiles/lmsscanner.dir/impl/ScannerStats.cpp.o
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/services/scanner/CMakeFiles/lmsscanner.dir/build.make src/libs/services/scanner/CMakeFiles/lmsscanner.dir/impl/ScannerStats.cpp.o
 .PHONY : impl/ScannerStats.cpp.o
 
 impl/ScannerStats.i: impl/ScannerStats.cpp.i
@@ -318,7 +318,7 @@ impl/ScannerStats.i: impl/ScannerStats.cpp.i
 
 # target to preprocess a source file
 impl/ScannerStats.cpp.i:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/services/scanner/CMakeFiles/lmsscanner.dir/build.make src/libs/services/scanner/CMakeFiles/lmsscanner.dir/impl/ScannerStats.cpp.i
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/services/scanner/CMakeFiles/lmsscanner.dir/build.make src/libs/services/scanner/CMakeFiles/lmsscanner.dir/impl/ScannerStats.cpp.i
 .PHONY : impl/ScannerStats.cpp.i
 
 impl/ScannerStats.s: impl/ScannerStats.cpp.s
@@ -326,7 +326,7 @@ impl/ScannerStats.s: impl/ScannerStats.cpp.s
 
 # target to generate assembly for a file
 impl/ScannerStats.cpp.s:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/services/scanner/CMakeFiles/lmsscanner.dir/build.make src/libs/services/scanner/CMakeFiles/lmsscanner.dir/impl/ScannerStats.cpp.s
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/services/scanner/CMakeFiles/lmsscanner.dir/build.make src/libs/services/scanner/CMakeFiles/lmsscanner.dir/impl/ScannerStats.cpp.s
 .PHONY : impl/ScannerStats.cpp.s
 
 # Help Target
@@ -372,6 +372,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/shree/Downloads/lms-master && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

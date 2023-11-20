@@ -67,7 +67,7 @@ int main(int argc, char *argv[])
 		po::options_description desc{"Allowed options"};
         desc.add_options()
         ("help,h", "print usage message")
-		("conf,c", po::value<std::string>()->default_value("/Users/shree/Downloads/lms-master/conf/lms.conf"), "LMS config file")
+		("conf,c", po::value<std::string>()->default_value("/Users/shree/Downloads/Music-Streaming-Service/conf/lms.conf"), "LMS config file")
         ("default-cover,d", po::value<std::string>(), "Default cover path")
         ("tracks,t", "dump covers for tracks")
 		("size,s", po::value<unsigned>()->default_value(512), "Requested cover size")

@@ -1,6 +1,6 @@
 src/lms/CMakeFiles/lms.dir/ui/explore/DatabaseCollectorBase.cpp.o: \
-  /Users/shree/Downloads/lms-master/src/lms/ui/explore/DatabaseCollectorBase.cpp \
-  /Users/shree/Downloads/lms-master/src/lms/ui/explore/DatabaseCollectorBase.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/lms/ui/explore/DatabaseCollectorBase.cpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/lms/ui/explore/DatabaseCollectorBase.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/optional \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__assert \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__config \
@@ -737,7 +737,7 @@ src/lms/CMakeFiles/lms.dir/ui/explore/DatabaseCollectorBase.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__functional/pointer_to_binary_function.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__functional/pointer_to_unary_function.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__functional/unary_negate.h \
-  /Users/shree/Downloads/lms-master/src/libs/services/database/include/services/database/Types.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/database/include/services/database/Types.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/cassert \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/assert.h \
   /usr/local/include/Wt/WDate.h /usr/local/include/Wt/WDateTime.h \
@@ -805,5 +805,5 @@ src/lms/CMakeFiles/lms.dir/ui/explore/DatabaseCollectorBase.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/istream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/ostream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/bitset \
-  /Users/shree/Downloads/lms-master/src/libs/utils/include/utils/String.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/utils/include/utils/String.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/sstream

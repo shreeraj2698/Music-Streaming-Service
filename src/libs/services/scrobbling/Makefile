@@ -57,10 +57,10 @@ RM = /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/shree/Downloads/lms-master
+CMAKE_SOURCE_DIR = /Users/shree/Downloads/Music-Streaming-Service
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/shree/Downloads/lms-master
+CMAKE_BINARY_DIR = /Users/shree/Downloads/Music-Streaming-Service
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,14 +142,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/shree/Downloads/lms-master && $(CMAKE_COMMAND) -E cmake_progress_start /Users/shree/Downloads/lms-master/CMakeFiles /Users/shree/Downloads/lms-master/src/libs/services/scrobbling//CMakeFiles/progress.marks
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/libs/services/scrobbling/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/shree/Downloads/lms-master/CMakeFiles 0
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(CMAKE_COMMAND) -E cmake_progress_start /Users/shree/Downloads/Music-Streaming-Service/CMakeFiles /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/scrobbling//CMakeFiles/progress.marks
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/libs/services/scrobbling/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/shree/Downloads/Music-Streaming-Service/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/libs/services/scrobbling/clean
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/libs/services/scrobbling/clean
 .PHONY : clean
 
 # The main clean target
@@ -158,22 +158,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/libs/services/scrobbling/preinstall
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/libs/services/scrobbling/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/libs/services/scrobbling/preinstall
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/libs/services/scrobbling/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/shree/Downloads/lms-master && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/libs/services/scrobbling/CMakeFiles/lmsscrobbling.dir/rule:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/libs/services/scrobbling/CMakeFiles/lmsscrobbling.dir/rule
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/libs/services/scrobbling/CMakeFiles/lmsscrobbling.dir/rule
 .PHONY : src/libs/services/scrobbling/CMakeFiles/lmsscrobbling.dir/rule
 
 # Convenience name for target.
@@ -182,7 +182,7 @@ lmsscrobbling: src/libs/services/scrobbling/CMakeFiles/lmsscrobbling.dir/rule
 
 # fast build rule for target.
 lmsscrobbling/fast:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/services/scrobbling/CMakeFiles/lmsscrobbling.dir/build.make src/libs/services/scrobbling/CMakeFiles/lmsscrobbling.dir/build
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/services/scrobbling/CMakeFiles/lmsscrobbling.dir/build.make src/libs/services/scrobbling/CMakeFiles/lmsscrobbling.dir/build
 .PHONY : lmsscrobbling/fast
 
 impl/ScrobblingService.o: impl/ScrobblingService.cpp.o
@@ -190,7 +190,7 @@ impl/ScrobblingService.o: impl/ScrobblingService.cpp.o
 
 # target to build an object file
 impl/ScrobblingService.cpp.o:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/services/scrobbling/CMakeFiles/lmsscrobbling.dir/build.make src/libs/services/scrobbling/CMakeFiles/lmsscrobbling.dir/impl/ScrobblingService.cpp.o
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/services/scrobbling/CMakeFiles/lmsscrobbling.dir/build.make src/libs/services/scrobbling/CMakeFiles/lmsscrobbling.dir/impl/ScrobblingService.cpp.o
 .PHONY : impl/ScrobblingService.cpp.o
 
 impl/ScrobblingService.i: impl/ScrobblingService.cpp.i
@@ -198,7 +198,7 @@ impl/ScrobblingService.i: impl/ScrobblingService.cpp.i
 
 # target to preprocess a source file
 impl/ScrobblingService.cpp.i:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/services/scrobbling/CMakeFiles/lmsscrobbling.dir/build.make src/libs/services/scrobbling/CMakeFiles/lmsscrobbling.dir/impl/ScrobblingService.cpp.i
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/services/scrobbling/CMakeFiles/lmsscrobbling.dir/build.make src/libs/services/scrobbling/CMakeFiles/lmsscrobbling.dir/impl/ScrobblingService.cpp.i
 .PHONY : impl/ScrobblingService.cpp.i
 
 impl/ScrobblingService.s: impl/ScrobblingService.cpp.s
@@ -206,7 +206,7 @@ impl/ScrobblingService.s: impl/ScrobblingService.cpp.s
 
 # target to generate assembly for a file
 impl/ScrobblingService.cpp.s:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/services/scrobbling/CMakeFiles/lmsscrobbling.dir/build.make src/libs/services/scrobbling/CMakeFiles/lmsscrobbling.dir/impl/ScrobblingService.cpp.s
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/services/scrobbling/CMakeFiles/lmsscrobbling.dir/build.make src/libs/services/scrobbling/CMakeFiles/lmsscrobbling.dir/impl/ScrobblingService.cpp.s
 .PHONY : impl/ScrobblingService.cpp.s
 
 impl/internal/InternalScrobbler.o: impl/internal/InternalScrobbler.cpp.o
@@ -214,7 +214,7 @@ impl/internal/InternalScrobbler.o: impl/internal/InternalScrobbler.cpp.o
 
 # target to build an object file
 impl/internal/InternalScrobbler.cpp.o:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/services/scrobbling/CMakeFiles/lmsscrobbling.dir/build.make src/libs/services/scrobbling/CMakeFiles/lmsscrobbling.dir/impl/internal/InternalScrobbler.cpp.o
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/services/scrobbling/CMakeFiles/lmsscrobbling.dir/build.make src/libs/services/scrobbling/CMakeFiles/lmsscrobbling.dir/impl/internal/InternalScrobbler.cpp.o
 .PHONY : impl/internal/InternalScrobbler.cpp.o
 
 impl/internal/InternalScrobbler.i: impl/internal/InternalScrobbler.cpp.i
@@ -222,7 +222,7 @@ impl/internal/InternalScrobbler.i: impl/internal/InternalScrobbler.cpp.i
 
 # target to preprocess a source file
 impl/internal/InternalScrobbler.cpp.i:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/services/scrobbling/CMakeFiles/lmsscrobbling.dir/build.make src/libs/services/scrobbling/CMakeFiles/lmsscrobbling.dir/impl/internal/InternalScrobbler.cpp.i
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/services/scrobbling/CMakeFiles/lmsscrobbling.dir/build.make src/libs/services/scrobbling/CMakeFiles/lmsscrobbling.dir/impl/internal/InternalScrobbler.cpp.i
 .PHONY : impl/internal/InternalScrobbler.cpp.i
 
 impl/internal/InternalScrobbler.s: impl/internal/InternalScrobbler.cpp.s
@@ -230,7 +230,7 @@ impl/internal/InternalScrobbler.s: impl/internal/InternalScrobbler.cpp.s
 
 # target to generate assembly for a file
 impl/internal/InternalScrobbler.cpp.s:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/services/scrobbling/CMakeFiles/lmsscrobbling.dir/build.make src/libs/services/scrobbling/CMakeFiles/lmsscrobbling.dir/impl/internal/InternalScrobbler.cpp.s
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/services/scrobbling/CMakeFiles/lmsscrobbling.dir/build.make src/libs/services/scrobbling/CMakeFiles/lmsscrobbling.dir/impl/internal/InternalScrobbler.cpp.s
 .PHONY : impl/internal/InternalScrobbler.cpp.s
 
 impl/listenbrainz/FeedbackTypes.o: impl/listenbrainz/FeedbackTypes.cpp.o
@@ -238,7 +238,7 @@ impl/listenbrainz/FeedbackTypes.o: impl/listenbrainz/FeedbackTypes.cpp.o
 
 # target to build an object file
 impl/listenbrainz/FeedbackTypes.cpp.o:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/services/scrobbling/CMakeFiles/lmsscrobbling.dir/build.make src/libs/services/scrobbling/CMakeFiles/lmsscrobbling.dir/impl/listenbrainz/FeedbackTypes.cpp.o
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/services/scrobbling/CMakeFiles/lmsscrobbling.dir/build.make src/libs/services/scrobbling/CMakeFiles/lmsscrobbling.dir/impl/listenbrainz/FeedbackTypes.cpp.o
 .PHONY : impl/listenbrainz/FeedbackTypes.cpp.o
 
 impl/listenbrainz/FeedbackTypes.i: impl/listenbrainz/FeedbackTypes.cpp.i
@@ -246,7 +246,7 @@ impl/listenbrainz/FeedbackTypes.i: impl/listenbrainz/FeedbackTypes.cpp.i
 
 # target to preprocess a source file
 impl/listenbrainz/FeedbackTypes.cpp.i:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/services/scrobbling/CMakeFiles/lmsscrobbling.dir/build.make src/libs/services/scrobbling/CMakeFiles/lmsscrobbling.dir/impl/listenbrainz/FeedbackTypes.cpp.i
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/services/scrobbling/CMakeFiles/lmsscrobbling.dir/build.make src/libs/services/scrobbling/CMakeFiles/lmsscrobbling.dir/impl/listenbrainz/FeedbackTypes.cpp.i
 .PHONY : impl/listenbrainz/FeedbackTypes.cpp.i
 
 impl/listenbrainz/FeedbackTypes.s: impl/listenbrainz/FeedbackTypes.cpp.s
@@ -254,7 +254,7 @@ impl/listenbrainz/FeedbackTypes.s: impl/listenbrainz/FeedbackTypes.cpp.s
 
 # target to generate assembly for a file
 impl/listenbrainz/FeedbackTypes.cpp.s:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/services/scrobbling/CMakeFiles/lmsscrobbling.dir/build.make src/libs/services/scrobbling/CMakeFiles/lmsscrobbling.dir/impl/listenbrainz/FeedbackTypes.cpp.s
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/services/scrobbling/CMakeFiles/lmsscrobbling.dir/build.make src/libs/services/scrobbling/CMakeFiles/lmsscrobbling.dir/impl/listenbrainz/FeedbackTypes.cpp.s
 .PHONY : impl/listenbrainz/FeedbackTypes.cpp.s
 
 impl/listenbrainz/FeedbacksParser.o: impl/listenbrainz/FeedbacksParser.cpp.o
@@ -262,7 +262,7 @@ impl/listenbrainz/FeedbacksParser.o: impl/listenbrainz/FeedbacksParser.cpp.o
 
 # target to build an object file
 impl/listenbrainz/FeedbacksParser.cpp.o:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/services/scrobbling/CMakeFiles/lmsscrobbling.dir/build.make src/libs/services/scrobbling/CMakeFiles/lmsscrobbling.dir/impl/listenbrainz/FeedbacksParser.cpp.o
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/services/scrobbling/CMakeFiles/lmsscrobbling.dir/build.make src/libs/services/scrobbling/CMakeFiles/lmsscrobbling.dir/impl/listenbrainz/FeedbacksParser.cpp.o
 .PHONY : impl/listenbrainz/FeedbacksParser.cpp.o
 
 impl/listenbrainz/FeedbacksParser.i: impl/listenbrainz/FeedbacksParser.cpp.i
@@ -270,7 +270,7 @@ impl/listenbrainz/FeedbacksParser.i: impl/listenbrainz/FeedbacksParser.cpp.i
 
 # target to preprocess a source file
 impl/listenbrainz/FeedbacksParser.cpp.i:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/services/scrobbling/CMakeFiles/lmsscrobbling.dir/build.make src/libs/services/scrobbling/CMakeFiles/lmsscrobbling.dir/impl/listenbrainz/FeedbacksParser.cpp.i
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/services/scrobbling/CMakeFiles/lmsscrobbling.dir/build.make src/libs/services/scrobbling/CMakeFiles/lmsscrobbling.dir/impl/listenbrainz/FeedbacksParser.cpp.i
 .PHONY : impl/listenbrainz/FeedbacksParser.cpp.i
 
 impl/listenbrainz/FeedbacksParser.s: impl/listenbrainz/FeedbacksParser.cpp.s
@@ -278,7 +278,7 @@ impl/listenbrainz/FeedbacksParser.s: impl/listenbrainz/FeedbacksParser.cpp.s
 
 # target to generate assembly for a file
 impl/listenbrainz/FeedbacksParser.cpp.s:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/services/scrobbling/CMakeFiles/lmsscrobbling.dir/build.make src/libs/services/scrobbling/CMakeFiles/lmsscrobbling.dir/impl/listenbrainz/FeedbacksParser.cpp.s
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/services/scrobbling/CMakeFiles/lmsscrobbling.dir/build.make src/libs/services/scrobbling/CMakeFiles/lmsscrobbling.dir/impl/listenbrainz/FeedbacksParser.cpp.s
 .PHONY : impl/listenbrainz/FeedbacksParser.cpp.s
 
 impl/listenbrainz/FeedbacksSynchronizer.o: impl/listenbrainz/FeedbacksSynchronizer.cpp.o
@@ -286,7 +286,7 @@ impl/listenbrainz/FeedbacksSynchronizer.o: impl/listenbrainz/FeedbacksSynchroniz
 
 # target to build an object file
 impl/listenbrainz/FeedbacksSynchronizer.cpp.o:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/services/scrobbling/CMakeFiles/lmsscrobbling.dir/build.make src/libs/services/scrobbling/CMakeFiles/lmsscrobbling.dir/impl/listenbrainz/FeedbacksSynchronizer.cpp.o
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/services/scrobbling/CMakeFiles/lmsscrobbling.dir/build.make src/libs/services/scrobbling/CMakeFiles/lmsscrobbling.dir/impl/listenbrainz/FeedbacksSynchronizer.cpp.o
 .PHONY : impl/listenbrainz/FeedbacksSynchronizer.cpp.o
 
 impl/listenbrainz/FeedbacksSynchronizer.i: impl/listenbrainz/FeedbacksSynchronizer.cpp.i
@@ -294,7 +294,7 @@ impl/listenbrainz/FeedbacksSynchronizer.i: impl/listenbrainz/FeedbacksSynchroniz
 
 # target to preprocess a source file
 impl/listenbrainz/FeedbacksSynchronizer.cpp.i:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/services/scrobbling/CMakeFiles/lmsscrobbling.dir/build.make src/libs/services/scrobbling/CMakeFiles/lmsscrobbling.dir/impl/listenbrainz/FeedbacksSynchronizer.cpp.i
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/services/scrobbling/CMakeFiles/lmsscrobbling.dir/build.make src/libs/services/scrobbling/CMakeFiles/lmsscrobbling.dir/impl/listenbrainz/FeedbacksSynchronizer.cpp.i
 .PHONY : impl/listenbrainz/FeedbacksSynchronizer.cpp.i
 
 impl/listenbrainz/FeedbacksSynchronizer.s: impl/listenbrainz/FeedbacksSynchronizer.cpp.s
@@ -302,7 +302,7 @@ impl/listenbrainz/FeedbacksSynchronizer.s: impl/listenbrainz/FeedbacksSynchroniz
 
 # target to generate assembly for a file
 impl/listenbrainz/FeedbacksSynchronizer.cpp.s:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/services/scrobbling/CMakeFiles/lmsscrobbling.dir/build.make src/libs/services/scrobbling/CMakeFiles/lmsscrobbling.dir/impl/listenbrainz/FeedbacksSynchronizer.cpp.s
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/services/scrobbling/CMakeFiles/lmsscrobbling.dir/build.make src/libs/services/scrobbling/CMakeFiles/lmsscrobbling.dir/impl/listenbrainz/FeedbacksSynchronizer.cpp.s
 .PHONY : impl/listenbrainz/FeedbacksSynchronizer.cpp.s
 
 impl/listenbrainz/ListenBrainzScrobbler.o: impl/listenbrainz/ListenBrainzScrobbler.cpp.o
@@ -310,7 +310,7 @@ impl/listenbrainz/ListenBrainzScrobbler.o: impl/listenbrainz/ListenBrainzScrobbl
 
 # target to build an object file
 impl/listenbrainz/ListenBrainzScrobbler.cpp.o:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/services/scrobbling/CMakeFiles/lmsscrobbling.dir/build.make src/libs/services/scrobbling/CMakeFiles/lmsscrobbling.dir/impl/listenbrainz/ListenBrainzScrobbler.cpp.o
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/services/scrobbling/CMakeFiles/lmsscrobbling.dir/build.make src/libs/services/scrobbling/CMakeFiles/lmsscrobbling.dir/impl/listenbrainz/ListenBrainzScrobbler.cpp.o
 .PHONY : impl/listenbrainz/ListenBrainzScrobbler.cpp.o
 
 impl/listenbrainz/ListenBrainzScrobbler.i: impl/listenbrainz/ListenBrainzScrobbler.cpp.i
@@ -318,7 +318,7 @@ impl/listenbrainz/ListenBrainzScrobbler.i: impl/listenbrainz/ListenBrainzScrobbl
 
 # target to preprocess a source file
 impl/listenbrainz/ListenBrainzScrobbler.cpp.i:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/services/scrobbling/CMakeFiles/lmsscrobbling.dir/build.make src/libs/services/scrobbling/CMakeFiles/lmsscrobbling.dir/impl/listenbrainz/ListenBrainzScrobbler.cpp.i
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/services/scrobbling/CMakeFiles/lmsscrobbling.dir/build.make src/libs/services/scrobbling/CMakeFiles/lmsscrobbling.dir/impl/listenbrainz/ListenBrainzScrobbler.cpp.i
 .PHONY : impl/listenbrainz/ListenBrainzScrobbler.cpp.i
 
 impl/listenbrainz/ListenBrainzScrobbler.s: impl/listenbrainz/ListenBrainzScrobbler.cpp.s
@@ -326,7 +326,7 @@ impl/listenbrainz/ListenBrainzScrobbler.s: impl/listenbrainz/ListenBrainzScrobbl
 
 # target to generate assembly for a file
 impl/listenbrainz/ListenBrainzScrobbler.cpp.s:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/services/scrobbling/CMakeFiles/lmsscrobbling.dir/build.make src/libs/services/scrobbling/CMakeFiles/lmsscrobbling.dir/impl/listenbrainz/ListenBrainzScrobbler.cpp.s
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/services/scrobbling/CMakeFiles/lmsscrobbling.dir/build.make src/libs/services/scrobbling/CMakeFiles/lmsscrobbling.dir/impl/listenbrainz/ListenBrainzScrobbler.cpp.s
 .PHONY : impl/listenbrainz/ListenBrainzScrobbler.cpp.s
 
 impl/listenbrainz/ListenTypes.o: impl/listenbrainz/ListenTypes.cpp.o
@@ -334,7 +334,7 @@ impl/listenbrainz/ListenTypes.o: impl/listenbrainz/ListenTypes.cpp.o
 
 # target to build an object file
 impl/listenbrainz/ListenTypes.cpp.o:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/services/scrobbling/CMakeFiles/lmsscrobbling.dir/build.make src/libs/services/scrobbling/CMakeFiles/lmsscrobbling.dir/impl/listenbrainz/ListenTypes.cpp.o
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/services/scrobbling/CMakeFiles/lmsscrobbling.dir/build.make src/libs/services/scrobbling/CMakeFiles/lmsscrobbling.dir/impl/listenbrainz/ListenTypes.cpp.o
 .PHONY : impl/listenbrainz/ListenTypes.cpp.o
 
 impl/listenbrainz/ListenTypes.i: impl/listenbrainz/ListenTypes.cpp.i
@@ -342,7 +342,7 @@ impl/listenbrainz/ListenTypes.i: impl/listenbrainz/ListenTypes.cpp.i
 
 # target to preprocess a source file
 impl/listenbrainz/ListenTypes.cpp.i:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/services/scrobbling/CMakeFiles/lmsscrobbling.dir/build.make src/libs/services/scrobbling/CMakeFiles/lmsscrobbling.dir/impl/listenbrainz/ListenTypes.cpp.i
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/services/scrobbling/CMakeFiles/lmsscrobbling.dir/build.make src/libs/services/scrobbling/CMakeFiles/lmsscrobbling.dir/impl/listenbrainz/ListenTypes.cpp.i
 .PHONY : impl/listenbrainz/ListenTypes.cpp.i
 
 impl/listenbrainz/ListenTypes.s: impl/listenbrainz/ListenTypes.cpp.s
@@ -350,7 +350,7 @@ impl/listenbrainz/ListenTypes.s: impl/listenbrainz/ListenTypes.cpp.s
 
 # target to generate assembly for a file
 impl/listenbrainz/ListenTypes.cpp.s:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/services/scrobbling/CMakeFiles/lmsscrobbling.dir/build.make src/libs/services/scrobbling/CMakeFiles/lmsscrobbling.dir/impl/listenbrainz/ListenTypes.cpp.s
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/services/scrobbling/CMakeFiles/lmsscrobbling.dir/build.make src/libs/services/scrobbling/CMakeFiles/lmsscrobbling.dir/impl/listenbrainz/ListenTypes.cpp.s
 .PHONY : impl/listenbrainz/ListenTypes.cpp.s
 
 impl/listenbrainz/ListensParser.o: impl/listenbrainz/ListensParser.cpp.o
@@ -358,7 +358,7 @@ impl/listenbrainz/ListensParser.o: impl/listenbrainz/ListensParser.cpp.o
 
 # target to build an object file
 impl/listenbrainz/ListensParser.cpp.o:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/services/scrobbling/CMakeFiles/lmsscrobbling.dir/build.make src/libs/services/scrobbling/CMakeFiles/lmsscrobbling.dir/impl/listenbrainz/ListensParser.cpp.o
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/services/scrobbling/CMakeFiles/lmsscrobbling.dir/build.make src/libs/services/scrobbling/CMakeFiles/lmsscrobbling.dir/impl/listenbrainz/ListensParser.cpp.o
 .PHONY : impl/listenbrainz/ListensParser.cpp.o
 
 impl/listenbrainz/ListensParser.i: impl/listenbrainz/ListensParser.cpp.i
@@ -366,7 +366,7 @@ impl/listenbrainz/ListensParser.i: impl/listenbrainz/ListensParser.cpp.i
 
 # target to preprocess a source file
 impl/listenbrainz/ListensParser.cpp.i:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/services/scrobbling/CMakeFiles/lmsscrobbling.dir/build.make src/libs/services/scrobbling/CMakeFiles/lmsscrobbling.dir/impl/listenbrainz/ListensParser.cpp.i
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/services/scrobbling/CMakeFiles/lmsscrobbling.dir/build.make src/libs/services/scrobbling/CMakeFiles/lmsscrobbling.dir/impl/listenbrainz/ListensParser.cpp.i
 .PHONY : impl/listenbrainz/ListensParser.cpp.i
 
 impl/listenbrainz/ListensParser.s: impl/listenbrainz/ListensParser.cpp.s
@@ -374,7 +374,7 @@ impl/listenbrainz/ListensParser.s: impl/listenbrainz/ListensParser.cpp.s
 
 # target to generate assembly for a file
 impl/listenbrainz/ListensParser.cpp.s:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/services/scrobbling/CMakeFiles/lmsscrobbling.dir/build.make src/libs/services/scrobbling/CMakeFiles/lmsscrobbling.dir/impl/listenbrainz/ListensParser.cpp.s
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/services/scrobbling/CMakeFiles/lmsscrobbling.dir/build.make src/libs/services/scrobbling/CMakeFiles/lmsscrobbling.dir/impl/listenbrainz/ListensParser.cpp.s
 .PHONY : impl/listenbrainz/ListensParser.cpp.s
 
 impl/listenbrainz/ListensSynchronizer.o: impl/listenbrainz/ListensSynchronizer.cpp.o
@@ -382,7 +382,7 @@ impl/listenbrainz/ListensSynchronizer.o: impl/listenbrainz/ListensSynchronizer.c
 
 # target to build an object file
 impl/listenbrainz/ListensSynchronizer.cpp.o:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/services/scrobbling/CMakeFiles/lmsscrobbling.dir/build.make src/libs/services/scrobbling/CMakeFiles/lmsscrobbling.dir/impl/listenbrainz/ListensSynchronizer.cpp.o
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/services/scrobbling/CMakeFiles/lmsscrobbling.dir/build.make src/libs/services/scrobbling/CMakeFiles/lmsscrobbling.dir/impl/listenbrainz/ListensSynchronizer.cpp.o
 .PHONY : impl/listenbrainz/ListensSynchronizer.cpp.o
 
 impl/listenbrainz/ListensSynchronizer.i: impl/listenbrainz/ListensSynchronizer.cpp.i
@@ -390,7 +390,7 @@ impl/listenbrainz/ListensSynchronizer.i: impl/listenbrainz/ListensSynchronizer.c
 
 # target to preprocess a source file
 impl/listenbrainz/ListensSynchronizer.cpp.i:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/services/scrobbling/CMakeFiles/lmsscrobbling.dir/build.make src/libs/services/scrobbling/CMakeFiles/lmsscrobbling.dir/impl/listenbrainz/ListensSynchronizer.cpp.i
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/services/scrobbling/CMakeFiles/lmsscrobbling.dir/build.make src/libs/services/scrobbling/CMakeFiles/lmsscrobbling.dir/impl/listenbrainz/ListensSynchronizer.cpp.i
 .PHONY : impl/listenbrainz/ListensSynchronizer.cpp.i
 
 impl/listenbrainz/ListensSynchronizer.s: impl/listenbrainz/ListensSynchronizer.cpp.s
@@ -398,7 +398,7 @@ impl/listenbrainz/ListensSynchronizer.s: impl/listenbrainz/ListensSynchronizer.c
 
 # target to generate assembly for a file
 impl/listenbrainz/ListensSynchronizer.cpp.s:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/services/scrobbling/CMakeFiles/lmsscrobbling.dir/build.make src/libs/services/scrobbling/CMakeFiles/lmsscrobbling.dir/impl/listenbrainz/ListensSynchronizer.cpp.s
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/services/scrobbling/CMakeFiles/lmsscrobbling.dir/build.make src/libs/services/scrobbling/CMakeFiles/lmsscrobbling.dir/impl/listenbrainz/ListensSynchronizer.cpp.s
 .PHONY : impl/listenbrainz/ListensSynchronizer.cpp.s
 
 impl/listenbrainz/Utils.o: impl/listenbrainz/Utils.cpp.o
@@ -406,7 +406,7 @@ impl/listenbrainz/Utils.o: impl/listenbrainz/Utils.cpp.o
 
 # target to build an object file
 impl/listenbrainz/Utils.cpp.o:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/services/scrobbling/CMakeFiles/lmsscrobbling.dir/build.make src/libs/services/scrobbling/CMakeFiles/lmsscrobbling.dir/impl/listenbrainz/Utils.cpp.o
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/services/scrobbling/CMakeFiles/lmsscrobbling.dir/build.make src/libs/services/scrobbling/CMakeFiles/lmsscrobbling.dir/impl/listenbrainz/Utils.cpp.o
 .PHONY : impl/listenbrainz/Utils.cpp.o
 
 impl/listenbrainz/Utils.i: impl/listenbrainz/Utils.cpp.i
@@ -414,7 +414,7 @@ impl/listenbrainz/Utils.i: impl/listenbrainz/Utils.cpp.i
 
 # target to preprocess a source file
 impl/listenbrainz/Utils.cpp.i:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/services/scrobbling/CMakeFiles/lmsscrobbling.dir/build.make src/libs/services/scrobbling/CMakeFiles/lmsscrobbling.dir/impl/listenbrainz/Utils.cpp.i
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/services/scrobbling/CMakeFiles/lmsscrobbling.dir/build.make src/libs/services/scrobbling/CMakeFiles/lmsscrobbling.dir/impl/listenbrainz/Utils.cpp.i
 .PHONY : impl/listenbrainz/Utils.cpp.i
 
 impl/listenbrainz/Utils.s: impl/listenbrainz/Utils.cpp.s
@@ -422,7 +422,7 @@ impl/listenbrainz/Utils.s: impl/listenbrainz/Utils.cpp.s
 
 # target to generate assembly for a file
 impl/listenbrainz/Utils.cpp.s:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/services/scrobbling/CMakeFiles/lmsscrobbling.dir/build.make src/libs/services/scrobbling/CMakeFiles/lmsscrobbling.dir/impl/listenbrainz/Utils.cpp.s
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/services/scrobbling/CMakeFiles/lmsscrobbling.dir/build.make src/libs/services/scrobbling/CMakeFiles/lmsscrobbling.dir/impl/listenbrainz/Utils.cpp.s
 .PHONY : impl/listenbrainz/Utils.cpp.s
 
 # Help Target
@@ -480,6 +480,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/shree/Downloads/lms-master && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

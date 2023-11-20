@@ -1,6 +1,6 @@
 src/libs/utils/CMakeFiles/lmsutils.dir/impl/FileResourceHandler.cpp.o: \
-  /Users/shree/Downloads/lms-master/src/libs/utils/impl/FileResourceHandler.cpp \
-  /Users/shree/Downloads/lms-master/src/libs/utils/impl/FileResourceHandler.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/utils/impl/FileResourceHandler.cpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/utils/impl/FileResourceHandler.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/filesystem \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__assert \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__config \
@@ -809,7 +809,7 @@ src/libs/utils/CMakeFiles/lmsutils.dir/impl/FileResourceHandler.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/path_iterator.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/recursive_directory_iterator.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/u8path.h \
-  /Users/shree/Downloads/lms-master/src/libs/utils/include/utils/IResourceHandler.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/utils/include/utils/IResourceHandler.hpp \
   /usr/local/include/Wt/Http/Request.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/map \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__tree \
@@ -831,5 +831,5 @@ src/libs/utils/CMakeFiles/lmsutils.dir/impl/FileResourceHandler.cpp.o: \
   /usr/local/include/Wt/cpp17/any.hpp \
   /usr/local/include/Wt/cpp17/any/any.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/fstream \
-  /Users/shree/Downloads/lms-master/src/libs/utils/include/utils/Logger.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/utils/include/utils/Service.hpp
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/utils/include/utils/Logger.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/utils/include/utils/Service.hpp

@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/shree/Downloads/lms-master/src/tools/recommendation/LmsRecommendation.cpp" "src/tools/recommendation/CMakeFiles/lms-recommendation.dir/LmsRecommendation.cpp.o" "gcc" "src/tools/recommendation/CMakeFiles/lms-recommendation.dir/LmsRecommendation.cpp.o.d"
+  "/Users/shree/Downloads/Music-Streaming-Service/src/tools/recommendation/LmsRecommendation.cpp" "src/tools/recommendation/CMakeFiles/lms-recommendation.dir/LmsRecommendation.cpp.o" "gcc" "src/tools/recommendation/CMakeFiles/lms-recommendation.dir/LmsRecommendation.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

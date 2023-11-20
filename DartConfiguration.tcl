@@ -4,8 +4,8 @@
 
 
 # Configuration directories and files
-SourceDirectory: /Users/shree/Downloads/lms-master
-BuildDirectory: /Users/shree/Downloads/lms-master
+SourceDirectory: /Users/shree/Downloads/Music-Streaming-Service
+BuildDirectory: /Users/shree/Downloads/Music-Streaming-Service
 
 # Where to place the cost data store
 CostDataFile: 
@@ -27,7 +27,7 @@ SubmitInactivityTimeout:
 NightlyStartTime: 00:00:00 EDT
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "/opt/homebrew/Cellar/cmake/3.27.7/bin/cmake" "/Users/shree/Downloads/lms-master"
+ConfigureCommand: "/opt/homebrew/Cellar/cmake/3.27.7/bin/cmake" "/Users/shree/Downloads/Music-Streaming-Service"
 MakeCommand: /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake --build . --config "${CTEST_CONFIGURATION_TYPE}"
 DefaultCTestConfigurationType: Release
 

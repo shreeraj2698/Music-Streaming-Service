@@ -1,6 +1,6 @@
 src/libs/services/scrobbling/CMakeFiles/lmsscrobbling.dir/impl/listenbrainz/FeedbackTypes.cpp.o: \
-  /Users/shree/Downloads/lms-master/src/libs/services/scrobbling/impl/listenbrainz/FeedbackTypes.cpp \
-  /Users/shree/Downloads/lms-master/src/libs/services/scrobbling/impl/listenbrainz/FeedbackTypes.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/scrobbling/impl/listenbrainz/FeedbackTypes.cpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/scrobbling/impl/listenbrainz/FeedbackTypes.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/ostream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__assert \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__config \
@@ -801,7 +801,7 @@ src/libs/services/scrobbling/CMakeFiles/lmsscrobbling.dir/impl/listenbrainz/Feed
   /usr/local/include/Wt/Core/observable.hpp \
   /usr/local/include/Wt/Core/observable_impl.hpp \
   /usr/local/include/Wt/WString.h \
-  /Users/shree/Downloads/lms-master/src/libs/utils/include/utils/UUID.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/utils/include/utils/String.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/utils/include/utils/UUID.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/utils/include/utils/String.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/sstream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/istream

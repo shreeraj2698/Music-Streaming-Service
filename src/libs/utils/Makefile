@@ -57,10 +57,10 @@ RM = /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/shree/Downloads/lms-master
+CMAKE_SOURCE_DIR = /Users/shree/Downloads/Music-Streaming-Service
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/shree/Downloads/lms-master
+CMAKE_BINARY_DIR = /Users/shree/Downloads/Music-Streaming-Service
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,14 +142,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/shree/Downloads/lms-master && $(CMAKE_COMMAND) -E cmake_progress_start /Users/shree/Downloads/lms-master/CMakeFiles /Users/shree/Downloads/lms-master/src/libs/utils//CMakeFiles/progress.marks
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/libs/utils/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/shree/Downloads/lms-master/CMakeFiles 0
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(CMAKE_COMMAND) -E cmake_progress_start /Users/shree/Downloads/Music-Streaming-Service/CMakeFiles /Users/shree/Downloads/Music-Streaming-Service/src/libs/utils//CMakeFiles/progress.marks
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/libs/utils/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/shree/Downloads/Music-Streaming-Service/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/libs/utils/clean
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/libs/utils/clean
 .PHONY : clean
 
 # The main clean target
@@ -158,22 +158,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/libs/utils/preinstall
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/libs/utils/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/libs/utils/preinstall
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/libs/utils/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/shree/Downloads/lms-master && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/libs/utils/CMakeFiles/lmsutils.dir/rule:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/libs/utils/CMakeFiles/lmsutils.dir/rule
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/libs/utils/CMakeFiles/lmsutils.dir/rule
 .PHONY : src/libs/utils/CMakeFiles/lmsutils.dir/rule
 
 # Convenience name for target.
@@ -182,7 +182,7 @@ lmsutils: src/libs/utils/CMakeFiles/lmsutils.dir/rule
 
 # fast build rule for target.
 lmsutils/fast:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/utils/CMakeFiles/lmsutils.dir/build.make src/libs/utils/CMakeFiles/lmsutils.dir/build
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/utils/CMakeFiles/lmsutils.dir/build.make src/libs/utils/CMakeFiles/lmsutils.dir/build
 .PHONY : lmsutils/fast
 
 impl/ArchiveZipper.o: impl/ArchiveZipper.cpp.o
@@ -190,7 +190,7 @@ impl/ArchiveZipper.o: impl/ArchiveZipper.cpp.o
 
 # target to build an object file
 impl/ArchiveZipper.cpp.o:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/utils/CMakeFiles/lmsutils.dir/build.make src/libs/utils/CMakeFiles/lmsutils.dir/impl/ArchiveZipper.cpp.o
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/utils/CMakeFiles/lmsutils.dir/build.make src/libs/utils/CMakeFiles/lmsutils.dir/impl/ArchiveZipper.cpp.o
 .PHONY : impl/ArchiveZipper.cpp.o
 
 impl/ArchiveZipper.i: impl/ArchiveZipper.cpp.i
@@ -198,7 +198,7 @@ impl/ArchiveZipper.i: impl/ArchiveZipper.cpp.i
 
 # target to preprocess a source file
 impl/ArchiveZipper.cpp.i:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/utils/CMakeFiles/lmsutils.dir/build.make src/libs/utils/CMakeFiles/lmsutils.dir/impl/ArchiveZipper.cpp.i
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/utils/CMakeFiles/lmsutils.dir/build.make src/libs/utils/CMakeFiles/lmsutils.dir/impl/ArchiveZipper.cpp.i
 .PHONY : impl/ArchiveZipper.cpp.i
 
 impl/ArchiveZipper.s: impl/ArchiveZipper.cpp.s
@@ -206,7 +206,7 @@ impl/ArchiveZipper.s: impl/ArchiveZipper.cpp.s
 
 # target to generate assembly for a file
 impl/ArchiveZipper.cpp.s:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/utils/CMakeFiles/lmsutils.dir/build.make src/libs/utils/CMakeFiles/lmsutils.dir/impl/ArchiveZipper.cpp.s
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/utils/CMakeFiles/lmsutils.dir/build.make src/libs/utils/CMakeFiles/lmsutils.dir/impl/ArchiveZipper.cpp.s
 .PHONY : impl/ArchiveZipper.cpp.s
 
 impl/ChildProcess.o: impl/ChildProcess.cpp.o
@@ -214,7 +214,7 @@ impl/ChildProcess.o: impl/ChildProcess.cpp.o
 
 # target to build an object file
 impl/ChildProcess.cpp.o:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/utils/CMakeFiles/lmsutils.dir/build.make src/libs/utils/CMakeFiles/lmsutils.dir/impl/ChildProcess.cpp.o
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/utils/CMakeFiles/lmsutils.dir/build.make src/libs/utils/CMakeFiles/lmsutils.dir/impl/ChildProcess.cpp.o
 .PHONY : impl/ChildProcess.cpp.o
 
 impl/ChildProcess.i: impl/ChildProcess.cpp.i
@@ -222,7 +222,7 @@ impl/ChildProcess.i: impl/ChildProcess.cpp.i
 
 # target to preprocess a source file
 impl/ChildProcess.cpp.i:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/utils/CMakeFiles/lmsutils.dir/build.make src/libs/utils/CMakeFiles/lmsutils.dir/impl/ChildProcess.cpp.i
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/utils/CMakeFiles/lmsutils.dir/build.make src/libs/utils/CMakeFiles/lmsutils.dir/impl/ChildProcess.cpp.i
 .PHONY : impl/ChildProcess.cpp.i
 
 impl/ChildProcess.s: impl/ChildProcess.cpp.s
@@ -230,7 +230,7 @@ impl/ChildProcess.s: impl/ChildProcess.cpp.s
 
 # target to generate assembly for a file
 impl/ChildProcess.cpp.s:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/utils/CMakeFiles/lmsutils.dir/build.make src/libs/utils/CMakeFiles/lmsutils.dir/impl/ChildProcess.cpp.s
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/utils/CMakeFiles/lmsutils.dir/build.make src/libs/utils/CMakeFiles/lmsutils.dir/impl/ChildProcess.cpp.s
 .PHONY : impl/ChildProcess.cpp.s
 
 impl/ChildProcessManager.o: impl/ChildProcessManager.cpp.o
@@ -238,7 +238,7 @@ impl/ChildProcessManager.o: impl/ChildProcessManager.cpp.o
 
 # target to build an object file
 impl/ChildProcessManager.cpp.o:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/utils/CMakeFiles/lmsutils.dir/build.make src/libs/utils/CMakeFiles/lmsutils.dir/impl/ChildProcessManager.cpp.o
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/utils/CMakeFiles/lmsutils.dir/build.make src/libs/utils/CMakeFiles/lmsutils.dir/impl/ChildProcessManager.cpp.o
 .PHONY : impl/ChildProcessManager.cpp.o
 
 impl/ChildProcessManager.i: impl/ChildProcessManager.cpp.i
@@ -246,7 +246,7 @@ impl/ChildProcessManager.i: impl/ChildProcessManager.cpp.i
 
 # target to preprocess a source file
 impl/ChildProcessManager.cpp.i:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/utils/CMakeFiles/lmsutils.dir/build.make src/libs/utils/CMakeFiles/lmsutils.dir/impl/ChildProcessManager.cpp.i
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/utils/CMakeFiles/lmsutils.dir/build.make src/libs/utils/CMakeFiles/lmsutils.dir/impl/ChildProcessManager.cpp.i
 .PHONY : impl/ChildProcessManager.cpp.i
 
 impl/ChildProcessManager.s: impl/ChildProcessManager.cpp.s
@@ -254,7 +254,7 @@ impl/ChildProcessManager.s: impl/ChildProcessManager.cpp.s
 
 # target to generate assembly for a file
 impl/ChildProcessManager.cpp.s:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/utils/CMakeFiles/lmsutils.dir/build.make src/libs/utils/CMakeFiles/lmsutils.dir/impl/ChildProcessManager.cpp.s
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/utils/CMakeFiles/lmsutils.dir/build.make src/libs/utils/CMakeFiles/lmsutils.dir/impl/ChildProcessManager.cpp.s
 .PHONY : impl/ChildProcessManager.cpp.s
 
 impl/Config.o: impl/Config.cpp.o
@@ -262,7 +262,7 @@ impl/Config.o: impl/Config.cpp.o
 
 # target to build an object file
 impl/Config.cpp.o:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/utils/CMakeFiles/lmsutils.dir/build.make src/libs/utils/CMakeFiles/lmsutils.dir/impl/Config.cpp.o
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/utils/CMakeFiles/lmsutils.dir/build.make src/libs/utils/CMakeFiles/lmsutils.dir/impl/Config.cpp.o
 .PHONY : impl/Config.cpp.o
 
 impl/Config.i: impl/Config.cpp.i
@@ -270,7 +270,7 @@ impl/Config.i: impl/Config.cpp.i
 
 # target to preprocess a source file
 impl/Config.cpp.i:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/utils/CMakeFiles/lmsutils.dir/build.make src/libs/utils/CMakeFiles/lmsutils.dir/impl/Config.cpp.i
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/utils/CMakeFiles/lmsutils.dir/build.make src/libs/utils/CMakeFiles/lmsutils.dir/impl/Config.cpp.i
 .PHONY : impl/Config.cpp.i
 
 impl/Config.s: impl/Config.cpp.s
@@ -278,7 +278,7 @@ impl/Config.s: impl/Config.cpp.s
 
 # target to generate assembly for a file
 impl/Config.cpp.s:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/utils/CMakeFiles/lmsutils.dir/build.make src/libs/utils/CMakeFiles/lmsutils.dir/impl/Config.cpp.s
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/utils/CMakeFiles/lmsutils.dir/build.make src/libs/utils/CMakeFiles/lmsutils.dir/impl/Config.cpp.s
 .PHONY : impl/Config.cpp.s
 
 impl/FileResourceHandler.o: impl/FileResourceHandler.cpp.o
@@ -286,7 +286,7 @@ impl/FileResourceHandler.o: impl/FileResourceHandler.cpp.o
 
 # target to build an object file
 impl/FileResourceHandler.cpp.o:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/utils/CMakeFiles/lmsutils.dir/build.make src/libs/utils/CMakeFiles/lmsutils.dir/impl/FileResourceHandler.cpp.o
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/utils/CMakeFiles/lmsutils.dir/build.make src/libs/utils/CMakeFiles/lmsutils.dir/impl/FileResourceHandler.cpp.o
 .PHONY : impl/FileResourceHandler.cpp.o
 
 impl/FileResourceHandler.i: impl/FileResourceHandler.cpp.i
@@ -294,7 +294,7 @@ impl/FileResourceHandler.i: impl/FileResourceHandler.cpp.i
 
 # target to preprocess a source file
 impl/FileResourceHandler.cpp.i:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/utils/CMakeFiles/lmsutils.dir/build.make src/libs/utils/CMakeFiles/lmsutils.dir/impl/FileResourceHandler.cpp.i
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/utils/CMakeFiles/lmsutils.dir/build.make src/libs/utils/CMakeFiles/lmsutils.dir/impl/FileResourceHandler.cpp.i
 .PHONY : impl/FileResourceHandler.cpp.i
 
 impl/FileResourceHandler.s: impl/FileResourceHandler.cpp.s
@@ -302,7 +302,7 @@ impl/FileResourceHandler.s: impl/FileResourceHandler.cpp.s
 
 # target to generate assembly for a file
 impl/FileResourceHandler.cpp.s:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/utils/CMakeFiles/lmsutils.dir/build.make src/libs/utils/CMakeFiles/lmsutils.dir/impl/FileResourceHandler.cpp.s
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/utils/CMakeFiles/lmsutils.dir/build.make src/libs/utils/CMakeFiles/lmsutils.dir/impl/FileResourceHandler.cpp.s
 .PHONY : impl/FileResourceHandler.cpp.s
 
 impl/IOContextRunner.o: impl/IOContextRunner.cpp.o
@@ -310,7 +310,7 @@ impl/IOContextRunner.o: impl/IOContextRunner.cpp.o
 
 # target to build an object file
 impl/IOContextRunner.cpp.o:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/utils/CMakeFiles/lmsutils.dir/build.make src/libs/utils/CMakeFiles/lmsutils.dir/impl/IOContextRunner.cpp.o
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/utils/CMakeFiles/lmsutils.dir/build.make src/libs/utils/CMakeFiles/lmsutils.dir/impl/IOContextRunner.cpp.o
 .PHONY : impl/IOContextRunner.cpp.o
 
 impl/IOContextRunner.i: impl/IOContextRunner.cpp.i
@@ -318,7 +318,7 @@ impl/IOContextRunner.i: impl/IOContextRunner.cpp.i
 
 # target to preprocess a source file
 impl/IOContextRunner.cpp.i:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/utils/CMakeFiles/lmsutils.dir/build.make src/libs/utils/CMakeFiles/lmsutils.dir/impl/IOContextRunner.cpp.i
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/utils/CMakeFiles/lmsutils.dir/build.make src/libs/utils/CMakeFiles/lmsutils.dir/impl/IOContextRunner.cpp.i
 .PHONY : impl/IOContextRunner.cpp.i
 
 impl/IOContextRunner.s: impl/IOContextRunner.cpp.s
@@ -326,7 +326,7 @@ impl/IOContextRunner.s: impl/IOContextRunner.cpp.s
 
 # target to generate assembly for a file
 impl/IOContextRunner.cpp.s:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/utils/CMakeFiles/lmsutils.dir/build.make src/libs/utils/CMakeFiles/lmsutils.dir/impl/IOContextRunner.cpp.s
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/utils/CMakeFiles/lmsutils.dir/build.make src/libs/utils/CMakeFiles/lmsutils.dir/impl/IOContextRunner.cpp.s
 .PHONY : impl/IOContextRunner.cpp.s
 
 impl/Logger.o: impl/Logger.cpp.o
@@ -334,7 +334,7 @@ impl/Logger.o: impl/Logger.cpp.o
 
 # target to build an object file
 impl/Logger.cpp.o:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/utils/CMakeFiles/lmsutils.dir/build.make src/libs/utils/CMakeFiles/lmsutils.dir/impl/Logger.cpp.o
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/utils/CMakeFiles/lmsutils.dir/build.make src/libs/utils/CMakeFiles/lmsutils.dir/impl/Logger.cpp.o
 .PHONY : impl/Logger.cpp.o
 
 impl/Logger.i: impl/Logger.cpp.i
@@ -342,7 +342,7 @@ impl/Logger.i: impl/Logger.cpp.i
 
 # target to preprocess a source file
 impl/Logger.cpp.i:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/utils/CMakeFiles/lmsutils.dir/build.make src/libs/utils/CMakeFiles/lmsutils.dir/impl/Logger.cpp.i
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/utils/CMakeFiles/lmsutils.dir/build.make src/libs/utils/CMakeFiles/lmsutils.dir/impl/Logger.cpp.i
 .PHONY : impl/Logger.cpp.i
 
 impl/Logger.s: impl/Logger.cpp.s
@@ -350,7 +350,7 @@ impl/Logger.s: impl/Logger.cpp.s
 
 # target to generate assembly for a file
 impl/Logger.cpp.s:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/utils/CMakeFiles/lmsutils.dir/build.make src/libs/utils/CMakeFiles/lmsutils.dir/impl/Logger.cpp.s
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/utils/CMakeFiles/lmsutils.dir/build.make src/libs/utils/CMakeFiles/lmsutils.dir/impl/Logger.cpp.s
 .PHONY : impl/Logger.cpp.s
 
 impl/NetAddress.o: impl/NetAddress.cpp.o
@@ -358,7 +358,7 @@ impl/NetAddress.o: impl/NetAddress.cpp.o
 
 # target to build an object file
 impl/NetAddress.cpp.o:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/utils/CMakeFiles/lmsutils.dir/build.make src/libs/utils/CMakeFiles/lmsutils.dir/impl/NetAddress.cpp.o
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/utils/CMakeFiles/lmsutils.dir/build.make src/libs/utils/CMakeFiles/lmsutils.dir/impl/NetAddress.cpp.o
 .PHONY : impl/NetAddress.cpp.o
 
 impl/NetAddress.i: impl/NetAddress.cpp.i
@@ -366,7 +366,7 @@ impl/NetAddress.i: impl/NetAddress.cpp.i
 
 # target to preprocess a source file
 impl/NetAddress.cpp.i:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/utils/CMakeFiles/lmsutils.dir/build.make src/libs/utils/CMakeFiles/lmsutils.dir/impl/NetAddress.cpp.i
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/utils/CMakeFiles/lmsutils.dir/build.make src/libs/utils/CMakeFiles/lmsutils.dir/impl/NetAddress.cpp.i
 .PHONY : impl/NetAddress.cpp.i
 
 impl/NetAddress.s: impl/NetAddress.cpp.s
@@ -374,7 +374,7 @@ impl/NetAddress.s: impl/NetAddress.cpp.s
 
 # target to generate assembly for a file
 impl/NetAddress.cpp.s:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/utils/CMakeFiles/lmsutils.dir/build.make src/libs/utils/CMakeFiles/lmsutils.dir/impl/NetAddress.cpp.s
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/utils/CMakeFiles/lmsutils.dir/build.make src/libs/utils/CMakeFiles/lmsutils.dir/impl/NetAddress.cpp.s
 .PHONY : impl/NetAddress.cpp.s
 
 impl/Path.o: impl/Path.cpp.o
@@ -382,7 +382,7 @@ impl/Path.o: impl/Path.cpp.o
 
 # target to build an object file
 impl/Path.cpp.o:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/utils/CMakeFiles/lmsutils.dir/build.make src/libs/utils/CMakeFiles/lmsutils.dir/impl/Path.cpp.o
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/utils/CMakeFiles/lmsutils.dir/build.make src/libs/utils/CMakeFiles/lmsutils.dir/impl/Path.cpp.o
 .PHONY : impl/Path.cpp.o
 
 impl/Path.i: impl/Path.cpp.i
@@ -390,7 +390,7 @@ impl/Path.i: impl/Path.cpp.i
 
 # target to preprocess a source file
 impl/Path.cpp.i:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/utils/CMakeFiles/lmsutils.dir/build.make src/libs/utils/CMakeFiles/lmsutils.dir/impl/Path.cpp.i
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/utils/CMakeFiles/lmsutils.dir/build.make src/libs/utils/CMakeFiles/lmsutils.dir/impl/Path.cpp.i
 .PHONY : impl/Path.cpp.i
 
 impl/Path.s: impl/Path.cpp.s
@@ -398,7 +398,7 @@ impl/Path.s: impl/Path.cpp.s
 
 # target to generate assembly for a file
 impl/Path.cpp.s:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/utils/CMakeFiles/lmsutils.dir/build.make src/libs/utils/CMakeFiles/lmsutils.dir/impl/Path.cpp.s
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/utils/CMakeFiles/lmsutils.dir/build.make src/libs/utils/CMakeFiles/lmsutils.dir/impl/Path.cpp.s
 .PHONY : impl/Path.cpp.s
 
 impl/Random.o: impl/Random.cpp.o
@@ -406,7 +406,7 @@ impl/Random.o: impl/Random.cpp.o
 
 # target to build an object file
 impl/Random.cpp.o:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/utils/CMakeFiles/lmsutils.dir/build.make src/libs/utils/CMakeFiles/lmsutils.dir/impl/Random.cpp.o
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/utils/CMakeFiles/lmsutils.dir/build.make src/libs/utils/CMakeFiles/lmsutils.dir/impl/Random.cpp.o
 .PHONY : impl/Random.cpp.o
 
 impl/Random.i: impl/Random.cpp.i
@@ -414,7 +414,7 @@ impl/Random.i: impl/Random.cpp.i
 
 # target to preprocess a source file
 impl/Random.cpp.i:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/utils/CMakeFiles/lmsutils.dir/build.make src/libs/utils/CMakeFiles/lmsutils.dir/impl/Random.cpp.i
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/utils/CMakeFiles/lmsutils.dir/build.make src/libs/utils/CMakeFiles/lmsutils.dir/impl/Random.cpp.i
 .PHONY : impl/Random.cpp.i
 
 impl/Random.s: impl/Random.cpp.s
@@ -422,7 +422,7 @@ impl/Random.s: impl/Random.cpp.s
 
 # target to generate assembly for a file
 impl/Random.cpp.s:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/utils/CMakeFiles/lmsutils.dir/build.make src/libs/utils/CMakeFiles/lmsutils.dir/impl/Random.cpp.s
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/utils/CMakeFiles/lmsutils.dir/build.make src/libs/utils/CMakeFiles/lmsutils.dir/impl/Random.cpp.s
 .PHONY : impl/Random.cpp.s
 
 impl/RecursiveSharedMutex.o: impl/RecursiveSharedMutex.cpp.o
@@ -430,7 +430,7 @@ impl/RecursiveSharedMutex.o: impl/RecursiveSharedMutex.cpp.o
 
 # target to build an object file
 impl/RecursiveSharedMutex.cpp.o:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/utils/CMakeFiles/lmsutils.dir/build.make src/libs/utils/CMakeFiles/lmsutils.dir/impl/RecursiveSharedMutex.cpp.o
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/utils/CMakeFiles/lmsutils.dir/build.make src/libs/utils/CMakeFiles/lmsutils.dir/impl/RecursiveSharedMutex.cpp.o
 .PHONY : impl/RecursiveSharedMutex.cpp.o
 
 impl/RecursiveSharedMutex.i: impl/RecursiveSharedMutex.cpp.i
@@ -438,7 +438,7 @@ impl/RecursiveSharedMutex.i: impl/RecursiveSharedMutex.cpp.i
 
 # target to preprocess a source file
 impl/RecursiveSharedMutex.cpp.i:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/utils/CMakeFiles/lmsutils.dir/build.make src/libs/utils/CMakeFiles/lmsutils.dir/impl/RecursiveSharedMutex.cpp.i
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/utils/CMakeFiles/lmsutils.dir/build.make src/libs/utils/CMakeFiles/lmsutils.dir/impl/RecursiveSharedMutex.cpp.i
 .PHONY : impl/RecursiveSharedMutex.cpp.i
 
 impl/RecursiveSharedMutex.s: impl/RecursiveSharedMutex.cpp.s
@@ -446,7 +446,7 @@ impl/RecursiveSharedMutex.s: impl/RecursiveSharedMutex.cpp.s
 
 # target to generate assembly for a file
 impl/RecursiveSharedMutex.cpp.s:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/utils/CMakeFiles/lmsutils.dir/build.make src/libs/utils/CMakeFiles/lmsutils.dir/impl/RecursiveSharedMutex.cpp.s
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/utils/CMakeFiles/lmsutils.dir/build.make src/libs/utils/CMakeFiles/lmsutils.dir/impl/RecursiveSharedMutex.cpp.s
 .PHONY : impl/RecursiveSharedMutex.cpp.s
 
 impl/StreamLogger.o: impl/StreamLogger.cpp.o
@@ -454,7 +454,7 @@ impl/StreamLogger.o: impl/StreamLogger.cpp.o
 
 # target to build an object file
 impl/StreamLogger.cpp.o:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/utils/CMakeFiles/lmsutils.dir/build.make src/libs/utils/CMakeFiles/lmsutils.dir/impl/StreamLogger.cpp.o
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/utils/CMakeFiles/lmsutils.dir/build.make src/libs/utils/CMakeFiles/lmsutils.dir/impl/StreamLogger.cpp.o
 .PHONY : impl/StreamLogger.cpp.o
 
 impl/StreamLogger.i: impl/StreamLogger.cpp.i
@@ -462,7 +462,7 @@ impl/StreamLogger.i: impl/StreamLogger.cpp.i
 
 # target to preprocess a source file
 impl/StreamLogger.cpp.i:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/utils/CMakeFiles/lmsutils.dir/build.make src/libs/utils/CMakeFiles/lmsutils.dir/impl/StreamLogger.cpp.i
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/utils/CMakeFiles/lmsutils.dir/build.make src/libs/utils/CMakeFiles/lmsutils.dir/impl/StreamLogger.cpp.i
 .PHONY : impl/StreamLogger.cpp.i
 
 impl/StreamLogger.s: impl/StreamLogger.cpp.s
@@ -470,7 +470,7 @@ impl/StreamLogger.s: impl/StreamLogger.cpp.s
 
 # target to generate assembly for a file
 impl/StreamLogger.cpp.s:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/utils/CMakeFiles/lmsutils.dir/build.make src/libs/utils/CMakeFiles/lmsutils.dir/impl/StreamLogger.cpp.s
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/utils/CMakeFiles/lmsutils.dir/build.make src/libs/utils/CMakeFiles/lmsutils.dir/impl/StreamLogger.cpp.s
 .PHONY : impl/StreamLogger.cpp.s
 
 impl/String.o: impl/String.cpp.o
@@ -478,7 +478,7 @@ impl/String.o: impl/String.cpp.o
 
 # target to build an object file
 impl/String.cpp.o:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/utils/CMakeFiles/lmsutils.dir/build.make src/libs/utils/CMakeFiles/lmsutils.dir/impl/String.cpp.o
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/utils/CMakeFiles/lmsutils.dir/build.make src/libs/utils/CMakeFiles/lmsutils.dir/impl/String.cpp.o
 .PHONY : impl/String.cpp.o
 
 impl/String.i: impl/String.cpp.i
@@ -486,7 +486,7 @@ impl/String.i: impl/String.cpp.i
 
 # target to preprocess a source file
 impl/String.cpp.i:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/utils/CMakeFiles/lmsutils.dir/build.make src/libs/utils/CMakeFiles/lmsutils.dir/impl/String.cpp.i
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/utils/CMakeFiles/lmsutils.dir/build.make src/libs/utils/CMakeFiles/lmsutils.dir/impl/String.cpp.i
 .PHONY : impl/String.cpp.i
 
 impl/String.s: impl/String.cpp.s
@@ -494,7 +494,7 @@ impl/String.s: impl/String.cpp.s
 
 # target to generate assembly for a file
 impl/String.cpp.s:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/utils/CMakeFiles/lmsutils.dir/build.make src/libs/utils/CMakeFiles/lmsutils.dir/impl/String.cpp.s
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/utils/CMakeFiles/lmsutils.dir/build.make src/libs/utils/CMakeFiles/lmsutils.dir/impl/String.cpp.s
 .PHONY : impl/String.cpp.s
 
 impl/UUID.o: impl/UUID.cpp.o
@@ -502,7 +502,7 @@ impl/UUID.o: impl/UUID.cpp.o
 
 # target to build an object file
 impl/UUID.cpp.o:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/utils/CMakeFiles/lmsutils.dir/build.make src/libs/utils/CMakeFiles/lmsutils.dir/impl/UUID.cpp.o
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/utils/CMakeFiles/lmsutils.dir/build.make src/libs/utils/CMakeFiles/lmsutils.dir/impl/UUID.cpp.o
 .PHONY : impl/UUID.cpp.o
 
 impl/UUID.i: impl/UUID.cpp.i
@@ -510,7 +510,7 @@ impl/UUID.i: impl/UUID.cpp.i
 
 # target to preprocess a source file
 impl/UUID.cpp.i:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/utils/CMakeFiles/lmsutils.dir/build.make src/libs/utils/CMakeFiles/lmsutils.dir/impl/UUID.cpp.i
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/utils/CMakeFiles/lmsutils.dir/build.make src/libs/utils/CMakeFiles/lmsutils.dir/impl/UUID.cpp.i
 .PHONY : impl/UUID.cpp.i
 
 impl/UUID.s: impl/UUID.cpp.s
@@ -518,7 +518,7 @@ impl/UUID.s: impl/UUID.cpp.s
 
 # target to generate assembly for a file
 impl/UUID.cpp.s:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/utils/CMakeFiles/lmsutils.dir/build.make src/libs/utils/CMakeFiles/lmsutils.dir/impl/UUID.cpp.s
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/utils/CMakeFiles/lmsutils.dir/build.make src/libs/utils/CMakeFiles/lmsutils.dir/impl/UUID.cpp.s
 .PHONY : impl/UUID.cpp.s
 
 impl/WtLogger.o: impl/WtLogger.cpp.o
@@ -526,7 +526,7 @@ impl/WtLogger.o: impl/WtLogger.cpp.o
 
 # target to build an object file
 impl/WtLogger.cpp.o:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/utils/CMakeFiles/lmsutils.dir/build.make src/libs/utils/CMakeFiles/lmsutils.dir/impl/WtLogger.cpp.o
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/utils/CMakeFiles/lmsutils.dir/build.make src/libs/utils/CMakeFiles/lmsutils.dir/impl/WtLogger.cpp.o
 .PHONY : impl/WtLogger.cpp.o
 
 impl/WtLogger.i: impl/WtLogger.cpp.i
@@ -534,7 +534,7 @@ impl/WtLogger.i: impl/WtLogger.cpp.i
 
 # target to preprocess a source file
 impl/WtLogger.cpp.i:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/utils/CMakeFiles/lmsutils.dir/build.make src/libs/utils/CMakeFiles/lmsutils.dir/impl/WtLogger.cpp.i
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/utils/CMakeFiles/lmsutils.dir/build.make src/libs/utils/CMakeFiles/lmsutils.dir/impl/WtLogger.cpp.i
 .PHONY : impl/WtLogger.cpp.i
 
 impl/WtLogger.s: impl/WtLogger.cpp.s
@@ -542,7 +542,7 @@ impl/WtLogger.s: impl/WtLogger.cpp.s
 
 # target to generate assembly for a file
 impl/WtLogger.cpp.s:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/utils/CMakeFiles/lmsutils.dir/build.make src/libs/utils/CMakeFiles/lmsutils.dir/impl/WtLogger.cpp.s
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/utils/CMakeFiles/lmsutils.dir/build.make src/libs/utils/CMakeFiles/lmsutils.dir/impl/WtLogger.cpp.s
 .PHONY : impl/WtLogger.cpp.s
 
 impl/http/Client.o: impl/http/Client.cpp.o
@@ -550,7 +550,7 @@ impl/http/Client.o: impl/http/Client.cpp.o
 
 # target to build an object file
 impl/http/Client.cpp.o:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/utils/CMakeFiles/lmsutils.dir/build.make src/libs/utils/CMakeFiles/lmsutils.dir/impl/http/Client.cpp.o
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/utils/CMakeFiles/lmsutils.dir/build.make src/libs/utils/CMakeFiles/lmsutils.dir/impl/http/Client.cpp.o
 .PHONY : impl/http/Client.cpp.o
 
 impl/http/Client.i: impl/http/Client.cpp.i
@@ -558,7 +558,7 @@ impl/http/Client.i: impl/http/Client.cpp.i
 
 # target to preprocess a source file
 impl/http/Client.cpp.i:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/utils/CMakeFiles/lmsutils.dir/build.make src/libs/utils/CMakeFiles/lmsutils.dir/impl/http/Client.cpp.i
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/utils/CMakeFiles/lmsutils.dir/build.make src/libs/utils/CMakeFiles/lmsutils.dir/impl/http/Client.cpp.i
 .PHONY : impl/http/Client.cpp.i
 
 impl/http/Client.s: impl/http/Client.cpp.s
@@ -566,7 +566,7 @@ impl/http/Client.s: impl/http/Client.cpp.s
 
 # target to generate assembly for a file
 impl/http/Client.cpp.s:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/utils/CMakeFiles/lmsutils.dir/build.make src/libs/utils/CMakeFiles/lmsutils.dir/impl/http/Client.cpp.s
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/utils/CMakeFiles/lmsutils.dir/build.make src/libs/utils/CMakeFiles/lmsutils.dir/impl/http/Client.cpp.s
 .PHONY : impl/http/Client.cpp.s
 
 impl/http/SendQueue.o: impl/http/SendQueue.cpp.o
@@ -574,7 +574,7 @@ impl/http/SendQueue.o: impl/http/SendQueue.cpp.o
 
 # target to build an object file
 impl/http/SendQueue.cpp.o:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/utils/CMakeFiles/lmsutils.dir/build.make src/libs/utils/CMakeFiles/lmsutils.dir/impl/http/SendQueue.cpp.o
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/utils/CMakeFiles/lmsutils.dir/build.make src/libs/utils/CMakeFiles/lmsutils.dir/impl/http/SendQueue.cpp.o
 .PHONY : impl/http/SendQueue.cpp.o
 
 impl/http/SendQueue.i: impl/http/SendQueue.cpp.i
@@ -582,7 +582,7 @@ impl/http/SendQueue.i: impl/http/SendQueue.cpp.i
 
 # target to preprocess a source file
 impl/http/SendQueue.cpp.i:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/utils/CMakeFiles/lmsutils.dir/build.make src/libs/utils/CMakeFiles/lmsutils.dir/impl/http/SendQueue.cpp.i
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/utils/CMakeFiles/lmsutils.dir/build.make src/libs/utils/CMakeFiles/lmsutils.dir/impl/http/SendQueue.cpp.i
 .PHONY : impl/http/SendQueue.cpp.i
 
 impl/http/SendQueue.s: impl/http/SendQueue.cpp.s
@@ -590,7 +590,7 @@ impl/http/SendQueue.s: impl/http/SendQueue.cpp.s
 
 # target to generate assembly for a file
 impl/http/SendQueue.cpp.s:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/utils/CMakeFiles/lmsutils.dir/build.make src/libs/utils/CMakeFiles/lmsutils.dir/impl/http/SendQueue.cpp.s
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/utils/CMakeFiles/lmsutils.dir/build.make src/libs/utils/CMakeFiles/lmsutils.dir/impl/http/SendQueue.cpp.s
 .PHONY : impl/http/SendQueue.cpp.s
 
 # Help Target
@@ -669,6 +669,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/shree/Downloads/lms-master && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

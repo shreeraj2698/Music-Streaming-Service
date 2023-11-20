@@ -1,5 +1,5 @@
 src/lms/CMakeFiles/lms.dir/main.cpp.o: \
-  /Users/shree/Downloads/lms-master/src/lms/main.cpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/lms/main.cpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/thread \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__assert \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__config \
@@ -1760,9 +1760,9 @@ src/lms/CMakeFiles/lms.dir/main.cpp.o: \
   /usr/local/include/Wt/WLocale.h \
   /usr/local/include/Wt/WMessageResourceBundle.h \
   /usr/local/include/Wt/WLocalizedStrings.h \
-  /Users/shree/Downloads/lms-master/src/libs/image/include/image/IRawImage.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/image/include/image/IEncodedImage.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/services/auth/include/services/auth/IAuthTokenService.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/image/include/image/IRawImage.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/image/include/image/IEncodedImage.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/auth/include/services/auth/IAuthTokenService.hpp \
   /opt/homebrew/include/boost/asio/ip/address.hpp \
   /opt/homebrew/include/boost/asio/detail/string_view.hpp \
   /opt/homebrew/include/boost/asio/ip/address_v4.hpp \
@@ -1779,25 +1779,25 @@ src/lms/CMakeFiles/lms.dir/main.cpp.o: \
   /opt/homebrew/include/boost/asio/ip/impl/address.hpp \
   /opt/homebrew/include/boost/asio/ip/impl/address.ipp \
   /usr/local/include/Wt/WDateTime.h \
-  /Users/shree/Downloads/lms-master/src/libs/services/database/include/services/database/UserId.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/services/database/include/services/database/IdType.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/database/include/services/database/UserId.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/database/include/services/database/IdType.hpp \
   /usr/local/include/Wt/Dbo/ptr.h /usr/local/include/Wt/cpp17/any.hpp \
   /usr/local/include/Wt/cpp17/any/any.hpp \
   /usr/local/include/Wt/Dbo/SqlTraits.h \
   /usr/local/include/Wt/Dbo/WDboDllDefs.h \
-  /Users/shree/Downloads/lms-master/src/libs/services/auth/include/services/auth/IPasswordService.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/services/auth/include/services/auth/Types.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/services/database/include/services/database/Types.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/auth/include/services/auth/IPasswordService.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/auth/include/services/auth/Types.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/database/include/services/database/Types.hpp \
   /usr/local/include/Wt/WDate.h \
-  /Users/shree/Downloads/lms-master/src/libs/utils/include/utils/Exception.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/services/auth/include/services/auth/IEnvService.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/services/cover/include/services/cover/ICoverService.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/services/database/include/services/database/ReleaseId.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/services/database/include/services/database/TrackId.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/services/database/include/services/database/Db.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/utils/include/utils/Exception.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/auth/include/services/auth/IEnvService.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/cover/include/services/cover/ICoverService.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/database/include/services/database/ReleaseId.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/database/include/services/database/TrackId.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/database/include/services/database/Db.hpp \
   /usr/local/include/Wt/Dbo/SqlConnectionPool.h \
-  /Users/shree/Downloads/lms-master/src/libs/utils/include/utils/RecursiveSharedMutex.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/services/database/include/services/database/Session.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/utils/include/utils/RecursiveSharedMutex.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/database/include/services/database/Session.hpp \
   /usr/local/include/Wt/Dbo/Dbo.h /usr/local/include/Wt/Dbo/Types.h \
   /usr/local/include/Wt/Dbo/weak_ptr.h \
   /usr/local/include/Wt/Dbo/Session.h /usr/local/include/Wt/Dbo/Field.h \
@@ -1819,32 +1819,32 @@ src/lms/CMakeFiles/lms.dir/main.cpp.o: \
   /usr/local/include/Wt/Dbo/Field_impl.h \
   /usr/local/include/Wt/Dbo/SqlTraits_impl.h \
   /usr/local/include/Wt/Dbo/Session_impl.h \
-  /Users/shree/Downloads/lms-master/src/libs/services/database/include/services/database/Object.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/services/recommendation/include/services/recommendation/IPlaylistGeneratorService.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/services/database/include/services/database/TrackListId.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/services/recommendation/include/services/recommendation/Types.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/services/database/include/services/database/ArtistId.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/services/recommendation/include/services/recommendation/IRecommendationService.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/utils/include/utils/EnumSet.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/services/scanner/include/services/scanner/IScannerService.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/services/scanner/include/services/scanner/ScannerEvents.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/services/scanner/include/services/scanner/ScannerStats.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/services/scrobbling/include/services/scrobbling/IScrobblingService.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/database/include/services/database/Object.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/recommendation/include/services/recommendation/IPlaylistGeneratorService.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/database/include/services/database/TrackListId.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/recommendation/include/services/recommendation/Types.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/database/include/services/database/ArtistId.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/recommendation/include/services/recommendation/IRecommendationService.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/utils/include/utils/EnumSet.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/scanner/include/services/scanner/IScannerService.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/scanner/include/services/scanner/ScannerEvents.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/scanner/include/services/scanner/ScannerStats.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/scrobbling/include/services/scrobbling/IScrobblingService.hpp \
   /opt/homebrew/include/boost/asio/io_service.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/services/scrobbling/include/services/scrobbling/Listen.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/services/database/include/services/database/ClusterId.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/subsonic/include/subsonic/SubsonicResource.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/scrobbling/include/services/scrobbling/Listen.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/database/include/services/database/ClusterId.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/subsonic/include/subsonic/SubsonicResource.hpp \
   /usr/local/include/Wt/WResource.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/condition_variable \
-  /Users/shree/Downloads/lms-master/src/lms/ui/LmsApplication.hpp \
-  /Users/shree/Downloads/lms-master/src/lms/ui/Notification.hpp \
-  /Users/shree/Downloads/lms-master/src/lms/ui/LmsApplicationManager.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/lms/ui/LmsApplication.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/lms/ui/Notification.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/lms/ui/LmsApplicationManager.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/unordered_set \
-  /Users/shree/Downloads/lms-master/src/libs/utils/include/utils/IChildProcessManager.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/utils/include/utils/IChildProcess.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/utils/include/utils/IConfig.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/utils/include/utils/IOContextRunner.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/utils/include/utils/Service.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/utils/include/utils/String.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/utils/include/utils/WtLogger.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/utils/include/utils/Logger.hpp
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/utils/include/utils/IChildProcessManager.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/utils/include/utils/IChildProcess.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/utils/include/utils/IConfig.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/utils/include/utils/IOContextRunner.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/utils/include/utils/Service.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/utils/include/utils/String.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/utils/include/utils/WtLogger.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/utils/include/utils/Logger.hpp

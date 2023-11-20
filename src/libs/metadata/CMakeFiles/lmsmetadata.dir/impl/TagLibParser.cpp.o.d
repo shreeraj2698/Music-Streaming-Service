@@ -1,9 +1,9 @@
 src/libs/metadata/CMakeFiles/lmsmetadata.dir/impl/TagLibParser.cpp.o: \
-  /Users/shree/Downloads/lms-master/src/libs/metadata/impl/TagLibParser.cpp \
-  /Users/shree/Downloads/lms-master/src/libs/metadata/impl/TagLibParser.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/metadata/impl/TagLibParser.cpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/metadata/impl/TagLibParser.hpp \
   /opt/homebrew/include/taglib/audioproperties.h \
   /opt/homebrew/include/taglib/taglib_export.h \
-  /Users/shree/Downloads/lms-master/src/libs/metadata/include/metadata/IParser.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/metadata/include/metadata/IParser.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/chrono \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__assert \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__config \
@@ -827,9 +827,9 @@ src/libs/metadata/CMakeFiles/lmsmetadata.dir/impl/TagLibParser.cpp.o: \
   /usr/local/include/Wt/Core/observable_impl.hpp \
   /usr/local/include/Wt/WString.h /usr/local/include/Wt/WStringStream.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/iostream \
-  /Users/shree/Downloads/lms-master/src/libs/utils/include/utils/EnumSet.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/utils/include/utils/UUID.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/utils/include/utils/String.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/utils/include/utils/EnumSet.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/utils/include/utils/UUID.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/utils/include/utils/String.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/sstream \
   /opt/homebrew/include/taglib/apetag.h \
   /opt/homebrew/include/taglib/tag.h \
@@ -890,8 +890,8 @@ src/libs/metadata/CMakeFiles/lmsmetadata.dir/impl/TagLibParser.cpp.o: \
   /opt/homebrew/include/taglib/vorbisproperties.h \
   /opt/homebrew/include/taglib/wavpackfile.h \
   /opt/homebrew/include/taglib/wavpackproperties.h \
-  /Users/shree/Downloads/lms-master/src/libs/utils/include/utils/IConfig.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/utils/include/utils/Exception.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/utils/include/utils/Logger.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/utils/include/utils/Service.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/metadata/impl/Utils.hpp
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/utils/include/utils/IConfig.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/utils/include/utils/Exception.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/utils/include/utils/Logger.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/utils/include/utils/Service.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/metadata/impl/Utils.hpp

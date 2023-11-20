@@ -57,10 +57,10 @@ RM = /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/shree/Downloads/lms-master
+CMAKE_SOURCE_DIR = /Users/shree/Downloads/Music-Streaming-Service
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/shree/Downloads/lms-master
+CMAKE_BINARY_DIR = /Users/shree/Downloads/Music-Streaming-Service
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,14 +142,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/shree/Downloads/lms-master && $(CMAKE_COMMAND) -E cmake_progress_start /Users/shree/Downloads/lms-master/CMakeFiles /Users/shree/Downloads/lms-master/src/lms//CMakeFiles/progress.marks
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/lms/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/shree/Downloads/lms-master/CMakeFiles 0
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(CMAKE_COMMAND) -E cmake_progress_start /Users/shree/Downloads/Music-Streaming-Service/CMakeFiles /Users/shree/Downloads/Music-Streaming-Service/src/lms//CMakeFiles/progress.marks
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/lms/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/shree/Downloads/Music-Streaming-Service/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/lms/clean
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/lms/clean
 .PHONY : clean
 
 # The main clean target
@@ -158,22 +158,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/lms/preinstall
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/lms/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/lms/preinstall
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/lms/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/shree/Downloads/lms-master && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/lms/CMakeFiles/lms.dir/rule:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/lms/CMakeFiles/lms.dir/rule
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/lms/CMakeFiles/lms.dir/rule
 .PHONY : src/lms/CMakeFiles/lms.dir/rule
 
 # Convenience name for target.
@@ -182,7 +182,7 @@ lms: src/lms/CMakeFiles/lms.dir/rule
 
 # fast build rule for target.
 lms/fast:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/build
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/build
 .PHONY : lms/fast
 
 main.o: main.cpp.o
@@ -190,7 +190,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/main.cpp.o
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -198,7 +198,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/main.cpp.i
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -206,7 +206,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/main.cpp.s
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 ui/Auth.o: ui/Auth.cpp.o
@@ -214,7 +214,7 @@ ui/Auth.o: ui/Auth.cpp.o
 
 # target to build an object file
 ui/Auth.cpp.o:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/Auth.cpp.o
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/Auth.cpp.o
 .PHONY : ui/Auth.cpp.o
 
 ui/Auth.i: ui/Auth.cpp.i
@@ -222,7 +222,7 @@ ui/Auth.i: ui/Auth.cpp.i
 
 # target to preprocess a source file
 ui/Auth.cpp.i:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/Auth.cpp.i
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/Auth.cpp.i
 .PHONY : ui/Auth.cpp.i
 
 ui/Auth.s: ui/Auth.cpp.s
@@ -230,7 +230,7 @@ ui/Auth.s: ui/Auth.cpp.s
 
 # target to generate assembly for a file
 ui/Auth.cpp.s:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/Auth.cpp.s
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/Auth.cpp.s
 .PHONY : ui/Auth.cpp.s
 
 ui/LmsApplication.o: ui/LmsApplication.cpp.o
@@ -238,7 +238,7 @@ ui/LmsApplication.o: ui/LmsApplication.cpp.o
 
 # target to build an object file
 ui/LmsApplication.cpp.o:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/LmsApplication.cpp.o
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/LmsApplication.cpp.o
 .PHONY : ui/LmsApplication.cpp.o
 
 ui/LmsApplication.i: ui/LmsApplication.cpp.i
@@ -246,7 +246,7 @@ ui/LmsApplication.i: ui/LmsApplication.cpp.i
 
 # target to preprocess a source file
 ui/LmsApplication.cpp.i:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/LmsApplication.cpp.i
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/LmsApplication.cpp.i
 .PHONY : ui/LmsApplication.cpp.i
 
 ui/LmsApplication.s: ui/LmsApplication.cpp.s
@@ -254,7 +254,7 @@ ui/LmsApplication.s: ui/LmsApplication.cpp.s
 
 # target to generate assembly for a file
 ui/LmsApplication.cpp.s:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/LmsApplication.cpp.s
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/LmsApplication.cpp.s
 .PHONY : ui/LmsApplication.cpp.s
 
 ui/LmsApplicationManager.o: ui/LmsApplicationManager.cpp.o
@@ -262,7 +262,7 @@ ui/LmsApplicationManager.o: ui/LmsApplicationManager.cpp.o
 
 # target to build an object file
 ui/LmsApplicationManager.cpp.o:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/LmsApplicationManager.cpp.o
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/LmsApplicationManager.cpp.o
 .PHONY : ui/LmsApplicationManager.cpp.o
 
 ui/LmsApplicationManager.i: ui/LmsApplicationManager.cpp.i
@@ -270,7 +270,7 @@ ui/LmsApplicationManager.i: ui/LmsApplicationManager.cpp.i
 
 # target to preprocess a source file
 ui/LmsApplicationManager.cpp.i:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/LmsApplicationManager.cpp.i
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/LmsApplicationManager.cpp.i
 .PHONY : ui/LmsApplicationManager.cpp.i
 
 ui/LmsApplicationManager.s: ui/LmsApplicationManager.cpp.s
@@ -278,7 +278,7 @@ ui/LmsApplicationManager.s: ui/LmsApplicationManager.cpp.s
 
 # target to generate assembly for a file
 ui/LmsApplicationManager.cpp.s:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/LmsApplicationManager.cpp.s
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/LmsApplicationManager.cpp.s
 .PHONY : ui/LmsApplicationManager.cpp.s
 
 ui/LmsTheme.o: ui/LmsTheme.cpp.o
@@ -286,7 +286,7 @@ ui/LmsTheme.o: ui/LmsTheme.cpp.o
 
 # target to build an object file
 ui/LmsTheme.cpp.o:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/LmsTheme.cpp.o
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/LmsTheme.cpp.o
 .PHONY : ui/LmsTheme.cpp.o
 
 ui/LmsTheme.i: ui/LmsTheme.cpp.i
@@ -294,7 +294,7 @@ ui/LmsTheme.i: ui/LmsTheme.cpp.i
 
 # target to preprocess a source file
 ui/LmsTheme.cpp.i:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/LmsTheme.cpp.i
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/LmsTheme.cpp.i
 .PHONY : ui/LmsTheme.cpp.i
 
 ui/LmsTheme.s: ui/LmsTheme.cpp.s
@@ -302,7 +302,7 @@ ui/LmsTheme.s: ui/LmsTheme.cpp.s
 
 # target to generate assembly for a file
 ui/LmsTheme.cpp.s:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/LmsTheme.cpp.s
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/LmsTheme.cpp.s
 .PHONY : ui/LmsTheme.cpp.s
 
 ui/MediaPlayer.o: ui/MediaPlayer.cpp.o
@@ -310,7 +310,7 @@ ui/MediaPlayer.o: ui/MediaPlayer.cpp.o
 
 # target to build an object file
 ui/MediaPlayer.cpp.o:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/MediaPlayer.cpp.o
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/MediaPlayer.cpp.o
 .PHONY : ui/MediaPlayer.cpp.o
 
 ui/MediaPlayer.i: ui/MediaPlayer.cpp.i
@@ -318,7 +318,7 @@ ui/MediaPlayer.i: ui/MediaPlayer.cpp.i
 
 # target to preprocess a source file
 ui/MediaPlayer.cpp.i:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/MediaPlayer.cpp.i
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/MediaPlayer.cpp.i
 .PHONY : ui/MediaPlayer.cpp.i
 
 ui/MediaPlayer.s: ui/MediaPlayer.cpp.s
@@ -326,7 +326,7 @@ ui/MediaPlayer.s: ui/MediaPlayer.cpp.s
 
 # target to generate assembly for a file
 ui/MediaPlayer.cpp.s:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/MediaPlayer.cpp.s
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/MediaPlayer.cpp.s
 .PHONY : ui/MediaPlayer.cpp.s
 
 ui/ModalManager.o: ui/ModalManager.cpp.o
@@ -334,7 +334,7 @@ ui/ModalManager.o: ui/ModalManager.cpp.o
 
 # target to build an object file
 ui/ModalManager.cpp.o:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/ModalManager.cpp.o
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/ModalManager.cpp.o
 .PHONY : ui/ModalManager.cpp.o
 
 ui/ModalManager.i: ui/ModalManager.cpp.i
@@ -342,7 +342,7 @@ ui/ModalManager.i: ui/ModalManager.cpp.i
 
 # target to preprocess a source file
 ui/ModalManager.cpp.i:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/ModalManager.cpp.i
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/ModalManager.cpp.i
 .PHONY : ui/ModalManager.cpp.i
 
 ui/ModalManager.s: ui/ModalManager.cpp.s
@@ -350,7 +350,7 @@ ui/ModalManager.s: ui/ModalManager.cpp.s
 
 # target to generate assembly for a file
 ui/ModalManager.cpp.s:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/ModalManager.cpp.s
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/ModalManager.cpp.s
 .PHONY : ui/ModalManager.cpp.s
 
 ui/NotificationContainer.o: ui/NotificationContainer.cpp.o
@@ -358,7 +358,7 @@ ui/NotificationContainer.o: ui/NotificationContainer.cpp.o
 
 # target to build an object file
 ui/NotificationContainer.cpp.o:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/NotificationContainer.cpp.o
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/NotificationContainer.cpp.o
 .PHONY : ui/NotificationContainer.cpp.o
 
 ui/NotificationContainer.i: ui/NotificationContainer.cpp.i
@@ -366,7 +366,7 @@ ui/NotificationContainer.i: ui/NotificationContainer.cpp.i
 
 # target to preprocess a source file
 ui/NotificationContainer.cpp.i:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/NotificationContainer.cpp.i
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/NotificationContainer.cpp.i
 .PHONY : ui/NotificationContainer.cpp.i
 
 ui/NotificationContainer.s: ui/NotificationContainer.cpp.s
@@ -374,7 +374,7 @@ ui/NotificationContainer.s: ui/NotificationContainer.cpp.s
 
 # target to generate assembly for a file
 ui/NotificationContainer.cpp.s:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/NotificationContainer.cpp.s
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/NotificationContainer.cpp.s
 .PHONY : ui/NotificationContainer.cpp.s
 
 ui/PlayQueue.o: ui/PlayQueue.cpp.o
@@ -382,7 +382,7 @@ ui/PlayQueue.o: ui/PlayQueue.cpp.o
 
 # target to build an object file
 ui/PlayQueue.cpp.o:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/PlayQueue.cpp.o
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/PlayQueue.cpp.o
 .PHONY : ui/PlayQueue.cpp.o
 
 ui/PlayQueue.i: ui/PlayQueue.cpp.i
@@ -390,7 +390,7 @@ ui/PlayQueue.i: ui/PlayQueue.cpp.i
 
 # target to preprocess a source file
 ui/PlayQueue.cpp.i:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/PlayQueue.cpp.i
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/PlayQueue.cpp.i
 .PHONY : ui/PlayQueue.cpp.i
 
 ui/PlayQueue.s: ui/PlayQueue.cpp.s
@@ -398,7 +398,7 @@ ui/PlayQueue.s: ui/PlayQueue.cpp.s
 
 # target to generate assembly for a file
 ui/PlayQueue.cpp.s:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/PlayQueue.cpp.s
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/PlayQueue.cpp.s
 .PHONY : ui/PlayQueue.cpp.s
 
 ui/SettingsView.o: ui/SettingsView.cpp.o
@@ -406,7 +406,7 @@ ui/SettingsView.o: ui/SettingsView.cpp.o
 
 # target to build an object file
 ui/SettingsView.cpp.o:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/SettingsView.cpp.o
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/SettingsView.cpp.o
 .PHONY : ui/SettingsView.cpp.o
 
 ui/SettingsView.i: ui/SettingsView.cpp.i
@@ -414,7 +414,7 @@ ui/SettingsView.i: ui/SettingsView.cpp.i
 
 # target to preprocess a source file
 ui/SettingsView.cpp.i:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/SettingsView.cpp.i
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/SettingsView.cpp.i
 .PHONY : ui/SettingsView.cpp.i
 
 ui/SettingsView.s: ui/SettingsView.cpp.s
@@ -422,7 +422,7 @@ ui/SettingsView.s: ui/SettingsView.cpp.s
 
 # target to generate assembly for a file
 ui/SettingsView.cpp.s:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/SettingsView.cpp.s
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/SettingsView.cpp.s
 .PHONY : ui/SettingsView.cpp.s
 
 ui/Utils.o: ui/Utils.cpp.o
@@ -430,7 +430,7 @@ ui/Utils.o: ui/Utils.cpp.o
 
 # target to build an object file
 ui/Utils.cpp.o:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/Utils.cpp.o
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/Utils.cpp.o
 .PHONY : ui/Utils.cpp.o
 
 ui/Utils.i: ui/Utils.cpp.i
@@ -438,7 +438,7 @@ ui/Utils.i: ui/Utils.cpp.i
 
 # target to preprocess a source file
 ui/Utils.cpp.i:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/Utils.cpp.i
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/Utils.cpp.i
 .PHONY : ui/Utils.cpp.i
 
 ui/Utils.s: ui/Utils.cpp.s
@@ -446,7 +446,7 @@ ui/Utils.s: ui/Utils.cpp.s
 
 # target to generate assembly for a file
 ui/Utils.cpp.s:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/Utils.cpp.s
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/Utils.cpp.s
 .PHONY : ui/Utils.cpp.s
 
 ui/admin/DatabaseSettingsView.o: ui/admin/DatabaseSettingsView.cpp.o
@@ -454,7 +454,7 @@ ui/admin/DatabaseSettingsView.o: ui/admin/DatabaseSettingsView.cpp.o
 
 # target to build an object file
 ui/admin/DatabaseSettingsView.cpp.o:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/admin/DatabaseSettingsView.cpp.o
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/admin/DatabaseSettingsView.cpp.o
 .PHONY : ui/admin/DatabaseSettingsView.cpp.o
 
 ui/admin/DatabaseSettingsView.i: ui/admin/DatabaseSettingsView.cpp.i
@@ -462,7 +462,7 @@ ui/admin/DatabaseSettingsView.i: ui/admin/DatabaseSettingsView.cpp.i
 
 # target to preprocess a source file
 ui/admin/DatabaseSettingsView.cpp.i:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/admin/DatabaseSettingsView.cpp.i
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/admin/DatabaseSettingsView.cpp.i
 .PHONY : ui/admin/DatabaseSettingsView.cpp.i
 
 ui/admin/DatabaseSettingsView.s: ui/admin/DatabaseSettingsView.cpp.s
@@ -470,7 +470,7 @@ ui/admin/DatabaseSettingsView.s: ui/admin/DatabaseSettingsView.cpp.s
 
 # target to generate assembly for a file
 ui/admin/DatabaseSettingsView.cpp.s:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/admin/DatabaseSettingsView.cpp.s
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/admin/DatabaseSettingsView.cpp.s
 .PHONY : ui/admin/DatabaseSettingsView.cpp.s
 
 ui/admin/InitWizardView.o: ui/admin/InitWizardView.cpp.o
@@ -478,7 +478,7 @@ ui/admin/InitWizardView.o: ui/admin/InitWizardView.cpp.o
 
 # target to build an object file
 ui/admin/InitWizardView.cpp.o:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/admin/InitWizardView.cpp.o
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/admin/InitWizardView.cpp.o
 .PHONY : ui/admin/InitWizardView.cpp.o
 
 ui/admin/InitWizardView.i: ui/admin/InitWizardView.cpp.i
@@ -486,7 +486,7 @@ ui/admin/InitWizardView.i: ui/admin/InitWizardView.cpp.i
 
 # target to preprocess a source file
 ui/admin/InitWizardView.cpp.i:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/admin/InitWizardView.cpp.i
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/admin/InitWizardView.cpp.i
 .PHONY : ui/admin/InitWizardView.cpp.i
 
 ui/admin/InitWizardView.s: ui/admin/InitWizardView.cpp.s
@@ -494,7 +494,7 @@ ui/admin/InitWizardView.s: ui/admin/InitWizardView.cpp.s
 
 # target to generate assembly for a file
 ui/admin/InitWizardView.cpp.s:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/admin/InitWizardView.cpp.s
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/admin/InitWizardView.cpp.s
 .PHONY : ui/admin/InitWizardView.cpp.s
 
 ui/admin/ScannerController.o: ui/admin/ScannerController.cpp.o
@@ -502,7 +502,7 @@ ui/admin/ScannerController.o: ui/admin/ScannerController.cpp.o
 
 # target to build an object file
 ui/admin/ScannerController.cpp.o:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/admin/ScannerController.cpp.o
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/admin/ScannerController.cpp.o
 .PHONY : ui/admin/ScannerController.cpp.o
 
 ui/admin/ScannerController.i: ui/admin/ScannerController.cpp.i
@@ -510,7 +510,7 @@ ui/admin/ScannerController.i: ui/admin/ScannerController.cpp.i
 
 # target to preprocess a source file
 ui/admin/ScannerController.cpp.i:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/admin/ScannerController.cpp.i
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/admin/ScannerController.cpp.i
 .PHONY : ui/admin/ScannerController.cpp.i
 
 ui/admin/ScannerController.s: ui/admin/ScannerController.cpp.s
@@ -518,7 +518,7 @@ ui/admin/ScannerController.s: ui/admin/ScannerController.cpp.s
 
 # target to generate assembly for a file
 ui/admin/ScannerController.cpp.s:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/admin/ScannerController.cpp.s
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/admin/ScannerController.cpp.s
 .PHONY : ui/admin/ScannerController.cpp.s
 
 ui/admin/UserView.o: ui/admin/UserView.cpp.o
@@ -526,7 +526,7 @@ ui/admin/UserView.o: ui/admin/UserView.cpp.o
 
 # target to build an object file
 ui/admin/UserView.cpp.o:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/admin/UserView.cpp.o
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/admin/UserView.cpp.o
 .PHONY : ui/admin/UserView.cpp.o
 
 ui/admin/UserView.i: ui/admin/UserView.cpp.i
@@ -534,7 +534,7 @@ ui/admin/UserView.i: ui/admin/UserView.cpp.i
 
 # target to preprocess a source file
 ui/admin/UserView.cpp.i:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/admin/UserView.cpp.i
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/admin/UserView.cpp.i
 .PHONY : ui/admin/UserView.cpp.i
 
 ui/admin/UserView.s: ui/admin/UserView.cpp.s
@@ -542,7 +542,7 @@ ui/admin/UserView.s: ui/admin/UserView.cpp.s
 
 # target to generate assembly for a file
 ui/admin/UserView.cpp.s:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/admin/UserView.cpp.s
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/admin/UserView.cpp.s
 .PHONY : ui/admin/UserView.cpp.s
 
 ui/admin/UsersView.o: ui/admin/UsersView.cpp.o
@@ -550,7 +550,7 @@ ui/admin/UsersView.o: ui/admin/UsersView.cpp.o
 
 # target to build an object file
 ui/admin/UsersView.cpp.o:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/admin/UsersView.cpp.o
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/admin/UsersView.cpp.o
 .PHONY : ui/admin/UsersView.cpp.o
 
 ui/admin/UsersView.i: ui/admin/UsersView.cpp.i
@@ -558,7 +558,7 @@ ui/admin/UsersView.i: ui/admin/UsersView.cpp.i
 
 # target to preprocess a source file
 ui/admin/UsersView.cpp.i:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/admin/UsersView.cpp.i
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/admin/UsersView.cpp.i
 .PHONY : ui/admin/UsersView.cpp.i
 
 ui/admin/UsersView.s: ui/admin/UsersView.cpp.s
@@ -566,7 +566,7 @@ ui/admin/UsersView.s: ui/admin/UsersView.cpp.s
 
 # target to generate assembly for a file
 ui/admin/UsersView.cpp.s:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/admin/UsersView.cpp.s
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/admin/UsersView.cpp.s
 .PHONY : ui/admin/UsersView.cpp.s
 
 ui/common/DirectoryValidator.o: ui/common/DirectoryValidator.cpp.o
@@ -574,7 +574,7 @@ ui/common/DirectoryValidator.o: ui/common/DirectoryValidator.cpp.o
 
 # target to build an object file
 ui/common/DirectoryValidator.cpp.o:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/common/DirectoryValidator.cpp.o
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/common/DirectoryValidator.cpp.o
 .PHONY : ui/common/DirectoryValidator.cpp.o
 
 ui/common/DirectoryValidator.i: ui/common/DirectoryValidator.cpp.i
@@ -582,7 +582,7 @@ ui/common/DirectoryValidator.i: ui/common/DirectoryValidator.cpp.i
 
 # target to preprocess a source file
 ui/common/DirectoryValidator.cpp.i:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/common/DirectoryValidator.cpp.i
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/common/DirectoryValidator.cpp.i
 .PHONY : ui/common/DirectoryValidator.cpp.i
 
 ui/common/DirectoryValidator.s: ui/common/DirectoryValidator.cpp.s
@@ -590,7 +590,7 @@ ui/common/DirectoryValidator.s: ui/common/DirectoryValidator.cpp.s
 
 # target to generate assembly for a file
 ui/common/DirectoryValidator.cpp.s:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/common/DirectoryValidator.cpp.s
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/common/DirectoryValidator.cpp.s
 .PHONY : ui/common/DirectoryValidator.cpp.s
 
 ui/common/DoubleValidator.o: ui/common/DoubleValidator.cpp.o
@@ -598,7 +598,7 @@ ui/common/DoubleValidator.o: ui/common/DoubleValidator.cpp.o
 
 # target to build an object file
 ui/common/DoubleValidator.cpp.o:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/common/DoubleValidator.cpp.o
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/common/DoubleValidator.cpp.o
 .PHONY : ui/common/DoubleValidator.cpp.o
 
 ui/common/DoubleValidator.i: ui/common/DoubleValidator.cpp.i
@@ -606,7 +606,7 @@ ui/common/DoubleValidator.i: ui/common/DoubleValidator.cpp.i
 
 # target to preprocess a source file
 ui/common/DoubleValidator.cpp.i:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/common/DoubleValidator.cpp.i
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/common/DoubleValidator.cpp.i
 .PHONY : ui/common/DoubleValidator.cpp.i
 
 ui/common/DoubleValidator.s: ui/common/DoubleValidator.cpp.s
@@ -614,7 +614,7 @@ ui/common/DoubleValidator.s: ui/common/DoubleValidator.cpp.s
 
 # target to generate assembly for a file
 ui/common/DoubleValidator.cpp.s:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/common/DoubleValidator.cpp.s
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/common/DoubleValidator.cpp.s
 .PHONY : ui/common/DoubleValidator.cpp.s
 
 ui/common/InfiniteScrollingContainer.o: ui/common/InfiniteScrollingContainer.cpp.o
@@ -622,7 +622,7 @@ ui/common/InfiniteScrollingContainer.o: ui/common/InfiniteScrollingContainer.cpp
 
 # target to build an object file
 ui/common/InfiniteScrollingContainer.cpp.o:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/common/InfiniteScrollingContainer.cpp.o
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/common/InfiniteScrollingContainer.cpp.o
 .PHONY : ui/common/InfiniteScrollingContainer.cpp.o
 
 ui/common/InfiniteScrollingContainer.i: ui/common/InfiniteScrollingContainer.cpp.i
@@ -630,7 +630,7 @@ ui/common/InfiniteScrollingContainer.i: ui/common/InfiniteScrollingContainer.cpp
 
 # target to preprocess a source file
 ui/common/InfiniteScrollingContainer.cpp.i:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/common/InfiniteScrollingContainer.cpp.i
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/common/InfiniteScrollingContainer.cpp.i
 .PHONY : ui/common/InfiniteScrollingContainer.cpp.i
 
 ui/common/InfiniteScrollingContainer.s: ui/common/InfiniteScrollingContainer.cpp.s
@@ -638,7 +638,7 @@ ui/common/InfiniteScrollingContainer.s: ui/common/InfiniteScrollingContainer.cpp
 
 # target to generate assembly for a file
 ui/common/InfiniteScrollingContainer.cpp.s:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/common/InfiniteScrollingContainer.cpp.s
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/common/InfiniteScrollingContainer.cpp.s
 .PHONY : ui/common/InfiniteScrollingContainer.cpp.s
 
 ui/common/LoadingIndicator.o: ui/common/LoadingIndicator.cpp.o
@@ -646,7 +646,7 @@ ui/common/LoadingIndicator.o: ui/common/LoadingIndicator.cpp.o
 
 # target to build an object file
 ui/common/LoadingIndicator.cpp.o:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/common/LoadingIndicator.cpp.o
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/common/LoadingIndicator.cpp.o
 .PHONY : ui/common/LoadingIndicator.cpp.o
 
 ui/common/LoadingIndicator.i: ui/common/LoadingIndicator.cpp.i
@@ -654,7 +654,7 @@ ui/common/LoadingIndicator.i: ui/common/LoadingIndicator.cpp.i
 
 # target to preprocess a source file
 ui/common/LoadingIndicator.cpp.i:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/common/LoadingIndicator.cpp.i
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/common/LoadingIndicator.cpp.i
 .PHONY : ui/common/LoadingIndicator.cpp.i
 
 ui/common/LoadingIndicator.s: ui/common/LoadingIndicator.cpp.s
@@ -662,7 +662,7 @@ ui/common/LoadingIndicator.s: ui/common/LoadingIndicator.cpp.s
 
 # target to generate assembly for a file
 ui/common/LoadingIndicator.cpp.s:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/common/LoadingIndicator.cpp.s
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/common/LoadingIndicator.cpp.s
 .PHONY : ui/common/LoadingIndicator.cpp.s
 
 ui/common/LoginNameValidator.o: ui/common/LoginNameValidator.cpp.o
@@ -670,7 +670,7 @@ ui/common/LoginNameValidator.o: ui/common/LoginNameValidator.cpp.o
 
 # target to build an object file
 ui/common/LoginNameValidator.cpp.o:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/common/LoginNameValidator.cpp.o
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/common/LoginNameValidator.cpp.o
 .PHONY : ui/common/LoginNameValidator.cpp.o
 
 ui/common/LoginNameValidator.i: ui/common/LoginNameValidator.cpp.i
@@ -678,7 +678,7 @@ ui/common/LoginNameValidator.i: ui/common/LoginNameValidator.cpp.i
 
 # target to preprocess a source file
 ui/common/LoginNameValidator.cpp.i:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/common/LoginNameValidator.cpp.i
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/common/LoginNameValidator.cpp.i
 .PHONY : ui/common/LoginNameValidator.cpp.i
 
 ui/common/LoginNameValidator.s: ui/common/LoginNameValidator.cpp.s
@@ -686,7 +686,7 @@ ui/common/LoginNameValidator.s: ui/common/LoginNameValidator.cpp.s
 
 # target to generate assembly for a file
 ui/common/LoginNameValidator.cpp.s:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/common/LoginNameValidator.cpp.s
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/common/LoginNameValidator.cpp.s
 .PHONY : ui/common/LoginNameValidator.cpp.s
 
 ui/common/MandatoryValidator.o: ui/common/MandatoryValidator.cpp.o
@@ -694,7 +694,7 @@ ui/common/MandatoryValidator.o: ui/common/MandatoryValidator.cpp.o
 
 # target to build an object file
 ui/common/MandatoryValidator.cpp.o:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/common/MandatoryValidator.cpp.o
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/common/MandatoryValidator.cpp.o
 .PHONY : ui/common/MandatoryValidator.cpp.o
 
 ui/common/MandatoryValidator.i: ui/common/MandatoryValidator.cpp.i
@@ -702,7 +702,7 @@ ui/common/MandatoryValidator.i: ui/common/MandatoryValidator.cpp.i
 
 # target to preprocess a source file
 ui/common/MandatoryValidator.cpp.i:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/common/MandatoryValidator.cpp.i
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/common/MandatoryValidator.cpp.i
 .PHONY : ui/common/MandatoryValidator.cpp.i
 
 ui/common/MandatoryValidator.s: ui/common/MandatoryValidator.cpp.s
@@ -710,7 +710,7 @@ ui/common/MandatoryValidator.s: ui/common/MandatoryValidator.cpp.s
 
 # target to generate assembly for a file
 ui/common/MandatoryValidator.cpp.s:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/common/MandatoryValidator.cpp.s
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/common/MandatoryValidator.cpp.s
 .PHONY : ui/common/MandatoryValidator.cpp.s
 
 ui/common/PasswordValidator.o: ui/common/PasswordValidator.cpp.o
@@ -718,7 +718,7 @@ ui/common/PasswordValidator.o: ui/common/PasswordValidator.cpp.o
 
 # target to build an object file
 ui/common/PasswordValidator.cpp.o:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/common/PasswordValidator.cpp.o
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/common/PasswordValidator.cpp.o
 .PHONY : ui/common/PasswordValidator.cpp.o
 
 ui/common/PasswordValidator.i: ui/common/PasswordValidator.cpp.i
@@ -726,7 +726,7 @@ ui/common/PasswordValidator.i: ui/common/PasswordValidator.cpp.i
 
 # target to preprocess a source file
 ui/common/PasswordValidator.cpp.i:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/common/PasswordValidator.cpp.i
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/common/PasswordValidator.cpp.i
 .PHONY : ui/common/PasswordValidator.cpp.i
 
 ui/common/PasswordValidator.s: ui/common/PasswordValidator.cpp.s
@@ -734,7 +734,7 @@ ui/common/PasswordValidator.s: ui/common/PasswordValidator.cpp.s
 
 # target to generate assembly for a file
 ui/common/PasswordValidator.cpp.s:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/common/PasswordValidator.cpp.s
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/common/PasswordValidator.cpp.s
 .PHONY : ui/common/PasswordValidator.cpp.s
 
 ui/common/Template.o: ui/common/Template.cpp.o
@@ -742,7 +742,7 @@ ui/common/Template.o: ui/common/Template.cpp.o
 
 # target to build an object file
 ui/common/Template.cpp.o:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/common/Template.cpp.o
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/common/Template.cpp.o
 .PHONY : ui/common/Template.cpp.o
 
 ui/common/Template.i: ui/common/Template.cpp.i
@@ -750,7 +750,7 @@ ui/common/Template.i: ui/common/Template.cpp.i
 
 # target to preprocess a source file
 ui/common/Template.cpp.i:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/common/Template.cpp.i
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/common/Template.cpp.i
 .PHONY : ui/common/Template.cpp.i
 
 ui/common/Template.s: ui/common/Template.cpp.s
@@ -758,7 +758,7 @@ ui/common/Template.s: ui/common/Template.cpp.s
 
 # target to generate assembly for a file
 ui/common/Template.cpp.s:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/common/Template.cpp.s
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/common/Template.cpp.s
 .PHONY : ui/common/Template.cpp.s
 
 ui/common/UUIDValidator.o: ui/common/UUIDValidator.cpp.o
@@ -766,7 +766,7 @@ ui/common/UUIDValidator.o: ui/common/UUIDValidator.cpp.o
 
 # target to build an object file
 ui/common/UUIDValidator.cpp.o:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/common/UUIDValidator.cpp.o
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/common/UUIDValidator.cpp.o
 .PHONY : ui/common/UUIDValidator.cpp.o
 
 ui/common/UUIDValidator.i: ui/common/UUIDValidator.cpp.i
@@ -774,7 +774,7 @@ ui/common/UUIDValidator.i: ui/common/UUIDValidator.cpp.i
 
 # target to preprocess a source file
 ui/common/UUIDValidator.cpp.i:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/common/UUIDValidator.cpp.i
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/common/UUIDValidator.cpp.i
 .PHONY : ui/common/UUIDValidator.cpp.i
 
 ui/common/UUIDValidator.s: ui/common/UUIDValidator.cpp.s
@@ -782,7 +782,7 @@ ui/common/UUIDValidator.s: ui/common/UUIDValidator.cpp.s
 
 # target to generate assembly for a file
 ui/common/UUIDValidator.cpp.s:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/common/UUIDValidator.cpp.s
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/common/UUIDValidator.cpp.s
 .PHONY : ui/common/UUIDValidator.cpp.s
 
 ui/explore/ArtistCollector.o: ui/explore/ArtistCollector.cpp.o
@@ -790,7 +790,7 @@ ui/explore/ArtistCollector.o: ui/explore/ArtistCollector.cpp.o
 
 # target to build an object file
 ui/explore/ArtistCollector.cpp.o:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/explore/ArtistCollector.cpp.o
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/explore/ArtistCollector.cpp.o
 .PHONY : ui/explore/ArtistCollector.cpp.o
 
 ui/explore/ArtistCollector.i: ui/explore/ArtistCollector.cpp.i
@@ -798,7 +798,7 @@ ui/explore/ArtistCollector.i: ui/explore/ArtistCollector.cpp.i
 
 # target to preprocess a source file
 ui/explore/ArtistCollector.cpp.i:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/explore/ArtistCollector.cpp.i
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/explore/ArtistCollector.cpp.i
 .PHONY : ui/explore/ArtistCollector.cpp.i
 
 ui/explore/ArtistCollector.s: ui/explore/ArtistCollector.cpp.s
@@ -806,7 +806,7 @@ ui/explore/ArtistCollector.s: ui/explore/ArtistCollector.cpp.s
 
 # target to generate assembly for a file
 ui/explore/ArtistCollector.cpp.s:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/explore/ArtistCollector.cpp.s
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/explore/ArtistCollector.cpp.s
 .PHONY : ui/explore/ArtistCollector.cpp.s
 
 ui/explore/ArtistListHelpers.o: ui/explore/ArtistListHelpers.cpp.o
@@ -814,7 +814,7 @@ ui/explore/ArtistListHelpers.o: ui/explore/ArtistListHelpers.cpp.o
 
 # target to build an object file
 ui/explore/ArtistListHelpers.cpp.o:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/explore/ArtistListHelpers.cpp.o
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/explore/ArtistListHelpers.cpp.o
 .PHONY : ui/explore/ArtistListHelpers.cpp.o
 
 ui/explore/ArtistListHelpers.i: ui/explore/ArtistListHelpers.cpp.i
@@ -822,7 +822,7 @@ ui/explore/ArtistListHelpers.i: ui/explore/ArtistListHelpers.cpp.i
 
 # target to preprocess a source file
 ui/explore/ArtistListHelpers.cpp.i:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/explore/ArtistListHelpers.cpp.i
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/explore/ArtistListHelpers.cpp.i
 .PHONY : ui/explore/ArtistListHelpers.cpp.i
 
 ui/explore/ArtistListHelpers.s: ui/explore/ArtistListHelpers.cpp.s
@@ -830,7 +830,7 @@ ui/explore/ArtistListHelpers.s: ui/explore/ArtistListHelpers.cpp.s
 
 # target to generate assembly for a file
 ui/explore/ArtistListHelpers.cpp.s:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/explore/ArtistListHelpers.cpp.s
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/explore/ArtistListHelpers.cpp.s
 .PHONY : ui/explore/ArtistListHelpers.cpp.s
 
 ui/explore/ArtistView.o: ui/explore/ArtistView.cpp.o
@@ -838,7 +838,7 @@ ui/explore/ArtistView.o: ui/explore/ArtistView.cpp.o
 
 # target to build an object file
 ui/explore/ArtistView.cpp.o:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/explore/ArtistView.cpp.o
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/explore/ArtistView.cpp.o
 .PHONY : ui/explore/ArtistView.cpp.o
 
 ui/explore/ArtistView.i: ui/explore/ArtistView.cpp.i
@@ -846,7 +846,7 @@ ui/explore/ArtistView.i: ui/explore/ArtistView.cpp.i
 
 # target to preprocess a source file
 ui/explore/ArtistView.cpp.i:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/explore/ArtistView.cpp.i
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/explore/ArtistView.cpp.i
 .PHONY : ui/explore/ArtistView.cpp.i
 
 ui/explore/ArtistView.s: ui/explore/ArtistView.cpp.s
@@ -854,7 +854,7 @@ ui/explore/ArtistView.s: ui/explore/ArtistView.cpp.s
 
 # target to generate assembly for a file
 ui/explore/ArtistView.cpp.s:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/explore/ArtistView.cpp.s
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/explore/ArtistView.cpp.s
 .PHONY : ui/explore/ArtistView.cpp.s
 
 ui/explore/ArtistsView.o: ui/explore/ArtistsView.cpp.o
@@ -862,7 +862,7 @@ ui/explore/ArtistsView.o: ui/explore/ArtistsView.cpp.o
 
 # target to build an object file
 ui/explore/ArtistsView.cpp.o:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/explore/ArtistsView.cpp.o
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/explore/ArtistsView.cpp.o
 .PHONY : ui/explore/ArtistsView.cpp.o
 
 ui/explore/ArtistsView.i: ui/explore/ArtistsView.cpp.i
@@ -870,7 +870,7 @@ ui/explore/ArtistsView.i: ui/explore/ArtistsView.cpp.i
 
 # target to preprocess a source file
 ui/explore/ArtistsView.cpp.i:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/explore/ArtistsView.cpp.i
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/explore/ArtistsView.cpp.i
 .PHONY : ui/explore/ArtistsView.cpp.i
 
 ui/explore/ArtistsView.s: ui/explore/ArtistsView.cpp.s
@@ -878,7 +878,7 @@ ui/explore/ArtistsView.s: ui/explore/ArtistsView.cpp.s
 
 # target to generate assembly for a file
 ui/explore/ArtistsView.cpp.s:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/explore/ArtistsView.cpp.s
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/explore/ArtistsView.cpp.s
 .PHONY : ui/explore/ArtistsView.cpp.s
 
 ui/explore/DatabaseCollectorBase.o: ui/explore/DatabaseCollectorBase.cpp.o
@@ -886,7 +886,7 @@ ui/explore/DatabaseCollectorBase.o: ui/explore/DatabaseCollectorBase.cpp.o
 
 # target to build an object file
 ui/explore/DatabaseCollectorBase.cpp.o:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/explore/DatabaseCollectorBase.cpp.o
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/explore/DatabaseCollectorBase.cpp.o
 .PHONY : ui/explore/DatabaseCollectorBase.cpp.o
 
 ui/explore/DatabaseCollectorBase.i: ui/explore/DatabaseCollectorBase.cpp.i
@@ -894,7 +894,7 @@ ui/explore/DatabaseCollectorBase.i: ui/explore/DatabaseCollectorBase.cpp.i
 
 # target to preprocess a source file
 ui/explore/DatabaseCollectorBase.cpp.i:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/explore/DatabaseCollectorBase.cpp.i
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/explore/DatabaseCollectorBase.cpp.i
 .PHONY : ui/explore/DatabaseCollectorBase.cpp.i
 
 ui/explore/DatabaseCollectorBase.s: ui/explore/DatabaseCollectorBase.cpp.s
@@ -902,7 +902,7 @@ ui/explore/DatabaseCollectorBase.s: ui/explore/DatabaseCollectorBase.cpp.s
 
 # target to generate assembly for a file
 ui/explore/DatabaseCollectorBase.cpp.s:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/explore/DatabaseCollectorBase.cpp.s
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/explore/DatabaseCollectorBase.cpp.s
 .PHONY : ui/explore/DatabaseCollectorBase.cpp.s
 
 ui/explore/Explore.o: ui/explore/Explore.cpp.o
@@ -910,7 +910,7 @@ ui/explore/Explore.o: ui/explore/Explore.cpp.o
 
 # target to build an object file
 ui/explore/Explore.cpp.o:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/explore/Explore.cpp.o
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/explore/Explore.cpp.o
 .PHONY : ui/explore/Explore.cpp.o
 
 ui/explore/Explore.i: ui/explore/Explore.cpp.i
@@ -918,7 +918,7 @@ ui/explore/Explore.i: ui/explore/Explore.cpp.i
 
 # target to preprocess a source file
 ui/explore/Explore.cpp.i:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/explore/Explore.cpp.i
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/explore/Explore.cpp.i
 .PHONY : ui/explore/Explore.cpp.i
 
 ui/explore/Explore.s: ui/explore/Explore.cpp.s
@@ -926,7 +926,7 @@ ui/explore/Explore.s: ui/explore/Explore.cpp.s
 
 # target to generate assembly for a file
 ui/explore/Explore.cpp.s:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/explore/Explore.cpp.s
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/explore/Explore.cpp.s
 .PHONY : ui/explore/Explore.cpp.s
 
 ui/explore/Filters.o: ui/explore/Filters.cpp.o
@@ -934,7 +934,7 @@ ui/explore/Filters.o: ui/explore/Filters.cpp.o
 
 # target to build an object file
 ui/explore/Filters.cpp.o:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/explore/Filters.cpp.o
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/explore/Filters.cpp.o
 .PHONY : ui/explore/Filters.cpp.o
 
 ui/explore/Filters.i: ui/explore/Filters.cpp.i
@@ -942,7 +942,7 @@ ui/explore/Filters.i: ui/explore/Filters.cpp.i
 
 # target to preprocess a source file
 ui/explore/Filters.cpp.i:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/explore/Filters.cpp.i
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/explore/Filters.cpp.i
 .PHONY : ui/explore/Filters.cpp.i
 
 ui/explore/Filters.s: ui/explore/Filters.cpp.s
@@ -950,7 +950,7 @@ ui/explore/Filters.s: ui/explore/Filters.cpp.s
 
 # target to generate assembly for a file
 ui/explore/Filters.cpp.s:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/explore/Filters.cpp.s
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/explore/Filters.cpp.s
 .PHONY : ui/explore/Filters.cpp.s
 
 ui/explore/PlayQueueController.o: ui/explore/PlayQueueController.cpp.o
@@ -958,7 +958,7 @@ ui/explore/PlayQueueController.o: ui/explore/PlayQueueController.cpp.o
 
 # target to build an object file
 ui/explore/PlayQueueController.cpp.o:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/explore/PlayQueueController.cpp.o
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/explore/PlayQueueController.cpp.o
 .PHONY : ui/explore/PlayQueueController.cpp.o
 
 ui/explore/PlayQueueController.i: ui/explore/PlayQueueController.cpp.i
@@ -966,7 +966,7 @@ ui/explore/PlayQueueController.i: ui/explore/PlayQueueController.cpp.i
 
 # target to preprocess a source file
 ui/explore/PlayQueueController.cpp.i:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/explore/PlayQueueController.cpp.i
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/explore/PlayQueueController.cpp.i
 .PHONY : ui/explore/PlayQueueController.cpp.i
 
 ui/explore/PlayQueueController.s: ui/explore/PlayQueueController.cpp.s
@@ -974,7 +974,7 @@ ui/explore/PlayQueueController.s: ui/explore/PlayQueueController.cpp.s
 
 # target to generate assembly for a file
 ui/explore/PlayQueueController.cpp.s:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/explore/PlayQueueController.cpp.s
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/explore/PlayQueueController.cpp.s
 .PHONY : ui/explore/PlayQueueController.cpp.s
 
 ui/explore/ReleaseCollector.o: ui/explore/ReleaseCollector.cpp.o
@@ -982,7 +982,7 @@ ui/explore/ReleaseCollector.o: ui/explore/ReleaseCollector.cpp.o
 
 # target to build an object file
 ui/explore/ReleaseCollector.cpp.o:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/explore/ReleaseCollector.cpp.o
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/explore/ReleaseCollector.cpp.o
 .PHONY : ui/explore/ReleaseCollector.cpp.o
 
 ui/explore/ReleaseCollector.i: ui/explore/ReleaseCollector.cpp.i
@@ -990,7 +990,7 @@ ui/explore/ReleaseCollector.i: ui/explore/ReleaseCollector.cpp.i
 
 # target to preprocess a source file
 ui/explore/ReleaseCollector.cpp.i:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/explore/ReleaseCollector.cpp.i
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/explore/ReleaseCollector.cpp.i
 .PHONY : ui/explore/ReleaseCollector.cpp.i
 
 ui/explore/ReleaseCollector.s: ui/explore/ReleaseCollector.cpp.s
@@ -998,7 +998,7 @@ ui/explore/ReleaseCollector.s: ui/explore/ReleaseCollector.cpp.s
 
 # target to generate assembly for a file
 ui/explore/ReleaseCollector.cpp.s:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/explore/ReleaseCollector.cpp.s
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/explore/ReleaseCollector.cpp.s
 .PHONY : ui/explore/ReleaseCollector.cpp.s
 
 ui/explore/ReleaseHelpers.o: ui/explore/ReleaseHelpers.cpp.o
@@ -1006,7 +1006,7 @@ ui/explore/ReleaseHelpers.o: ui/explore/ReleaseHelpers.cpp.o
 
 # target to build an object file
 ui/explore/ReleaseHelpers.cpp.o:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/explore/ReleaseHelpers.cpp.o
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/explore/ReleaseHelpers.cpp.o
 .PHONY : ui/explore/ReleaseHelpers.cpp.o
 
 ui/explore/ReleaseHelpers.i: ui/explore/ReleaseHelpers.cpp.i
@@ -1014,7 +1014,7 @@ ui/explore/ReleaseHelpers.i: ui/explore/ReleaseHelpers.cpp.i
 
 # target to preprocess a source file
 ui/explore/ReleaseHelpers.cpp.i:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/explore/ReleaseHelpers.cpp.i
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/explore/ReleaseHelpers.cpp.i
 .PHONY : ui/explore/ReleaseHelpers.cpp.i
 
 ui/explore/ReleaseHelpers.s: ui/explore/ReleaseHelpers.cpp.s
@@ -1022,7 +1022,7 @@ ui/explore/ReleaseHelpers.s: ui/explore/ReleaseHelpers.cpp.s
 
 # target to generate assembly for a file
 ui/explore/ReleaseHelpers.cpp.s:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/explore/ReleaseHelpers.cpp.s
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/explore/ReleaseHelpers.cpp.s
 .PHONY : ui/explore/ReleaseHelpers.cpp.s
 
 ui/explore/ReleaseView.o: ui/explore/ReleaseView.cpp.o
@@ -1030,7 +1030,7 @@ ui/explore/ReleaseView.o: ui/explore/ReleaseView.cpp.o
 
 # target to build an object file
 ui/explore/ReleaseView.cpp.o:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/explore/ReleaseView.cpp.o
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/explore/ReleaseView.cpp.o
 .PHONY : ui/explore/ReleaseView.cpp.o
 
 ui/explore/ReleaseView.i: ui/explore/ReleaseView.cpp.i
@@ -1038,7 +1038,7 @@ ui/explore/ReleaseView.i: ui/explore/ReleaseView.cpp.i
 
 # target to preprocess a source file
 ui/explore/ReleaseView.cpp.i:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/explore/ReleaseView.cpp.i
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/explore/ReleaseView.cpp.i
 .PHONY : ui/explore/ReleaseView.cpp.i
 
 ui/explore/ReleaseView.s: ui/explore/ReleaseView.cpp.s
@@ -1046,7 +1046,7 @@ ui/explore/ReleaseView.s: ui/explore/ReleaseView.cpp.s
 
 # target to generate assembly for a file
 ui/explore/ReleaseView.cpp.s:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/explore/ReleaseView.cpp.s
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/explore/ReleaseView.cpp.s
 .PHONY : ui/explore/ReleaseView.cpp.s
 
 ui/explore/ReleasesView.o: ui/explore/ReleasesView.cpp.o
@@ -1054,7 +1054,7 @@ ui/explore/ReleasesView.o: ui/explore/ReleasesView.cpp.o
 
 # target to build an object file
 ui/explore/ReleasesView.cpp.o:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/explore/ReleasesView.cpp.o
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/explore/ReleasesView.cpp.o
 .PHONY : ui/explore/ReleasesView.cpp.o
 
 ui/explore/ReleasesView.i: ui/explore/ReleasesView.cpp.i
@@ -1062,7 +1062,7 @@ ui/explore/ReleasesView.i: ui/explore/ReleasesView.cpp.i
 
 # target to preprocess a source file
 ui/explore/ReleasesView.cpp.i:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/explore/ReleasesView.cpp.i
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/explore/ReleasesView.cpp.i
 .PHONY : ui/explore/ReleasesView.cpp.i
 
 ui/explore/ReleasesView.s: ui/explore/ReleasesView.cpp.s
@@ -1070,7 +1070,7 @@ ui/explore/ReleasesView.s: ui/explore/ReleasesView.cpp.s
 
 # target to generate assembly for a file
 ui/explore/ReleasesView.cpp.s:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/explore/ReleasesView.cpp.s
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/explore/ReleasesView.cpp.s
 .PHONY : ui/explore/ReleasesView.cpp.s
 
 ui/explore/SearchView.o: ui/explore/SearchView.cpp.o
@@ -1078,7 +1078,7 @@ ui/explore/SearchView.o: ui/explore/SearchView.cpp.o
 
 # target to build an object file
 ui/explore/SearchView.cpp.o:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/explore/SearchView.cpp.o
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/explore/SearchView.cpp.o
 .PHONY : ui/explore/SearchView.cpp.o
 
 ui/explore/SearchView.i: ui/explore/SearchView.cpp.i
@@ -1086,7 +1086,7 @@ ui/explore/SearchView.i: ui/explore/SearchView.cpp.i
 
 # target to preprocess a source file
 ui/explore/SearchView.cpp.i:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/explore/SearchView.cpp.i
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/explore/SearchView.cpp.i
 .PHONY : ui/explore/SearchView.cpp.i
 
 ui/explore/SearchView.s: ui/explore/SearchView.cpp.s
@@ -1094,7 +1094,7 @@ ui/explore/SearchView.s: ui/explore/SearchView.cpp.s
 
 # target to generate assembly for a file
 ui/explore/SearchView.cpp.s:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/explore/SearchView.cpp.s
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/explore/SearchView.cpp.s
 .PHONY : ui/explore/SearchView.cpp.s
 
 ui/explore/TrackCollector.o: ui/explore/TrackCollector.cpp.o
@@ -1102,7 +1102,7 @@ ui/explore/TrackCollector.o: ui/explore/TrackCollector.cpp.o
 
 # target to build an object file
 ui/explore/TrackCollector.cpp.o:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/explore/TrackCollector.cpp.o
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/explore/TrackCollector.cpp.o
 .PHONY : ui/explore/TrackCollector.cpp.o
 
 ui/explore/TrackCollector.i: ui/explore/TrackCollector.cpp.i
@@ -1110,7 +1110,7 @@ ui/explore/TrackCollector.i: ui/explore/TrackCollector.cpp.i
 
 # target to preprocess a source file
 ui/explore/TrackCollector.cpp.i:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/explore/TrackCollector.cpp.i
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/explore/TrackCollector.cpp.i
 .PHONY : ui/explore/TrackCollector.cpp.i
 
 ui/explore/TrackCollector.s: ui/explore/TrackCollector.cpp.s
@@ -1118,7 +1118,7 @@ ui/explore/TrackCollector.s: ui/explore/TrackCollector.cpp.s
 
 # target to generate assembly for a file
 ui/explore/TrackCollector.cpp.s:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/explore/TrackCollector.cpp.s
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/explore/TrackCollector.cpp.s
 .PHONY : ui/explore/TrackCollector.cpp.s
 
 ui/explore/TrackListHelpers.o: ui/explore/TrackListHelpers.cpp.o
@@ -1126,7 +1126,7 @@ ui/explore/TrackListHelpers.o: ui/explore/TrackListHelpers.cpp.o
 
 # target to build an object file
 ui/explore/TrackListHelpers.cpp.o:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/explore/TrackListHelpers.cpp.o
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/explore/TrackListHelpers.cpp.o
 .PHONY : ui/explore/TrackListHelpers.cpp.o
 
 ui/explore/TrackListHelpers.i: ui/explore/TrackListHelpers.cpp.i
@@ -1134,7 +1134,7 @@ ui/explore/TrackListHelpers.i: ui/explore/TrackListHelpers.cpp.i
 
 # target to preprocess a source file
 ui/explore/TrackListHelpers.cpp.i:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/explore/TrackListHelpers.cpp.i
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/explore/TrackListHelpers.cpp.i
 .PHONY : ui/explore/TrackListHelpers.cpp.i
 
 ui/explore/TrackListHelpers.s: ui/explore/TrackListHelpers.cpp.s
@@ -1142,7 +1142,7 @@ ui/explore/TrackListHelpers.s: ui/explore/TrackListHelpers.cpp.s
 
 # target to generate assembly for a file
 ui/explore/TrackListHelpers.cpp.s:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/explore/TrackListHelpers.cpp.s
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/explore/TrackListHelpers.cpp.s
 .PHONY : ui/explore/TrackListHelpers.cpp.s
 
 ui/explore/TrackListView.o: ui/explore/TrackListView.cpp.o
@@ -1150,7 +1150,7 @@ ui/explore/TrackListView.o: ui/explore/TrackListView.cpp.o
 
 # target to build an object file
 ui/explore/TrackListView.cpp.o:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/explore/TrackListView.cpp.o
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/explore/TrackListView.cpp.o
 .PHONY : ui/explore/TrackListView.cpp.o
 
 ui/explore/TrackListView.i: ui/explore/TrackListView.cpp.i
@@ -1158,7 +1158,7 @@ ui/explore/TrackListView.i: ui/explore/TrackListView.cpp.i
 
 # target to preprocess a source file
 ui/explore/TrackListView.cpp.i:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/explore/TrackListView.cpp.i
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/explore/TrackListView.cpp.i
 .PHONY : ui/explore/TrackListView.cpp.i
 
 ui/explore/TrackListView.s: ui/explore/TrackListView.cpp.s
@@ -1166,7 +1166,7 @@ ui/explore/TrackListView.s: ui/explore/TrackListView.cpp.s
 
 # target to generate assembly for a file
 ui/explore/TrackListView.cpp.s:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/explore/TrackListView.cpp.s
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/explore/TrackListView.cpp.s
 .PHONY : ui/explore/TrackListView.cpp.s
 
 ui/explore/TrackListsView.o: ui/explore/TrackListsView.cpp.o
@@ -1174,7 +1174,7 @@ ui/explore/TrackListsView.o: ui/explore/TrackListsView.cpp.o
 
 # target to build an object file
 ui/explore/TrackListsView.cpp.o:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/explore/TrackListsView.cpp.o
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/explore/TrackListsView.cpp.o
 .PHONY : ui/explore/TrackListsView.cpp.o
 
 ui/explore/TrackListsView.i: ui/explore/TrackListsView.cpp.i
@@ -1182,7 +1182,7 @@ ui/explore/TrackListsView.i: ui/explore/TrackListsView.cpp.i
 
 # target to preprocess a source file
 ui/explore/TrackListsView.cpp.i:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/explore/TrackListsView.cpp.i
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/explore/TrackListsView.cpp.i
 .PHONY : ui/explore/TrackListsView.cpp.i
 
 ui/explore/TrackListsView.s: ui/explore/TrackListsView.cpp.s
@@ -1190,7 +1190,7 @@ ui/explore/TrackListsView.s: ui/explore/TrackListsView.cpp.s
 
 # target to generate assembly for a file
 ui/explore/TrackListsView.cpp.s:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/explore/TrackListsView.cpp.s
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/explore/TrackListsView.cpp.s
 .PHONY : ui/explore/TrackListsView.cpp.s
 
 ui/explore/TracksView.o: ui/explore/TracksView.cpp.o
@@ -1198,7 +1198,7 @@ ui/explore/TracksView.o: ui/explore/TracksView.cpp.o
 
 # target to build an object file
 ui/explore/TracksView.cpp.o:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/explore/TracksView.cpp.o
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/explore/TracksView.cpp.o
 .PHONY : ui/explore/TracksView.cpp.o
 
 ui/explore/TracksView.i: ui/explore/TracksView.cpp.i
@@ -1206,7 +1206,7 @@ ui/explore/TracksView.i: ui/explore/TracksView.cpp.i
 
 # target to preprocess a source file
 ui/explore/TracksView.cpp.i:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/explore/TracksView.cpp.i
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/explore/TracksView.cpp.i
 .PHONY : ui/explore/TracksView.cpp.i
 
 ui/explore/TracksView.s: ui/explore/TracksView.cpp.s
@@ -1214,7 +1214,7 @@ ui/explore/TracksView.s: ui/explore/TracksView.cpp.s
 
 # target to generate assembly for a file
 ui/explore/TracksView.cpp.s:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/explore/TracksView.cpp.s
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/explore/TracksView.cpp.s
 .PHONY : ui/explore/TracksView.cpp.s
 
 ui/resource/AudioFileResource.o: ui/resource/AudioFileResource.cpp.o
@@ -1222,7 +1222,7 @@ ui/resource/AudioFileResource.o: ui/resource/AudioFileResource.cpp.o
 
 # target to build an object file
 ui/resource/AudioFileResource.cpp.o:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/resource/AudioFileResource.cpp.o
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/resource/AudioFileResource.cpp.o
 .PHONY : ui/resource/AudioFileResource.cpp.o
 
 ui/resource/AudioFileResource.i: ui/resource/AudioFileResource.cpp.i
@@ -1230,7 +1230,7 @@ ui/resource/AudioFileResource.i: ui/resource/AudioFileResource.cpp.i
 
 # target to preprocess a source file
 ui/resource/AudioFileResource.cpp.i:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/resource/AudioFileResource.cpp.i
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/resource/AudioFileResource.cpp.i
 .PHONY : ui/resource/AudioFileResource.cpp.i
 
 ui/resource/AudioFileResource.s: ui/resource/AudioFileResource.cpp.s
@@ -1238,7 +1238,7 @@ ui/resource/AudioFileResource.s: ui/resource/AudioFileResource.cpp.s
 
 # target to generate assembly for a file
 ui/resource/AudioFileResource.cpp.s:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/resource/AudioFileResource.cpp.s
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/resource/AudioFileResource.cpp.s
 .PHONY : ui/resource/AudioFileResource.cpp.s
 
 ui/resource/AudioTranscodeResource.o: ui/resource/AudioTranscodeResource.cpp.o
@@ -1246,7 +1246,7 @@ ui/resource/AudioTranscodeResource.o: ui/resource/AudioTranscodeResource.cpp.o
 
 # target to build an object file
 ui/resource/AudioTranscodeResource.cpp.o:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/resource/AudioTranscodeResource.cpp.o
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/resource/AudioTranscodeResource.cpp.o
 .PHONY : ui/resource/AudioTranscodeResource.cpp.o
 
 ui/resource/AudioTranscodeResource.i: ui/resource/AudioTranscodeResource.cpp.i
@@ -1254,7 +1254,7 @@ ui/resource/AudioTranscodeResource.i: ui/resource/AudioTranscodeResource.cpp.i
 
 # target to preprocess a source file
 ui/resource/AudioTranscodeResource.cpp.i:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/resource/AudioTranscodeResource.cpp.i
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/resource/AudioTranscodeResource.cpp.i
 .PHONY : ui/resource/AudioTranscodeResource.cpp.i
 
 ui/resource/AudioTranscodeResource.s: ui/resource/AudioTranscodeResource.cpp.s
@@ -1262,7 +1262,7 @@ ui/resource/AudioTranscodeResource.s: ui/resource/AudioTranscodeResource.cpp.s
 
 # target to generate assembly for a file
 ui/resource/AudioTranscodeResource.cpp.s:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/resource/AudioTranscodeResource.cpp.s
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/resource/AudioTranscodeResource.cpp.s
 .PHONY : ui/resource/AudioTranscodeResource.cpp.s
 
 ui/resource/CoverResource.o: ui/resource/CoverResource.cpp.o
@@ -1270,7 +1270,7 @@ ui/resource/CoverResource.o: ui/resource/CoverResource.cpp.o
 
 # target to build an object file
 ui/resource/CoverResource.cpp.o:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/resource/CoverResource.cpp.o
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/resource/CoverResource.cpp.o
 .PHONY : ui/resource/CoverResource.cpp.o
 
 ui/resource/CoverResource.i: ui/resource/CoverResource.cpp.i
@@ -1278,7 +1278,7 @@ ui/resource/CoverResource.i: ui/resource/CoverResource.cpp.i
 
 # target to preprocess a source file
 ui/resource/CoverResource.cpp.i:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/resource/CoverResource.cpp.i
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/resource/CoverResource.cpp.i
 .PHONY : ui/resource/CoverResource.cpp.i
 
 ui/resource/CoverResource.s: ui/resource/CoverResource.cpp.s
@@ -1286,7 +1286,7 @@ ui/resource/CoverResource.s: ui/resource/CoverResource.cpp.s
 
 # target to generate assembly for a file
 ui/resource/CoverResource.cpp.s:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/resource/CoverResource.cpp.s
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/resource/CoverResource.cpp.s
 .PHONY : ui/resource/CoverResource.cpp.s
 
 ui/resource/DownloadResource.o: ui/resource/DownloadResource.cpp.o
@@ -1294,7 +1294,7 @@ ui/resource/DownloadResource.o: ui/resource/DownloadResource.cpp.o
 
 # target to build an object file
 ui/resource/DownloadResource.cpp.o:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/resource/DownloadResource.cpp.o
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/resource/DownloadResource.cpp.o
 .PHONY : ui/resource/DownloadResource.cpp.o
 
 ui/resource/DownloadResource.i: ui/resource/DownloadResource.cpp.i
@@ -1302,7 +1302,7 @@ ui/resource/DownloadResource.i: ui/resource/DownloadResource.cpp.i
 
 # target to preprocess a source file
 ui/resource/DownloadResource.cpp.i:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/resource/DownloadResource.cpp.i
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/resource/DownloadResource.cpp.i
 .PHONY : ui/resource/DownloadResource.cpp.i
 
 ui/resource/DownloadResource.s: ui/resource/DownloadResource.cpp.s
@@ -1310,7 +1310,7 @@ ui/resource/DownloadResource.s: ui/resource/DownloadResource.cpp.s
 
 # target to generate assembly for a file
 ui/resource/DownloadResource.cpp.s:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/resource/DownloadResource.cpp.s
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/lms/CMakeFiles/lms.dir/build.make src/lms/CMakeFiles/lms.dir/ui/resource/DownloadResource.cpp.s
 .PHONY : ui/resource/DownloadResource.cpp.s
 
 # Help Target
@@ -1479,6 +1479,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/shree/Downloads/lms-master && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

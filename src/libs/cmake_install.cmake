@@ -1,8 +1,8 @@
-# Install script for directory: /Users/shree/Downloads/lms-master/src/libs
+# Install script for directory: /Users/shree/Downloads/Music-Streaming-Service/src/libs
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/Users/shree/Downloads/lms-master")
+  set(CMAKE_INSTALL_PREFIX "/Users/shree/Downloads/Music-Streaming-Service")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -39,13 +39,13 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/shree/Downloads/lms-master/src/libs/av/cmake_install.cmake")
-  include("/Users/shree/Downloads/lms-master/src/libs/image/cmake_install.cmake")
-  include("/Users/shree/Downloads/lms-master/src/libs/metadata/cmake_install.cmake")
-  include("/Users/shree/Downloads/lms-master/src/libs/services/cmake_install.cmake")
-  include("/Users/shree/Downloads/lms-master/src/libs/som/cmake_install.cmake")
-  include("/Users/shree/Downloads/lms-master/src/libs/subsonic/cmake_install.cmake")
-  include("/Users/shree/Downloads/lms-master/src/libs/utils/cmake_install.cmake")
+  include("/Users/shree/Downloads/Music-Streaming-Service/src/libs/av/cmake_install.cmake")
+  include("/Users/shree/Downloads/Music-Streaming-Service/src/libs/image/cmake_install.cmake")
+  include("/Users/shree/Downloads/Music-Streaming-Service/src/libs/metadata/cmake_install.cmake")
+  include("/Users/shree/Downloads/Music-Streaming-Service/src/libs/services/cmake_install.cmake")
+  include("/Users/shree/Downloads/Music-Streaming-Service/src/libs/som/cmake_install.cmake")
+  include("/Users/shree/Downloads/Music-Streaming-Service/src/libs/subsonic/cmake_install.cmake")
+  include("/Users/shree/Downloads/Music-Streaming-Service/src/libs/utils/cmake_install.cmake")
 
 endif()
 

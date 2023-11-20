@@ -57,10 +57,10 @@ RM = /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/shree/Downloads/lms-master
+CMAKE_SOURCE_DIR = /Users/shree/Downloads/Music-Streaming-Service
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/shree/Downloads/lms-master
+CMAKE_BINARY_DIR = /Users/shree/Downloads/Music-Streaming-Service
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,14 +142,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/shree/Downloads/lms-master && $(CMAKE_COMMAND) -E cmake_progress_start /Users/shree/Downloads/lms-master/CMakeFiles /Users/shree/Downloads/lms-master/src/tools/metadata//CMakeFiles/progress.marks
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/tools/metadata/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/shree/Downloads/lms-master/CMakeFiles 0
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(CMAKE_COMMAND) -E cmake_progress_start /Users/shree/Downloads/Music-Streaming-Service/CMakeFiles /Users/shree/Downloads/Music-Streaming-Service/src/tools/metadata//CMakeFiles/progress.marks
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/tools/metadata/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/shree/Downloads/Music-Streaming-Service/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/tools/metadata/clean
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/tools/metadata/clean
 .PHONY : clean
 
 # The main clean target
@@ -158,22 +158,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/tools/metadata/preinstall
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/tools/metadata/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/tools/metadata/preinstall
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/tools/metadata/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/shree/Downloads/lms-master && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/tools/metadata/CMakeFiles/lms-metadata.dir/rule:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/tools/metadata/CMakeFiles/lms-metadata.dir/rule
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/tools/metadata/CMakeFiles/lms-metadata.dir/rule
 .PHONY : src/tools/metadata/CMakeFiles/lms-metadata.dir/rule
 
 # Convenience name for target.
@@ -182,7 +182,7 @@ lms-metadata: src/tools/metadata/CMakeFiles/lms-metadata.dir/rule
 
 # fast build rule for target.
 lms-metadata/fast:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/tools/metadata/CMakeFiles/lms-metadata.dir/build.make src/tools/metadata/CMakeFiles/lms-metadata.dir/build
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/tools/metadata/CMakeFiles/lms-metadata.dir/build.make src/tools/metadata/CMakeFiles/lms-metadata.dir/build
 .PHONY : lms-metadata/fast
 
 LmsMetadata.o: LmsMetadata.cpp.o
@@ -190,7 +190,7 @@ LmsMetadata.o: LmsMetadata.cpp.o
 
 # target to build an object file
 LmsMetadata.cpp.o:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/tools/metadata/CMakeFiles/lms-metadata.dir/build.make src/tools/metadata/CMakeFiles/lms-metadata.dir/LmsMetadata.cpp.o
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/tools/metadata/CMakeFiles/lms-metadata.dir/build.make src/tools/metadata/CMakeFiles/lms-metadata.dir/LmsMetadata.cpp.o
 .PHONY : LmsMetadata.cpp.o
 
 LmsMetadata.i: LmsMetadata.cpp.i
@@ -198,7 +198,7 @@ LmsMetadata.i: LmsMetadata.cpp.i
 
 # target to preprocess a source file
 LmsMetadata.cpp.i:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/tools/metadata/CMakeFiles/lms-metadata.dir/build.make src/tools/metadata/CMakeFiles/lms-metadata.dir/LmsMetadata.cpp.i
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/tools/metadata/CMakeFiles/lms-metadata.dir/build.make src/tools/metadata/CMakeFiles/lms-metadata.dir/LmsMetadata.cpp.i
 .PHONY : LmsMetadata.cpp.i
 
 LmsMetadata.s: LmsMetadata.cpp.s
@@ -206,7 +206,7 @@ LmsMetadata.s: LmsMetadata.cpp.s
 
 # target to generate assembly for a file
 LmsMetadata.cpp.s:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/tools/metadata/CMakeFiles/lms-metadata.dir/build.make src/tools/metadata/CMakeFiles/lms-metadata.dir/LmsMetadata.cpp.s
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/tools/metadata/CMakeFiles/lms-metadata.dir/build.make src/tools/metadata/CMakeFiles/lms-metadata.dir/LmsMetadata.cpp.s
 .PHONY : LmsMetadata.cpp.s
 
 # Help Target
@@ -237,6 +237,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/shree/Downloads/lms-master && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

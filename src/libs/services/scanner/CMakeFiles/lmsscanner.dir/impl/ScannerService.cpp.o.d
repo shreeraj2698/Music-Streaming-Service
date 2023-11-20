@@ -1,6 +1,6 @@
 src/libs/services/scanner/CMakeFiles/lmsscanner.dir/impl/ScannerService.cpp.o: \
-  /Users/shree/Downloads/lms-master/src/libs/services/scanner/impl/ScannerService.cpp \
-  /Users/shree/Downloads/lms-master/src/libs/services/scanner/impl/ScannerService.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/scanner/impl/ScannerService.cpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/scanner/impl/ScannerService.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/chrono \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__assert \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__config \
@@ -1414,7 +1414,7 @@ src/libs/services/scanner/CMakeFiles/lmsscanner.dir/impl/ScannerService.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/iostream \
   /usr/local/include/Wt/Signals/signals.hpp \
   /opt/homebrew/include/boost/asio/system_timer.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/services/database/include/services/database/Db.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/database/include/services/database/Db.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/copy_options.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/directory_entry.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/file_status.h \
@@ -1434,9 +1434,9 @@ src/libs/services/scanner/CMakeFiles/lmsscanner.dir/impl/ScannerService.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/u8path.h \
   /usr/local/include/Wt/Dbo/SqlConnectionPool.h \
   /usr/local/include/Wt/Dbo/WDboDllDefs.h \
-  /Users/shree/Downloads/lms-master/src/libs/utils/include/utils/RecursiveSharedMutex.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/utils/include/utils/RecursiveSharedMutex.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/thread \
-  /Users/shree/Downloads/lms-master/src/libs/services/database/include/services/database/Session.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/database/include/services/database/Session.hpp \
   /usr/local/include/Wt/Dbo/Dbo.h /usr/local/include/Wt/Dbo/Types.h \
   /usr/local/include/Wt/Dbo/ptr.h /usr/local/include/Wt/cpp17/any.hpp \
   /usr/local/include/Wt/cpp17/any/any.hpp \
@@ -1462,44 +1462,44 @@ src/libs/services/scanner/CMakeFiles/lmsscanner.dir/impl/ScannerService.cpp.o: \
   /usr/local/include/Wt/Dbo/Field_impl.h \
   /usr/local/include/Wt/Dbo/SqlTraits_impl.h \
   /usr/local/include/Wt/Dbo/Session_impl.h \
-  /Users/shree/Downloads/lms-master/src/libs/services/database/include/services/database/Object.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/services/database/include/services/database/IdType.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/services/database/include/services/database/Types.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/database/include/services/database/Object.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/database/include/services/database/IdType.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/database/include/services/database/Types.hpp \
   /usr/local/include/Wt/WDate.h \
-  /Users/shree/Downloads/lms-master/src/libs/services/scanner/include/services/scanner/IScannerService.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/services/scanner/include/services/scanner/ScannerEvents.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/services/scanner/include/services/scanner/ScannerStats.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/services/database/include/services/database/TrackId.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/utils/include/utils/Path.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/services/scanner/impl/IScanStep.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/services/scanner/impl/ScannerSettings.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/services/database/include/services/database/ScanSettings.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/scanner/include/services/scanner/IScannerService.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/scanner/include/services/scanner/ScannerEvents.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/scanner/include/services/scanner/ScannerStats.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/database/include/services/database/TrackId.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/utils/include/utils/Path.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/scanner/impl/IScanStep.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/scanner/impl/ScannerSettings.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/database/include/services/database/ScanSettings.hpp \
   /usr/local/include/Wt/WTime.h \
   /opt/homebrew/include/boost/asio/placeholders.hpp \
   /opt/homebrew/include/boost/bind/arg.hpp \
   /opt/homebrew/include/boost/is_placeholder.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/services/database/include/services/database/Cluster.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/services/database/include/services/database/ClusterId.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/services/database/include/services/database/Release.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/services/database/include/services/database/ArtistId.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/services/database/include/services/database/ReleaseId.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/services/database/include/services/database/UserId.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/utils/include/utils/EnumSet.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/utils/include/utils/UUID.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/utils/include/utils/String.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/services/database/include/services/database/TrackFeatures.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/database/include/services/database/Cluster.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/database/include/services/database/ClusterId.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/database/include/services/database/Release.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/database/include/services/database/ArtistId.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/database/include/services/database/ReleaseId.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/database/include/services/database/UserId.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/utils/include/utils/EnumSet.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/utils/include/utils/UUID.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/utils/include/utils/String.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/database/include/services/database/TrackFeatures.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/unordered_set \
-  /Users/shree/Downloads/lms-master/src/libs/services/recommendation/include/services/recommendation/IRecommendationService.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/services/database/include/services/database/TrackListId.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/services/recommendation/include/services/recommendation/Types.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/utils/include/utils/Exception.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/utils/include/utils/IConfig.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/utils/include/utils/Logger.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/utils/include/utils/Service.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/utils/include/utils/Tuple.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/services/scanner/impl/ScanStepCheckDuplicatedDbFiles.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/services/scanner/impl/ScanStepBase.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/services/scanner/impl/ScanStepDiscoverFiles.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/services/scanner/impl/ScanStepRemoveOrphanDbFiles.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/services/scanner/impl/ScanStepScanFiles.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/metadata/include/metadata/IParser.hpp
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/recommendation/include/services/recommendation/IRecommendationService.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/database/include/services/database/TrackListId.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/recommendation/include/services/recommendation/Types.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/utils/include/utils/Exception.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/utils/include/utils/IConfig.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/utils/include/utils/Logger.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/utils/include/utils/Service.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/utils/include/utils/Tuple.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/scanner/impl/ScanStepCheckDuplicatedDbFiles.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/scanner/impl/ScanStepBase.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/scanner/impl/ScanStepDiscoverFiles.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/scanner/impl/ScanStepRemoveOrphanDbFiles.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/scanner/impl/ScanStepScanFiles.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/metadata/include/metadata/IParser.hpp

@@ -1,6 +1,6 @@
 src/lms/CMakeFiles/lms.dir/ui/common/LoginNameValidator.cpp.o: \
-  /Users/shree/Downloads/lms-master/src/lms/ui/common/LoginNameValidator.cpp \
-  /Users/shree/Downloads/lms-master/src/lms/ui/common/LoginNameValidator.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/lms/ui/common/LoginNameValidator.cpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/lms/ui/common/LoginNameValidator.hpp \
   /usr/local/include/Wt/WValidator.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/iostream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__assert \
@@ -809,7 +809,7 @@ src/lms/CMakeFiles/lms.dir/ui/common/LoginNameValidator.cpp.o: \
   /usr/local/include/Wt/Http/Message.h \
   /usr/local/include/Wt/WStringStream.h /usr/local/include/Wt/WString.h \
   /usr/local/include/Wt/WLengthValidator.h \
-  /Users/shree/Downloads/lms-master/src/libs/services/database/include/services/database/User.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/database/include/services/database/User.hpp \
   /usr/local/include/Wt/Dbo/Dbo.h /usr/local/include/Wt/Dbo/Types.h \
   /usr/local/include/Wt/Dbo/ptr.h /usr/local/include/Wt/cpp17/any.hpp \
   /usr/local/include/Wt/cpp17/any/any.hpp \
@@ -838,12 +838,12 @@ src/lms/CMakeFiles/lms.dir/ui/common/LoginNameValidator.cpp.o: \
   /usr/local/include/Wt/Dbo/Session_impl.h \
   /usr/local/include/Wt/WDateTime.h /usr/local/include/Wt/WException.h \
   /usr/local/include/Wt/WLocale.h \
-  /Users/shree/Downloads/lms-master/src/libs/services/database/include/services/database/Object.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/database/include/services/database/Object.hpp \
   /usr/local/include/Wt/WSignal.h \
   /usr/local/include/Wt/Signals/signals.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/services/database/include/services/database/IdType.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/services/database/include/services/database/Types.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/database/include/services/database/IdType.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/database/include/services/database/Types.hpp \
   /usr/local/include/Wt/WDate.h \
-  /Users/shree/Downloads/lms-master/src/libs/services/database/include/services/database/UserId.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/utils/include/utils/UUID.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/utils/include/utils/String.hpp
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/database/include/services/database/UserId.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/utils/include/utils/UUID.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/utils/include/utils/String.hpp

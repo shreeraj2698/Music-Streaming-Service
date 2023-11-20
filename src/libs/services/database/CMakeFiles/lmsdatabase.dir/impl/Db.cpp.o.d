@@ -1,6 +1,6 @@
 src/libs/services/database/CMakeFiles/lmsdatabase.dir/impl/Db.cpp.o: \
-  /Users/shree/Downloads/lms-master/src/libs/services/database/impl/Db.cpp \
-  /Users/shree/Downloads/lms-master/src/libs/services/database/include/services/database/Db.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/database/impl/Db.cpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/database/include/services/database/Db.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/filesystem \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__assert \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__config \
@@ -812,7 +812,7 @@ src/libs/services/database/CMakeFiles/lmsdatabase.dir/impl/Db.cpp.o: \
   /usr/local/include/Wt/Dbo/SqlConnectionPool.h \
   /usr/local/include/Wt/Dbo/WDboDllDefs.h \
   /usr/local/include/Wt/WConfig.h \
-  /Users/shree/Downloads/lms-master/src/libs/utils/include/utils/RecursiveSharedMutex.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/utils/include/utils/RecursiveSharedMutex.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/shared_mutex \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/thread \
   /usr/local/include/Wt/Dbo/FixedSqlConnectionPool.h \
@@ -822,7 +822,7 @@ src/libs/services/database/CMakeFiles/lmsdatabase.dir/impl/Db.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__tree \
   /usr/local/include/Wt/Dbo/SqlStatement.h \
   /usr/local/include/Wt/Dbo/backend/WDboSqlite3DllDefs.h \
-  /Users/shree/Downloads/lms-master/src/libs/services/database/include/services/database/Session.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/database/include/services/database/Session.hpp \
   /usr/local/include/Wt/Dbo/Dbo.h /usr/local/include/Wt/Dbo/Types.h \
   /usr/local/include/Wt/Dbo/ptr.h /usr/local/include/Wt/cpp17/any.hpp \
   /usr/local/include/Wt/cpp17/any/any.hpp \
@@ -848,7 +848,7 @@ src/libs/services/database/CMakeFiles/lmsdatabase.dir/impl/Db.cpp.o: \
   /usr/local/include/Wt/Dbo/Field_impl.h \
   /usr/local/include/Wt/Dbo/SqlTraits_impl.h \
   /usr/local/include/Wt/Dbo/Session_impl.h \
-  /Users/shree/Downloads/lms-master/src/libs/services/database/include/services/database/Object.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/database/include/services/database/Object.hpp \
   /usr/local/include/Wt/WSignal.h /usr/local/include/Wt/WObject.h \
   /usr/local/include/Wt/WDllDefs.h /usr/local/include/Wt/WGlobal.h \
   /usr/local/include/Wt/WFlags.h \
@@ -862,14 +862,14 @@ src/libs/services/database/CMakeFiles/lmsdatabase.dir/impl/Db.cpp.o: \
   /usr/local/include/Wt/Http/Message.h \
   /usr/local/include/Wt/WStringStream.h \
   /usr/local/include/Wt/Signals/signals.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/services/database/include/services/database/IdType.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/services/database/include/services/database/User.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/database/include/services/database/IdType.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/database/include/services/database/User.hpp \
   /usr/local/include/Wt/WDateTime.h /usr/local/include/Wt/WException.h \
   /usr/local/include/Wt/WLocale.h /usr/local/include/Wt/WString.h \
-  /Users/shree/Downloads/lms-master/src/libs/services/database/include/services/database/Types.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/database/include/services/database/Types.hpp \
   /usr/local/include/Wt/WDate.h \
-  /Users/shree/Downloads/lms-master/src/libs/services/database/include/services/database/UserId.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/utils/include/utils/UUID.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/utils/include/utils/String.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/utils/include/utils/Logger.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/utils/include/utils/Service.hpp
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/database/include/services/database/UserId.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/utils/include/utils/UUID.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/utils/include/utils/String.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/utils/include/utils/Logger.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/utils/include/utils/Service.hpp

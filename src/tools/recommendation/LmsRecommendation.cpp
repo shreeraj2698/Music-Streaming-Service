@@ -143,7 +143,7 @@ int main(int argc, char *argv[])
 		po::options_description desc{"Allowed options"};
         desc.add_options()
         ("help,h", "print usage message")
-		("conf,c", po::value<std::string>()->default_value("/Users/shree/Downloads/lms-master/conf/lms.conf"), "LMS config file")
+		("conf,c", po::value<std::string>()->default_value("/Users/shree/Downloads/Music-Streaming-Service/conf/lms.conf"), "LMS config file")
         ("artists,a", "Display recommendation for artists")
         ("releases,r", "Display recommendation for releases")
         ("tracks,t", "Display recommendation for tracks")

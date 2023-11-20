@@ -53,10 +53,10 @@ RM = /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/shree/Downloads/lms-master
+CMAKE_SOURCE_DIR = /Users/shree/Downloads/Music-Streaming-Service
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/shree/Downloads/lms-master
+CMAKE_BINARY_DIR = /Users/shree/Downloads/Music-Streaming-Service
 
 # Include any dependencies generated for this target.
 include src/libs/services/scanner/CMakeFiles/lmsscanner.dir/depend.make
@@ -72,86 +72,86 @@ include src/libs/services/scanner/CMakeFiles/lmsscanner.dir/flags.make
 src/libs/services/scanner/CMakeFiles/lmsscanner.dir/impl/ScannerService.cpp.o: src/libs/services/scanner/CMakeFiles/lmsscanner.dir/flags.make
 src/libs/services/scanner/CMakeFiles/lmsscanner.dir/impl/ScannerService.cpp.o: src/libs/services/scanner/impl/ScannerService.cpp
 src/libs/services/scanner/CMakeFiles/lmsscanner.dir/impl/ScannerService.cpp.o: src/libs/services/scanner/CMakeFiles/lmsscanner.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/shree/Downloads/lms-master/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/libs/services/scanner/CMakeFiles/lmsscanner.dir/impl/ScannerService.cpp.o"
-	cd /Users/shree/Downloads/lms-master/src/libs/services/scanner && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/libs/services/scanner/CMakeFiles/lmsscanner.dir/impl/ScannerService.cpp.o -MF CMakeFiles/lmsscanner.dir/impl/ScannerService.cpp.o.d -o CMakeFiles/lmsscanner.dir/impl/ScannerService.cpp.o -c /Users/shree/Downloads/lms-master/src/libs/services/scanner/impl/ScannerService.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/shree/Downloads/Music-Streaming-Service/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/libs/services/scanner/CMakeFiles/lmsscanner.dir/impl/ScannerService.cpp.o"
+	cd /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/scanner && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/libs/services/scanner/CMakeFiles/lmsscanner.dir/impl/ScannerService.cpp.o -MF CMakeFiles/lmsscanner.dir/impl/ScannerService.cpp.o.d -o CMakeFiles/lmsscanner.dir/impl/ScannerService.cpp.o -c /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/scanner/impl/ScannerService.cpp
 
 src/libs/services/scanner/CMakeFiles/lmsscanner.dir/impl/ScannerService.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lmsscanner.dir/impl/ScannerService.cpp.i"
-	cd /Users/shree/Downloads/lms-master/src/libs/services/scanner && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/shree/Downloads/lms-master/src/libs/services/scanner/impl/ScannerService.cpp > CMakeFiles/lmsscanner.dir/impl/ScannerService.cpp.i
+	cd /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/scanner && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/scanner/impl/ScannerService.cpp > CMakeFiles/lmsscanner.dir/impl/ScannerService.cpp.i
 
 src/libs/services/scanner/CMakeFiles/lmsscanner.dir/impl/ScannerService.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lmsscanner.dir/impl/ScannerService.cpp.s"
-	cd /Users/shree/Downloads/lms-master/src/libs/services/scanner && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/shree/Downloads/lms-master/src/libs/services/scanner/impl/ScannerService.cpp -o CMakeFiles/lmsscanner.dir/impl/ScannerService.cpp.s
+	cd /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/scanner && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/scanner/impl/ScannerService.cpp -o CMakeFiles/lmsscanner.dir/impl/ScannerService.cpp.s
 
 src/libs/services/scanner/CMakeFiles/lmsscanner.dir/impl/ScannerStats.cpp.o: src/libs/services/scanner/CMakeFiles/lmsscanner.dir/flags.make
 src/libs/services/scanner/CMakeFiles/lmsscanner.dir/impl/ScannerStats.cpp.o: src/libs/services/scanner/impl/ScannerStats.cpp
 src/libs/services/scanner/CMakeFiles/lmsscanner.dir/impl/ScannerStats.cpp.o: src/libs/services/scanner/CMakeFiles/lmsscanner.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/shree/Downloads/lms-master/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/libs/services/scanner/CMakeFiles/lmsscanner.dir/impl/ScannerStats.cpp.o"
-	cd /Users/shree/Downloads/lms-master/src/libs/services/scanner && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/libs/services/scanner/CMakeFiles/lmsscanner.dir/impl/ScannerStats.cpp.o -MF CMakeFiles/lmsscanner.dir/impl/ScannerStats.cpp.o.d -o CMakeFiles/lmsscanner.dir/impl/ScannerStats.cpp.o -c /Users/shree/Downloads/lms-master/src/libs/services/scanner/impl/ScannerStats.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/shree/Downloads/Music-Streaming-Service/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/libs/services/scanner/CMakeFiles/lmsscanner.dir/impl/ScannerStats.cpp.o"
+	cd /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/scanner && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/libs/services/scanner/CMakeFiles/lmsscanner.dir/impl/ScannerStats.cpp.o -MF CMakeFiles/lmsscanner.dir/impl/ScannerStats.cpp.o.d -o CMakeFiles/lmsscanner.dir/impl/ScannerStats.cpp.o -c /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/scanner/impl/ScannerStats.cpp
 
 src/libs/services/scanner/CMakeFiles/lmsscanner.dir/impl/ScannerStats.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lmsscanner.dir/impl/ScannerStats.cpp.i"
-	cd /Users/shree/Downloads/lms-master/src/libs/services/scanner && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/shree/Downloads/lms-master/src/libs/services/scanner/impl/ScannerStats.cpp > CMakeFiles/lmsscanner.dir/impl/ScannerStats.cpp.i
+	cd /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/scanner && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/scanner/impl/ScannerStats.cpp > CMakeFiles/lmsscanner.dir/impl/ScannerStats.cpp.i
 
 src/libs/services/scanner/CMakeFiles/lmsscanner.dir/impl/ScannerStats.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lmsscanner.dir/impl/ScannerStats.cpp.s"
-	cd /Users/shree/Downloads/lms-master/src/libs/services/scanner && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/shree/Downloads/lms-master/src/libs/services/scanner/impl/ScannerStats.cpp -o CMakeFiles/lmsscanner.dir/impl/ScannerStats.cpp.s
+	cd /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/scanner && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/scanner/impl/ScannerStats.cpp -o CMakeFiles/lmsscanner.dir/impl/ScannerStats.cpp.s
 
 src/libs/services/scanner/CMakeFiles/lmsscanner.dir/impl/ScanStepCheckDuplicatedDbFiles.cpp.o: src/libs/services/scanner/CMakeFiles/lmsscanner.dir/flags.make
 src/libs/services/scanner/CMakeFiles/lmsscanner.dir/impl/ScanStepCheckDuplicatedDbFiles.cpp.o: src/libs/services/scanner/impl/ScanStepCheckDuplicatedDbFiles.cpp
 src/libs/services/scanner/CMakeFiles/lmsscanner.dir/impl/ScanStepCheckDuplicatedDbFiles.cpp.o: src/libs/services/scanner/CMakeFiles/lmsscanner.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/shree/Downloads/lms-master/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/libs/services/scanner/CMakeFiles/lmsscanner.dir/impl/ScanStepCheckDuplicatedDbFiles.cpp.o"
-	cd /Users/shree/Downloads/lms-master/src/libs/services/scanner && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/libs/services/scanner/CMakeFiles/lmsscanner.dir/impl/ScanStepCheckDuplicatedDbFiles.cpp.o -MF CMakeFiles/lmsscanner.dir/impl/ScanStepCheckDuplicatedDbFiles.cpp.o.d -o CMakeFiles/lmsscanner.dir/impl/ScanStepCheckDuplicatedDbFiles.cpp.o -c /Users/shree/Downloads/lms-master/src/libs/services/scanner/impl/ScanStepCheckDuplicatedDbFiles.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/shree/Downloads/Music-Streaming-Service/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/libs/services/scanner/CMakeFiles/lmsscanner.dir/impl/ScanStepCheckDuplicatedDbFiles.cpp.o"
+	cd /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/scanner && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/libs/services/scanner/CMakeFiles/lmsscanner.dir/impl/ScanStepCheckDuplicatedDbFiles.cpp.o -MF CMakeFiles/lmsscanner.dir/impl/ScanStepCheckDuplicatedDbFiles.cpp.o.d -o CMakeFiles/lmsscanner.dir/impl/ScanStepCheckDuplicatedDbFiles.cpp.o -c /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/scanner/impl/ScanStepCheckDuplicatedDbFiles.cpp
 
 src/libs/services/scanner/CMakeFiles/lmsscanner.dir/impl/ScanStepCheckDuplicatedDbFiles.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lmsscanner.dir/impl/ScanStepCheckDuplicatedDbFiles.cpp.i"
-	cd /Users/shree/Downloads/lms-master/src/libs/services/scanner && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/shree/Downloads/lms-master/src/libs/services/scanner/impl/ScanStepCheckDuplicatedDbFiles.cpp > CMakeFiles/lmsscanner.dir/impl/ScanStepCheckDuplicatedDbFiles.cpp.i
+	cd /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/scanner && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/scanner/impl/ScanStepCheckDuplicatedDbFiles.cpp > CMakeFiles/lmsscanner.dir/impl/ScanStepCheckDuplicatedDbFiles.cpp.i
 
 src/libs/services/scanner/CMakeFiles/lmsscanner.dir/impl/ScanStepCheckDuplicatedDbFiles.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lmsscanner.dir/impl/ScanStepCheckDuplicatedDbFiles.cpp.s"
-	cd /Users/shree/Downloads/lms-master/src/libs/services/scanner && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/shree/Downloads/lms-master/src/libs/services/scanner/impl/ScanStepCheckDuplicatedDbFiles.cpp -o CMakeFiles/lmsscanner.dir/impl/ScanStepCheckDuplicatedDbFiles.cpp.s
+	cd /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/scanner && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/scanner/impl/ScanStepCheckDuplicatedDbFiles.cpp -o CMakeFiles/lmsscanner.dir/impl/ScanStepCheckDuplicatedDbFiles.cpp.s
 
 src/libs/services/scanner/CMakeFiles/lmsscanner.dir/impl/ScanStepDiscoverFiles.cpp.o: src/libs/services/scanner/CMakeFiles/lmsscanner.dir/flags.make
 src/libs/services/scanner/CMakeFiles/lmsscanner.dir/impl/ScanStepDiscoverFiles.cpp.o: src/libs/services/scanner/impl/ScanStepDiscoverFiles.cpp
 src/libs/services/scanner/CMakeFiles/lmsscanner.dir/impl/ScanStepDiscoverFiles.cpp.o: src/libs/services/scanner/CMakeFiles/lmsscanner.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/shree/Downloads/lms-master/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/libs/services/scanner/CMakeFiles/lmsscanner.dir/impl/ScanStepDiscoverFiles.cpp.o"
-	cd /Users/shree/Downloads/lms-master/src/libs/services/scanner && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/libs/services/scanner/CMakeFiles/lmsscanner.dir/impl/ScanStepDiscoverFiles.cpp.o -MF CMakeFiles/lmsscanner.dir/impl/ScanStepDiscoverFiles.cpp.o.d -o CMakeFiles/lmsscanner.dir/impl/ScanStepDiscoverFiles.cpp.o -c /Users/shree/Downloads/lms-master/src/libs/services/scanner/impl/ScanStepDiscoverFiles.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/shree/Downloads/Music-Streaming-Service/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/libs/services/scanner/CMakeFiles/lmsscanner.dir/impl/ScanStepDiscoverFiles.cpp.o"
+	cd /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/scanner && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/libs/services/scanner/CMakeFiles/lmsscanner.dir/impl/ScanStepDiscoverFiles.cpp.o -MF CMakeFiles/lmsscanner.dir/impl/ScanStepDiscoverFiles.cpp.o.d -o CMakeFiles/lmsscanner.dir/impl/ScanStepDiscoverFiles.cpp.o -c /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/scanner/impl/ScanStepDiscoverFiles.cpp
 
 src/libs/services/scanner/CMakeFiles/lmsscanner.dir/impl/ScanStepDiscoverFiles.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lmsscanner.dir/impl/ScanStepDiscoverFiles.cpp.i"
-	cd /Users/shree/Downloads/lms-master/src/libs/services/scanner && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/shree/Downloads/lms-master/src/libs/services/scanner/impl/ScanStepDiscoverFiles.cpp > CMakeFiles/lmsscanner.dir/impl/ScanStepDiscoverFiles.cpp.i
+	cd /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/scanner && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/scanner/impl/ScanStepDiscoverFiles.cpp > CMakeFiles/lmsscanner.dir/impl/ScanStepDiscoverFiles.cpp.i
 
 src/libs/services/scanner/CMakeFiles/lmsscanner.dir/impl/ScanStepDiscoverFiles.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lmsscanner.dir/impl/ScanStepDiscoverFiles.cpp.s"
-	cd /Users/shree/Downloads/lms-master/src/libs/services/scanner && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/shree/Downloads/lms-master/src/libs/services/scanner/impl/ScanStepDiscoverFiles.cpp -o CMakeFiles/lmsscanner.dir/impl/ScanStepDiscoverFiles.cpp.s
+	cd /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/scanner && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/scanner/impl/ScanStepDiscoverFiles.cpp -o CMakeFiles/lmsscanner.dir/impl/ScanStepDiscoverFiles.cpp.s
 
 src/libs/services/scanner/CMakeFiles/lmsscanner.dir/impl/ScanStepRemoveOrphanDbFiles.cpp.o: src/libs/services/scanner/CMakeFiles/lmsscanner.dir/flags.make
 src/libs/services/scanner/CMakeFiles/lmsscanner.dir/impl/ScanStepRemoveOrphanDbFiles.cpp.o: src/libs/services/scanner/impl/ScanStepRemoveOrphanDbFiles.cpp
 src/libs/services/scanner/CMakeFiles/lmsscanner.dir/impl/ScanStepRemoveOrphanDbFiles.cpp.o: src/libs/services/scanner/CMakeFiles/lmsscanner.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/shree/Downloads/lms-master/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/libs/services/scanner/CMakeFiles/lmsscanner.dir/impl/ScanStepRemoveOrphanDbFiles.cpp.o"
-	cd /Users/shree/Downloads/lms-master/src/libs/services/scanner && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/libs/services/scanner/CMakeFiles/lmsscanner.dir/impl/ScanStepRemoveOrphanDbFiles.cpp.o -MF CMakeFiles/lmsscanner.dir/impl/ScanStepRemoveOrphanDbFiles.cpp.o.d -o CMakeFiles/lmsscanner.dir/impl/ScanStepRemoveOrphanDbFiles.cpp.o -c /Users/shree/Downloads/lms-master/src/libs/services/scanner/impl/ScanStepRemoveOrphanDbFiles.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/shree/Downloads/Music-Streaming-Service/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/libs/services/scanner/CMakeFiles/lmsscanner.dir/impl/ScanStepRemoveOrphanDbFiles.cpp.o"
+	cd /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/scanner && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/libs/services/scanner/CMakeFiles/lmsscanner.dir/impl/ScanStepRemoveOrphanDbFiles.cpp.o -MF CMakeFiles/lmsscanner.dir/impl/ScanStepRemoveOrphanDbFiles.cpp.o.d -o CMakeFiles/lmsscanner.dir/impl/ScanStepRemoveOrphanDbFiles.cpp.o -c /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/scanner/impl/ScanStepRemoveOrphanDbFiles.cpp
 
 src/libs/services/scanner/CMakeFiles/lmsscanner.dir/impl/ScanStepRemoveOrphanDbFiles.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lmsscanner.dir/impl/ScanStepRemoveOrphanDbFiles.cpp.i"
-	cd /Users/shree/Downloads/lms-master/src/libs/services/scanner && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/shree/Downloads/lms-master/src/libs/services/scanner/impl/ScanStepRemoveOrphanDbFiles.cpp > CMakeFiles/lmsscanner.dir/impl/ScanStepRemoveOrphanDbFiles.cpp.i
+	cd /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/scanner && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/scanner/impl/ScanStepRemoveOrphanDbFiles.cpp > CMakeFiles/lmsscanner.dir/impl/ScanStepRemoveOrphanDbFiles.cpp.i
 
 src/libs/services/scanner/CMakeFiles/lmsscanner.dir/impl/ScanStepRemoveOrphanDbFiles.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lmsscanner.dir/impl/ScanStepRemoveOrphanDbFiles.cpp.s"
-	cd /Users/shree/Downloads/lms-master/src/libs/services/scanner && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/shree/Downloads/lms-master/src/libs/services/scanner/impl/ScanStepRemoveOrphanDbFiles.cpp -o CMakeFiles/lmsscanner.dir/impl/ScanStepRemoveOrphanDbFiles.cpp.s
+	cd /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/scanner && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/scanner/impl/ScanStepRemoveOrphanDbFiles.cpp -o CMakeFiles/lmsscanner.dir/impl/ScanStepRemoveOrphanDbFiles.cpp.s
 
 src/libs/services/scanner/CMakeFiles/lmsscanner.dir/impl/ScanStepScanFiles.cpp.o: src/libs/services/scanner/CMakeFiles/lmsscanner.dir/flags.make
 src/libs/services/scanner/CMakeFiles/lmsscanner.dir/impl/ScanStepScanFiles.cpp.o: src/libs/services/scanner/impl/ScanStepScanFiles.cpp
 src/libs/services/scanner/CMakeFiles/lmsscanner.dir/impl/ScanStepScanFiles.cpp.o: src/libs/services/scanner/CMakeFiles/lmsscanner.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/shree/Downloads/lms-master/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/libs/services/scanner/CMakeFiles/lmsscanner.dir/impl/ScanStepScanFiles.cpp.o"
-	cd /Users/shree/Downloads/lms-master/src/libs/services/scanner && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/libs/services/scanner/CMakeFiles/lmsscanner.dir/impl/ScanStepScanFiles.cpp.o -MF CMakeFiles/lmsscanner.dir/impl/ScanStepScanFiles.cpp.o.d -o CMakeFiles/lmsscanner.dir/impl/ScanStepScanFiles.cpp.o -c /Users/shree/Downloads/lms-master/src/libs/services/scanner/impl/ScanStepScanFiles.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/shree/Downloads/Music-Streaming-Service/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/libs/services/scanner/CMakeFiles/lmsscanner.dir/impl/ScanStepScanFiles.cpp.o"
+	cd /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/scanner && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/libs/services/scanner/CMakeFiles/lmsscanner.dir/impl/ScanStepScanFiles.cpp.o -MF CMakeFiles/lmsscanner.dir/impl/ScanStepScanFiles.cpp.o.d -o CMakeFiles/lmsscanner.dir/impl/ScanStepScanFiles.cpp.o -c /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/scanner/impl/ScanStepScanFiles.cpp
 
 src/libs/services/scanner/CMakeFiles/lmsscanner.dir/impl/ScanStepScanFiles.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lmsscanner.dir/impl/ScanStepScanFiles.cpp.i"
-	cd /Users/shree/Downloads/lms-master/src/libs/services/scanner && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/shree/Downloads/lms-master/src/libs/services/scanner/impl/ScanStepScanFiles.cpp > CMakeFiles/lmsscanner.dir/impl/ScanStepScanFiles.cpp.i
+	cd /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/scanner && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/scanner/impl/ScanStepScanFiles.cpp > CMakeFiles/lmsscanner.dir/impl/ScanStepScanFiles.cpp.i
 
 src/libs/services/scanner/CMakeFiles/lmsscanner.dir/impl/ScanStepScanFiles.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lmsscanner.dir/impl/ScanStepScanFiles.cpp.s"
-	cd /Users/shree/Downloads/lms-master/src/libs/services/scanner && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/shree/Downloads/lms-master/src/libs/services/scanner/impl/ScanStepScanFiles.cpp -o CMakeFiles/lmsscanner.dir/impl/ScanStepScanFiles.cpp.s
+	cd /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/scanner && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/scanner/impl/ScanStepScanFiles.cpp -o CMakeFiles/lmsscanner.dir/impl/ScanStepScanFiles.cpp.s
 
 # Object files for target lmsscanner
 lmsscanner_OBJECTS = \
@@ -183,18 +183,18 @@ src/libs/services/scanner/liblmsscanner.dylib: /opt/homebrew/lib/libboost_filesy
 src/libs/services/scanner/liblmsscanner.dylib: /opt/homebrew/lib/libboost_atomic-mt.dylib
 src/libs/services/scanner/liblmsscanner.dylib: /opt/homebrew/lib/libboost_system-mt.dylib
 src/libs/services/scanner/liblmsscanner.dylib: src/libs/services/scanner/CMakeFiles/lmsscanner.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/shree/Downloads/lms-master/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX shared library liblmsscanner.dylib"
-	cd /Users/shree/Downloads/lms-master/src/libs/services/scanner && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lmsscanner.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/shree/Downloads/Music-Streaming-Service/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX shared library liblmsscanner.dylib"
+	cd /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/scanner && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lmsscanner.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/libs/services/scanner/CMakeFiles/lmsscanner.dir/build: src/libs/services/scanner/liblmsscanner.dylib
 .PHONY : src/libs/services/scanner/CMakeFiles/lmsscanner.dir/build
 
 src/libs/services/scanner/CMakeFiles/lmsscanner.dir/clean:
-	cd /Users/shree/Downloads/lms-master/src/libs/services/scanner && $(CMAKE_COMMAND) -P CMakeFiles/lmsscanner.dir/cmake_clean.cmake
+	cd /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/scanner && $(CMAKE_COMMAND) -P CMakeFiles/lmsscanner.dir/cmake_clean.cmake
 .PHONY : src/libs/services/scanner/CMakeFiles/lmsscanner.dir/clean
 
 src/libs/services/scanner/CMakeFiles/lmsscanner.dir/depend:
-	cd /Users/shree/Downloads/lms-master && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/shree/Downloads/lms-master /Users/shree/Downloads/lms-master/src/libs/services/scanner /Users/shree/Downloads/lms-master /Users/shree/Downloads/lms-master/src/libs/services/scanner /Users/shree/Downloads/lms-master/src/libs/services/scanner/CMakeFiles/lmsscanner.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/shree/Downloads/Music-Streaming-Service /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/scanner /Users/shree/Downloads/Music-Streaming-Service /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/scanner /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/scanner/CMakeFiles/lmsscanner.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : src/libs/services/scanner/CMakeFiles/lmsscanner.dir/depend
 

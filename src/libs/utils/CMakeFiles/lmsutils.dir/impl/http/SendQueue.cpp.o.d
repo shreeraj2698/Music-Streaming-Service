@@ -1,6 +1,6 @@
 src/libs/utils/CMakeFiles/lmsutils.dir/impl/http/SendQueue.cpp.o: \
-  /Users/shree/Downloads/lms-master/src/libs/utils/impl/http/SendQueue.cpp \
-  /Users/shree/Downloads/lms-master/src/libs/utils/impl/http/SendQueue.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/utils/impl/http/SendQueue.cpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/utils/impl/http/SendQueue.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/deque \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__algorithm/copy.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__algorithm/copy_move_common.h \
@@ -1399,12 +1399,12 @@ src/libs/utils/CMakeFiles/lmsutils.dir/impl/http/SendQueue.cpp.o: \
   /usr/local/include/Wt/Http/Method.h \
   /usr/local/include/Wt/AsioWrapper/namespace.hpp \
   /usr/local/include/Wt/AsioWrapper/system_error.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/utils/impl/http/ClientRequest.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/utils/include/utils/http/ClientRequestParameters.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/utils/impl/http/ClientRequest.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/utils/include/utils/http/ClientRequestParameters.hpp \
   /opt/homebrew/include/boost/asio/dispatch.hpp \
   /opt/homebrew/include/boost/asio/bind_executor.hpp \
   /opt/homebrew/include/boost/asio/uses_executor.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/utils/include/utils/Exception.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/utils/include/utils/Logger.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/utils/include/utils/Service.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/utils/include/utils/String.hpp
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/utils/include/utils/Exception.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/utils/include/utils/Logger.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/utils/include/utils/Service.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/utils/include/utils/String.hpp

@@ -1,6 +1,6 @@
 src/lms/CMakeFiles/lms.dir/ui/explore/Explore.cpp.o: \
-  /Users/shree/Downloads/lms-master/src/lms/ui/explore/Explore.cpp \
-  /Users/shree/Downloads/lms-master/src/lms/ui/explore/Explore.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/lms/ui/explore/Explore.cpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/lms/ui/explore/Explore.hpp \
   /usr/local/include/Wt/WTemplate.h \
   /usr/local/include/Wt/WInteractWidget.h \
   /usr/local/include/Wt/WWebWidget.h \
@@ -820,16 +820,16 @@ src/lms/CMakeFiles/lms.dir/ui/explore/Explore.cpp.o: \
   /usr/local/include/Wt/WJavaScriptSlot.h \
   /usr/local/include/Wt/WLogger.h /usr/local/include/Wt/WLogSink.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/list \
-  /Users/shree/Downloads/lms-master/src/lms/ui/explore/PlayQueueController.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/services/database/include/services/database/ArtistId.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/services/database/include/services/database/IdType.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/lms/ui/explore/PlayQueueController.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/database/include/services/database/ArtistId.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/database/include/services/database/IdType.hpp \
   /usr/local/include/Wt/Dbo/ptr.h /usr/local/include/Wt/cpp17/any.hpp \
   /usr/local/include/Wt/cpp17/any/any.hpp \
   /usr/local/include/Wt/Dbo/SqlTraits.h \
   /usr/local/include/Wt/Dbo/WDboDllDefs.h \
-  /Users/shree/Downloads/lms-master/src/libs/services/database/include/services/database/ReleaseId.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/services/database/include/services/database/TrackId.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/services/database/include/services/database/TrackListId.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/database/include/services/database/ReleaseId.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/database/include/services/database/TrackId.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/database/include/services/database/TrackListId.hpp \
   /usr/local/include/Wt/WApplication.h \
   /usr/local/include/Wt/WCssStyleSheet.h /usr/local/include/Wt/WBreak.h \
   /usr/local/include/Wt/WCssDecorationStyle.h \
@@ -841,24 +841,24 @@ src/lms/CMakeFiles/lms.dir/ui/explore/Explore.cpp.o: \
   /usr/local/include/Wt/WLocalizedStrings.h \
   /usr/local/include/Wt/WStackedWidget.h \
   /usr/local/include/Wt/WContainerWidget.h \
-  /Users/shree/Downloads/lms-master/src/lms/ui/explore/ArtistsView.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/lms/ui/explore/ArtistsView.hpp \
   /usr/local/include/Wt/WComboBox.h /usr/local/include/Wt/WFormWidget.h \
   /usr/local/include/Wt/WValidator.h \
-  /Users/shree/Downloads/lms-master/src/libs/services/database/include/services/database/Types.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/database/include/services/database/Types.hpp \
   /usr/local/include/Wt/WDate.h /usr/local/include/Wt/WDateTime.h \
-  /Users/shree/Downloads/lms-master/src/lms/ui/explore/ArtistCollector.hpp \
-  /Users/shree/Downloads/lms-master/src/lms/ui/explore/DatabaseCollectorBase.hpp \
-  /Users/shree/Downloads/lms-master/src/lms/ui/explore/ArtistView.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/services/database/include/services/database/Object.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/utils/include/utils/EnumSet.hpp \
-  /Users/shree/Downloads/lms-master/src/lms/ui/common/Template.hpp \
-  /Users/shree/Downloads/lms-master/src/lms/ui/explore/Filters.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/services/database/include/services/database/ClusterId.hpp \
-  /Users/shree/Downloads/lms-master/src/lms/ui/explore/ReleasesView.hpp \
-  /Users/shree/Downloads/lms-master/src/lms/ui/explore/ReleaseCollector.hpp \
-  /Users/shree/Downloads/lms-master/src/lms/ui/explore/ReleaseView.hpp \
-  /Users/shree/Downloads/lms-master/src/lms/ui/explore/SearchView.hpp \
-  /Users/shree/Downloads/lms-master/src/lms/ui/explore/TrackCollector.hpp \
-  /Users/shree/Downloads/lms-master/src/lms/ui/explore/TrackListView.hpp \
-  /Users/shree/Downloads/lms-master/src/lms/ui/explore/TrackListsView.hpp \
-  /Users/shree/Downloads/lms-master/src/lms/ui/explore/TracksView.hpp
+  /Users/shree/Downloads/Music-Streaming-Service/src/lms/ui/explore/ArtistCollector.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/lms/ui/explore/DatabaseCollectorBase.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/lms/ui/explore/ArtistView.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/database/include/services/database/Object.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/utils/include/utils/EnumSet.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/lms/ui/common/Template.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/lms/ui/explore/Filters.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/database/include/services/database/ClusterId.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/lms/ui/explore/ReleasesView.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/lms/ui/explore/ReleaseCollector.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/lms/ui/explore/ReleaseView.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/lms/ui/explore/SearchView.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/lms/ui/explore/TrackCollector.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/lms/ui/explore/TrackListView.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/lms/ui/explore/TrackListsView.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/lms/ui/explore/TracksView.hpp

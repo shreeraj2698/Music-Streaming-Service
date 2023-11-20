@@ -1,6 +1,6 @@
 src/lms/CMakeFiles/lms.dir/ui/ModalManager.cpp.o: \
-  /Users/shree/Downloads/lms-master/src/lms/ui/ModalManager.cpp \
-  /Users/shree/Downloads/lms-master/src/lms/ui/ModalManager.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/lms/ui/ModalManager.cpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/lms/ui/ModalManager.hpp \
   /usr/local/include/Wt/WContainerWidget.h \
   /usr/local/include/Wt/WInteractWidget.h \
   /usr/local/include/Wt/WWebWidget.h \
@@ -820,5 +820,5 @@ src/lms/CMakeFiles/lms.dir/ui/ModalManager.cpp.o: \
   /usr/local/include/Wt/WJavaScriptSlot.h \
   /usr/local/include/Wt/WLogger.h /usr/local/include/Wt/WLogSink.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/list \
-  /Users/shree/Downloads/lms-master/src/libs/utils/include/utils/Logger.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/utils/include/utils/Service.hpp
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/utils/include/utils/Logger.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/utils/include/utils/Service.hpp

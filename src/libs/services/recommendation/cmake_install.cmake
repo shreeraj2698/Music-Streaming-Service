@@ -1,8 +1,8 @@
-# Install script for directory: /Users/shree/Downloads/lms-master/src/libs/services/recommendation
+# Install script for directory: /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/recommendation
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/Users/shree/Downloads/lms-master")
+  set(CMAKE_INSTALL_PREFIX "/Users/shree/Downloads/Music-Streaming-Service")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,14 +38,14 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/Users/shree/Downloads/lms-master/src/libs/services/recommendation/liblmsrecommendation.dylib")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/Users/shree/Downloads/Music-Streaming-Service/src/libs/services/recommendation/liblmsrecommendation.dylib")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/liblmsrecommendation.dylib" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/liblmsrecommendation.dylib")
     execute_process(COMMAND /usr/bin/install_name_tool
-      -delete_rpath "/Users/shree/Downloads/lms-master/src/libs/services/database"
-      -delete_rpath "/Users/shree/Downloads/lms-master/src/libs/som"
+      -delete_rpath "/Users/shree/Downloads/Music-Streaming-Service/src/libs/services/database"
+      -delete_rpath "/Users/shree/Downloads/Music-Streaming-Service/src/libs/som"
       -delete_rpath "/usr/local/lib"
-      -delete_rpath "/Users/shree/Downloads/lms-master/src/libs/utils"
+      -delete_rpath "/Users/shree/Downloads/Music-Streaming-Service/src/libs/utils"
       "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/liblmsrecommendation.dylib")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/Library/Developer/CommandLineTools/usr/bin/strip" -x "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/liblmsrecommendation.dylib")

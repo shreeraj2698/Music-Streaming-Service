@@ -57,10 +57,10 @@ RM = /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/shree/Downloads/lms-master
+CMAKE_SOURCE_DIR = /Users/shree/Downloads/Music-Streaming-Service
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/shree/Downloads/lms-master
+CMAKE_BINARY_DIR = /Users/shree/Downloads/Music-Streaming-Service
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,14 +142,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/shree/Downloads/lms-master && $(CMAKE_COMMAND) -E cmake_progress_start /Users/shree/Downloads/lms-master/CMakeFiles /Users/shree/Downloads/lms-master/src/libs/image//CMakeFiles/progress.marks
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/libs/image/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/shree/Downloads/lms-master/CMakeFiles 0
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(CMAKE_COMMAND) -E cmake_progress_start /Users/shree/Downloads/Music-Streaming-Service/CMakeFiles /Users/shree/Downloads/Music-Streaming-Service/src/libs/image//CMakeFiles/progress.marks
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/libs/image/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/shree/Downloads/Music-Streaming-Service/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/libs/image/clean
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/libs/image/clean
 .PHONY : clean
 
 # The main clean target
@@ -158,22 +158,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/libs/image/preinstall
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/libs/image/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/libs/image/preinstall
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/libs/image/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/shree/Downloads/lms-master && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/libs/image/CMakeFiles/lmsimage.dir/rule:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/libs/image/CMakeFiles/lmsimage.dir/rule
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/libs/image/CMakeFiles/lmsimage.dir/rule
 .PHONY : src/libs/image/CMakeFiles/lmsimage.dir/rule
 
 # Convenience name for target.
@@ -182,7 +182,7 @@ lmsimage: src/libs/image/CMakeFiles/lmsimage.dir/rule
 
 # fast build rule for target.
 lmsimage/fast:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/image/CMakeFiles/lmsimage.dir/build.make src/libs/image/CMakeFiles/lmsimage.dir/build
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/image/CMakeFiles/lmsimage.dir/build.make src/libs/image/CMakeFiles/lmsimage.dir/build
 .PHONY : lmsimage/fast
 
 impl/graphicsmagick/JPEGImage.o: impl/graphicsmagick/JPEGImage.cpp.o
@@ -190,7 +190,7 @@ impl/graphicsmagick/JPEGImage.o: impl/graphicsmagick/JPEGImage.cpp.o
 
 # target to build an object file
 impl/graphicsmagick/JPEGImage.cpp.o:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/image/CMakeFiles/lmsimage.dir/build.make src/libs/image/CMakeFiles/lmsimage.dir/impl/graphicsmagick/JPEGImage.cpp.o
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/image/CMakeFiles/lmsimage.dir/build.make src/libs/image/CMakeFiles/lmsimage.dir/impl/graphicsmagick/JPEGImage.cpp.o
 .PHONY : impl/graphicsmagick/JPEGImage.cpp.o
 
 impl/graphicsmagick/JPEGImage.i: impl/graphicsmagick/JPEGImage.cpp.i
@@ -198,7 +198,7 @@ impl/graphicsmagick/JPEGImage.i: impl/graphicsmagick/JPEGImage.cpp.i
 
 # target to preprocess a source file
 impl/graphicsmagick/JPEGImage.cpp.i:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/image/CMakeFiles/lmsimage.dir/build.make src/libs/image/CMakeFiles/lmsimage.dir/impl/graphicsmagick/JPEGImage.cpp.i
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/image/CMakeFiles/lmsimage.dir/build.make src/libs/image/CMakeFiles/lmsimage.dir/impl/graphicsmagick/JPEGImage.cpp.i
 .PHONY : impl/graphicsmagick/JPEGImage.cpp.i
 
 impl/graphicsmagick/JPEGImage.s: impl/graphicsmagick/JPEGImage.cpp.s
@@ -206,7 +206,7 @@ impl/graphicsmagick/JPEGImage.s: impl/graphicsmagick/JPEGImage.cpp.s
 
 # target to generate assembly for a file
 impl/graphicsmagick/JPEGImage.cpp.s:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/image/CMakeFiles/lmsimage.dir/build.make src/libs/image/CMakeFiles/lmsimage.dir/impl/graphicsmagick/JPEGImage.cpp.s
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/image/CMakeFiles/lmsimage.dir/build.make src/libs/image/CMakeFiles/lmsimage.dir/impl/graphicsmagick/JPEGImage.cpp.s
 .PHONY : impl/graphicsmagick/JPEGImage.cpp.s
 
 impl/graphicsmagick/RawImage.o: impl/graphicsmagick/RawImage.cpp.o
@@ -214,7 +214,7 @@ impl/graphicsmagick/RawImage.o: impl/graphicsmagick/RawImage.cpp.o
 
 # target to build an object file
 impl/graphicsmagick/RawImage.cpp.o:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/image/CMakeFiles/lmsimage.dir/build.make src/libs/image/CMakeFiles/lmsimage.dir/impl/graphicsmagick/RawImage.cpp.o
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/image/CMakeFiles/lmsimage.dir/build.make src/libs/image/CMakeFiles/lmsimage.dir/impl/graphicsmagick/RawImage.cpp.o
 .PHONY : impl/graphicsmagick/RawImage.cpp.o
 
 impl/graphicsmagick/RawImage.i: impl/graphicsmagick/RawImage.cpp.i
@@ -222,7 +222,7 @@ impl/graphicsmagick/RawImage.i: impl/graphicsmagick/RawImage.cpp.i
 
 # target to preprocess a source file
 impl/graphicsmagick/RawImage.cpp.i:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/image/CMakeFiles/lmsimage.dir/build.make src/libs/image/CMakeFiles/lmsimage.dir/impl/graphicsmagick/RawImage.cpp.i
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/image/CMakeFiles/lmsimage.dir/build.make src/libs/image/CMakeFiles/lmsimage.dir/impl/graphicsmagick/RawImage.cpp.i
 .PHONY : impl/graphicsmagick/RawImage.cpp.i
 
 impl/graphicsmagick/RawImage.s: impl/graphicsmagick/RawImage.cpp.s
@@ -230,7 +230,7 @@ impl/graphicsmagick/RawImage.s: impl/graphicsmagick/RawImage.cpp.s
 
 # target to generate assembly for a file
 impl/graphicsmagick/RawImage.cpp.s:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/libs/image/CMakeFiles/lmsimage.dir/build.make src/libs/image/CMakeFiles/lmsimage.dir/impl/graphicsmagick/RawImage.cpp.s
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/libs/image/CMakeFiles/lmsimage.dir/build.make src/libs/image/CMakeFiles/lmsimage.dir/impl/graphicsmagick/RawImage.cpp.s
 .PHONY : impl/graphicsmagick/RawImage.cpp.s
 
 # Help Target
@@ -264,6 +264,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/shree/Downloads/lms-master && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

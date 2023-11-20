@@ -57,10 +57,10 @@ RM = /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/shree/Downloads/lms-master
+CMAKE_SOURCE_DIR = /Users/shree/Downloads/Music-Streaming-Service
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/shree/Downloads/lms-master
+CMAKE_BINARY_DIR = /Users/shree/Downloads/Music-Streaming-Service
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,14 +142,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/shree/Downloads/lms-master && $(CMAKE_COMMAND) -E cmake_progress_start /Users/shree/Downloads/lms-master/CMakeFiles /Users/shree/Downloads/lms-master/src/tools/recommendation//CMakeFiles/progress.marks
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/tools/recommendation/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/shree/Downloads/lms-master/CMakeFiles 0
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(CMAKE_COMMAND) -E cmake_progress_start /Users/shree/Downloads/Music-Streaming-Service/CMakeFiles /Users/shree/Downloads/Music-Streaming-Service/src/tools/recommendation//CMakeFiles/progress.marks
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/tools/recommendation/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/shree/Downloads/Music-Streaming-Service/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/tools/recommendation/clean
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/tools/recommendation/clean
 .PHONY : clean
 
 # The main clean target
@@ -158,22 +158,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/tools/recommendation/preinstall
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/tools/recommendation/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/tools/recommendation/preinstall
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/tools/recommendation/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/shree/Downloads/lms-master && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/tools/recommendation/CMakeFiles/lms-recommendation.dir/rule:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/tools/recommendation/CMakeFiles/lms-recommendation.dir/rule
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/tools/recommendation/CMakeFiles/lms-recommendation.dir/rule
 .PHONY : src/tools/recommendation/CMakeFiles/lms-recommendation.dir/rule
 
 # Convenience name for target.
@@ -182,7 +182,7 @@ lms-recommendation: src/tools/recommendation/CMakeFiles/lms-recommendation.dir/r
 
 # fast build rule for target.
 lms-recommendation/fast:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/tools/recommendation/CMakeFiles/lms-recommendation.dir/build.make src/tools/recommendation/CMakeFiles/lms-recommendation.dir/build
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/tools/recommendation/CMakeFiles/lms-recommendation.dir/build.make src/tools/recommendation/CMakeFiles/lms-recommendation.dir/build
 .PHONY : lms-recommendation/fast
 
 LmsRecommendation.o: LmsRecommendation.cpp.o
@@ -190,7 +190,7 @@ LmsRecommendation.o: LmsRecommendation.cpp.o
 
 # target to build an object file
 LmsRecommendation.cpp.o:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/tools/recommendation/CMakeFiles/lms-recommendation.dir/build.make src/tools/recommendation/CMakeFiles/lms-recommendation.dir/LmsRecommendation.cpp.o
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/tools/recommendation/CMakeFiles/lms-recommendation.dir/build.make src/tools/recommendation/CMakeFiles/lms-recommendation.dir/LmsRecommendation.cpp.o
 .PHONY : LmsRecommendation.cpp.o
 
 LmsRecommendation.i: LmsRecommendation.cpp.i
@@ -198,7 +198,7 @@ LmsRecommendation.i: LmsRecommendation.cpp.i
 
 # target to preprocess a source file
 LmsRecommendation.cpp.i:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/tools/recommendation/CMakeFiles/lms-recommendation.dir/build.make src/tools/recommendation/CMakeFiles/lms-recommendation.dir/LmsRecommendation.cpp.i
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/tools/recommendation/CMakeFiles/lms-recommendation.dir/build.make src/tools/recommendation/CMakeFiles/lms-recommendation.dir/LmsRecommendation.cpp.i
 .PHONY : LmsRecommendation.cpp.i
 
 LmsRecommendation.s: LmsRecommendation.cpp.s
@@ -206,7 +206,7 @@ LmsRecommendation.s: LmsRecommendation.cpp.s
 
 # target to generate assembly for a file
 LmsRecommendation.cpp.s:
-	cd /Users/shree/Downloads/lms-master && $(MAKE) $(MAKESILENT) -f src/tools/recommendation/CMakeFiles/lms-recommendation.dir/build.make src/tools/recommendation/CMakeFiles/lms-recommendation.dir/LmsRecommendation.cpp.s
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(MAKE) $(MAKESILENT) -f src/tools/recommendation/CMakeFiles/lms-recommendation.dir/build.make src/tools/recommendation/CMakeFiles/lms-recommendation.dir/LmsRecommendation.cpp.s
 .PHONY : LmsRecommendation.cpp.s
 
 # Help Target
@@ -237,6 +237,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/shree/Downloads/lms-master && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

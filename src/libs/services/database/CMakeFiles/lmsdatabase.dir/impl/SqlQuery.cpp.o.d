@@ -1,6 +1,6 @@
 src/libs/services/database/CMakeFiles/lmsdatabase.dir/impl/SqlQuery.cpp.o: \
-  /Users/shree/Downloads/lms-master/src/libs/services/database/impl/SqlQuery.cpp \
-  /Users/shree/Downloads/lms-master/src/libs/services/database/impl/SqlQuery.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/database/impl/SqlQuery.cpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/database/impl/SqlQuery.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/list \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__algorithm/comp.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__config \

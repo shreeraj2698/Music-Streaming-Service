@@ -1,8 +1,8 @@
-# Install script for directory: /Users/shree/Downloads/lms-master/src/tools/recommendation
+# Install script for directory: /Users/shree/Downloads/Music-Streaming-Service/src/tools/recommendation
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/Users/shree/Downloads/lms-master")
+  set(CMAKE_INSTALL_PREFIX "/Users/shree/Downloads/Music-Streaming-Service")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,14 +38,14 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/Users/shree/Downloads/lms-master/src/tools/recommendation/lms-recommendation")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/Users/shree/Downloads/Music-Streaming-Service/src/tools/recommendation/lms-recommendation")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/lms-recommendation" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/lms-recommendation")
     execute_process(COMMAND /usr/bin/install_name_tool
-      -delete_rpath "/Users/shree/Downloads/lms-master/src/libs/services/recommendation"
-      -delete_rpath "/Users/shree/Downloads/lms-master/src/libs/services/database"
+      -delete_rpath "/Users/shree/Downloads/Music-Streaming-Service/src/libs/services/recommendation"
+      -delete_rpath "/Users/shree/Downloads/Music-Streaming-Service/src/libs/services/database"
       -delete_rpath "/usr/local/lib"
-      -delete_rpath "/Users/shree/Downloads/lms-master/src/libs/utils"
+      -delete_rpath "/Users/shree/Downloads/Music-Streaming-Service/src/libs/utils"
       "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/lms-recommendation")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/Library/Developer/CommandLineTools/usr/bin/strip" -u -r "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/lms-recommendation")

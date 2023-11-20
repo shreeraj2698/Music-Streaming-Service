@@ -1,7 +1,7 @@
 src/libs/services/scanner/CMakeFiles/lmsscanner.dir/impl/ScanStepDiscoverFiles.cpp.o: \
-  /Users/shree/Downloads/lms-master/src/libs/services/scanner/impl/ScanStepDiscoverFiles.cpp \
-  /Users/shree/Downloads/lms-master/src/libs/services/scanner/impl/ScanStepDiscoverFiles.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/services/scanner/impl/ScanStepBase.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/scanner/impl/ScanStepDiscoverFiles.cpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/scanner/impl/ScanStepDiscoverFiles.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/scanner/impl/ScanStepBase.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/functional \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__algorithm/search.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__algorithm/comp.h \
@@ -735,7 +735,7 @@ src/libs/services/scanner/CMakeFiles/lmsscanner.dir/impl/ScanStepDiscoverFiles.c
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__functional/pointer_to_binary_function.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__functional/pointer_to_unary_function.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__functional/unary_negate.h \
-  /Users/shree/Downloads/lms-master/src/libs/services/scanner/include/services/scanner/ScannerStats.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/scanner/include/services/scanner/ScannerStats.hpp \
   /usr/local/include/Wt/WDateTime.h /usr/local/include/Wt/WDllDefs.h \
   /usr/local/include/Wt/WConfig.h /usr/local/include/Wt/WException.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/string \
@@ -822,18 +822,18 @@ src/libs/services/scanner/CMakeFiles/lmsscanner.dir/impl/ScanStepDiscoverFiles.c
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/path_iterator.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/recursive_directory_iterator.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/u8path.h \
-  /Users/shree/Downloads/lms-master/src/libs/services/database/include/services/database/TrackId.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/services/database/include/services/database/IdType.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/database/include/services/database/TrackId.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/database/include/services/database/IdType.hpp \
   /usr/local/include/Wt/Dbo/ptr.h /usr/local/include/Wt/cpp17/any.hpp \
   /usr/local/include/Wt/cpp17/any/any.hpp \
   /usr/local/include/Wt/Dbo/SqlTraits.h \
   /usr/local/include/Wt/Dbo/WDboDllDefs.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/sstream \
-  /Users/shree/Downloads/lms-master/src/libs/services/scanner/impl/IScanStep.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/services/scanner/impl/ScannerSettings.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/scanner/impl/IScanStep.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/scanner/impl/ScannerSettings.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/set \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__tree \
-  /Users/shree/Downloads/lms-master/src/libs/services/database/include/services/database/ScanSettings.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/database/include/services/database/ScanSettings.hpp \
   /usr/local/include/Wt/Dbo/Dbo.h /usr/local/include/Wt/Dbo/Types.h \
   /usr/local/include/Wt/Dbo/weak_ptr.h \
   /usr/local/include/Wt/Dbo/Session.h \
@@ -858,11 +858,11 @@ src/libs/services/scanner/CMakeFiles/lmsscanner.dir/impl/ScanStepDiscoverFiles.c
   /usr/local/include/Wt/Dbo/SqlTraits_impl.h \
   /usr/local/include/Wt/Dbo/Session_impl.h /usr/local/include/Wt/WTime.h \
   /usr/local/include/Wt/WStringStream.h \
-  /Users/shree/Downloads/lms-master/src/libs/services/database/include/services/database/Object.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/database/include/services/database/Object.hpp \
   /usr/local/include/Wt/WSignal.h /usr/local/include/Wt/WObject.h \
   /usr/local/include/Wt/Http/Request.h \
   /usr/local/include/Wt/Http/Message.h \
   /usr/local/include/Wt/Signals/signals.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/utils/include/utils/Logger.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/utils/include/utils/Service.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/utils/include/utils/Path.hpp
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/utils/include/utils/Logger.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/utils/include/utils/Service.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/utils/include/utils/Path.hpp

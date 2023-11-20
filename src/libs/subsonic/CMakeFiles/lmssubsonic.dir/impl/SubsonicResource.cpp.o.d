@@ -1,6 +1,6 @@
 src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/SubsonicResource.cpp.o: \
-  /Users/shree/Downloads/lms-master/src/libs/subsonic/impl/SubsonicResource.cpp \
-  /Users/shree/Downloads/lms-master/src/libs/subsonic/impl/SubsonicResource.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/subsonic/impl/SubsonicResource.cpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/subsonic/impl/SubsonicResource.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/string \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__algorithm/max.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__algorithm/comp.h \
@@ -815,18 +815,18 @@ src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/SubsonicResource.cpp.o: \
   /usr/local/include/Wt/Http/ResponseContinuation.h \
   /usr/local/include/Wt/WAny.h /usr/local/include/Wt/cpp17/any.hpp \
   /usr/local/include/Wt/cpp17/any/any.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/services/database/include/services/database/Types.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/database/include/services/database/Types.hpp \
   /usr/local/include/Wt/WDate.h /usr/local/include/Wt/WDateTime.h \
   /usr/local/include/Wt/WException.h /usr/local/include/Wt/WLocale.h \
-  /Users/shree/Downloads/lms-master/src/libs/subsonic/impl/ClientInfo.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/subsonic/impl/ProtocolVersion.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/utils/include/utils/String.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/subsonic/impl/RequestContext.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/services/database/include/services/database/UserId.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/services/database/include/services/database/IdType.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/subsonic/impl/ClientInfo.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/subsonic/impl/ProtocolVersion.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/utils/include/utils/String.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/subsonic/impl/RequestContext.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/database/include/services/database/UserId.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/database/include/services/database/IdType.hpp \
   /usr/local/include/Wt/Dbo/ptr.h /usr/local/include/Wt/Dbo/SqlTraits.h \
   /usr/local/include/Wt/Dbo/WDboDllDefs.h \
-  /Users/shree/Downloads/lms-master/src/libs/services/auth/include/services/auth/IPasswordService.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/auth/include/services/auth/IPasswordService.hpp \
   /opt/homebrew/include/boost/asio/ip/address.hpp \
   /opt/homebrew/include/boost/asio/detail/config.hpp \
   /opt/homebrew/include/boost/config.hpp \
@@ -963,10 +963,10 @@ src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/SubsonicResource.cpp.o: \
   /opt/homebrew/include/boost/asio/ip/bad_address_cast.hpp \
   /opt/homebrew/include/boost/asio/ip/impl/address.hpp \
   /opt/homebrew/include/boost/asio/ip/impl/address.ipp \
-  /Users/shree/Downloads/lms-master/src/libs/services/auth/include/services/auth/Types.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/utils/include/utils/Exception.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/services/auth/include/services/auth/IEnvService.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/services/database/include/services/database/Db.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/auth/include/services/auth/Types.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/utils/include/utils/Exception.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/auth/include/services/auth/IEnvService.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/database/include/services/database/Db.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/copy_options.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/directory_entry.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/file_status.h \
@@ -985,9 +985,9 @@ src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/SubsonicResource.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/recursive_directory_iterator.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/u8path.h \
   /usr/local/include/Wt/Dbo/SqlConnectionPool.h \
-  /Users/shree/Downloads/lms-master/src/libs/utils/include/utils/RecursiveSharedMutex.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/utils/include/utils/RecursiveSharedMutex.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/thread \
-  /Users/shree/Downloads/lms-master/src/libs/services/database/include/services/database/Session.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/database/include/services/database/Session.hpp \
   /usr/local/include/Wt/Dbo/Dbo.h /usr/local/include/Wt/Dbo/Types.h \
   /usr/local/include/Wt/Dbo/weak_ptr.h \
   /usr/local/include/Wt/Dbo/Session.h \
@@ -1010,29 +1010,29 @@ src/libs/subsonic/CMakeFiles/lmssubsonic.dir/impl/SubsonicResource.cpp.o: \
   /usr/local/include/Wt/Dbo/Field_impl.h \
   /usr/local/include/Wt/Dbo/SqlTraits_impl.h \
   /usr/local/include/Wt/Dbo/Session_impl.h \
-  /Users/shree/Downloads/lms-master/src/libs/services/database/include/services/database/Object.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/services/database/include/services/database/User.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/utils/include/utils/UUID.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/utils/include/utils/EnumSet.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/utils/include/utils/IConfig.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/utils/include/utils/Logger.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/utils/include/utils/Service.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/utils/include/utils/Utils.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/subsonic/impl/entrypoints/AlbumSongLists.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/subsonic/impl/SubsonicResponse.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/subsonic/impl/entrypoints/Browsing.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/subsonic/impl/entrypoints/Bookmarks.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/subsonic/impl/entrypoints/MediaAnnotation.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/subsonic/impl/entrypoints/MediaLibraryScanning.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/subsonic/impl/entrypoints/MediaRetrieval.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/subsonic/impl/entrypoints/Playlists.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/subsonic/impl/entrypoints/Searching.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/subsonic/impl/entrypoints/System.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/subsonic/impl/entrypoints/UserManagement.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/subsonic/impl/ParameterParsing.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/subsonic/impl/SubsonicId.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/services/database/include/services/database/ArtistId.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/services/database/include/services/database/ReleaseId.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/services/database/include/services/database/TrackId.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/services/database/include/services/database/TrackListId.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/subsonic/impl/Utils.hpp
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/database/include/services/database/Object.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/database/include/services/database/User.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/utils/include/utils/UUID.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/utils/include/utils/EnumSet.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/utils/include/utils/IConfig.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/utils/include/utils/Logger.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/utils/include/utils/Service.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/utils/include/utils/Utils.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/subsonic/impl/entrypoints/AlbumSongLists.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/subsonic/impl/SubsonicResponse.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/subsonic/impl/entrypoints/Browsing.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/subsonic/impl/entrypoints/Bookmarks.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/subsonic/impl/entrypoints/MediaAnnotation.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/subsonic/impl/entrypoints/MediaLibraryScanning.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/subsonic/impl/entrypoints/MediaRetrieval.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/subsonic/impl/entrypoints/Playlists.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/subsonic/impl/entrypoints/Searching.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/subsonic/impl/entrypoints/System.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/subsonic/impl/entrypoints/UserManagement.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/subsonic/impl/ParameterParsing.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/subsonic/impl/SubsonicId.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/database/include/services/database/ArtistId.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/database/include/services/database/ReleaseId.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/database/include/services/database/TrackId.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/services/database/include/services/database/TrackListId.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/subsonic/impl/Utils.hpp

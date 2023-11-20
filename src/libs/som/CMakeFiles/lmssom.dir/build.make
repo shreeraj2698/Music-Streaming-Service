@@ -53,10 +53,10 @@ RM = /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/shree/Downloads/lms-master
+CMAKE_SOURCE_DIR = /Users/shree/Downloads/Music-Streaming-Service
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/shree/Downloads/lms-master
+CMAKE_BINARY_DIR = /Users/shree/Downloads/Music-Streaming-Service
 
 # Include any dependencies generated for this target.
 include src/libs/som/CMakeFiles/lmssom.dir/depend.make
@@ -72,30 +72,30 @@ include src/libs/som/CMakeFiles/lmssom.dir/flags.make
 src/libs/som/CMakeFiles/lmssom.dir/impl/DataNormalizer.cpp.o: src/libs/som/CMakeFiles/lmssom.dir/flags.make
 src/libs/som/CMakeFiles/lmssom.dir/impl/DataNormalizer.cpp.o: src/libs/som/impl/DataNormalizer.cpp
 src/libs/som/CMakeFiles/lmssom.dir/impl/DataNormalizer.cpp.o: src/libs/som/CMakeFiles/lmssom.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/shree/Downloads/lms-master/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/libs/som/CMakeFiles/lmssom.dir/impl/DataNormalizer.cpp.o"
-	cd /Users/shree/Downloads/lms-master/src/libs/som && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/libs/som/CMakeFiles/lmssom.dir/impl/DataNormalizer.cpp.o -MF CMakeFiles/lmssom.dir/impl/DataNormalizer.cpp.o.d -o CMakeFiles/lmssom.dir/impl/DataNormalizer.cpp.o -c /Users/shree/Downloads/lms-master/src/libs/som/impl/DataNormalizer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/shree/Downloads/Music-Streaming-Service/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/libs/som/CMakeFiles/lmssom.dir/impl/DataNormalizer.cpp.o"
+	cd /Users/shree/Downloads/Music-Streaming-Service/src/libs/som && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/libs/som/CMakeFiles/lmssom.dir/impl/DataNormalizer.cpp.o -MF CMakeFiles/lmssom.dir/impl/DataNormalizer.cpp.o.d -o CMakeFiles/lmssom.dir/impl/DataNormalizer.cpp.o -c /Users/shree/Downloads/Music-Streaming-Service/src/libs/som/impl/DataNormalizer.cpp
 
 src/libs/som/CMakeFiles/lmssom.dir/impl/DataNormalizer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lmssom.dir/impl/DataNormalizer.cpp.i"
-	cd /Users/shree/Downloads/lms-master/src/libs/som && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/shree/Downloads/lms-master/src/libs/som/impl/DataNormalizer.cpp > CMakeFiles/lmssom.dir/impl/DataNormalizer.cpp.i
+	cd /Users/shree/Downloads/Music-Streaming-Service/src/libs/som && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/shree/Downloads/Music-Streaming-Service/src/libs/som/impl/DataNormalizer.cpp > CMakeFiles/lmssom.dir/impl/DataNormalizer.cpp.i
 
 src/libs/som/CMakeFiles/lmssom.dir/impl/DataNormalizer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lmssom.dir/impl/DataNormalizer.cpp.s"
-	cd /Users/shree/Downloads/lms-master/src/libs/som && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/shree/Downloads/lms-master/src/libs/som/impl/DataNormalizer.cpp -o CMakeFiles/lmssom.dir/impl/DataNormalizer.cpp.s
+	cd /Users/shree/Downloads/Music-Streaming-Service/src/libs/som && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/shree/Downloads/Music-Streaming-Service/src/libs/som/impl/DataNormalizer.cpp -o CMakeFiles/lmssom.dir/impl/DataNormalizer.cpp.s
 
 src/libs/som/CMakeFiles/lmssom.dir/impl/Network.cpp.o: src/libs/som/CMakeFiles/lmssom.dir/flags.make
 src/libs/som/CMakeFiles/lmssom.dir/impl/Network.cpp.o: src/libs/som/impl/Network.cpp
 src/libs/som/CMakeFiles/lmssom.dir/impl/Network.cpp.o: src/libs/som/CMakeFiles/lmssom.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/shree/Downloads/lms-master/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/libs/som/CMakeFiles/lmssom.dir/impl/Network.cpp.o"
-	cd /Users/shree/Downloads/lms-master/src/libs/som && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/libs/som/CMakeFiles/lmssom.dir/impl/Network.cpp.o -MF CMakeFiles/lmssom.dir/impl/Network.cpp.o.d -o CMakeFiles/lmssom.dir/impl/Network.cpp.o -c /Users/shree/Downloads/lms-master/src/libs/som/impl/Network.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/shree/Downloads/Music-Streaming-Service/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/libs/som/CMakeFiles/lmssom.dir/impl/Network.cpp.o"
+	cd /Users/shree/Downloads/Music-Streaming-Service/src/libs/som && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/libs/som/CMakeFiles/lmssom.dir/impl/Network.cpp.o -MF CMakeFiles/lmssom.dir/impl/Network.cpp.o.d -o CMakeFiles/lmssom.dir/impl/Network.cpp.o -c /Users/shree/Downloads/Music-Streaming-Service/src/libs/som/impl/Network.cpp
 
 src/libs/som/CMakeFiles/lmssom.dir/impl/Network.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lmssom.dir/impl/Network.cpp.i"
-	cd /Users/shree/Downloads/lms-master/src/libs/som && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/shree/Downloads/lms-master/src/libs/som/impl/Network.cpp > CMakeFiles/lmssom.dir/impl/Network.cpp.i
+	cd /Users/shree/Downloads/Music-Streaming-Service/src/libs/som && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/shree/Downloads/Music-Streaming-Service/src/libs/som/impl/Network.cpp > CMakeFiles/lmssom.dir/impl/Network.cpp.i
 
 src/libs/som/CMakeFiles/lmssom.dir/impl/Network.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lmssom.dir/impl/Network.cpp.s"
-	cd /Users/shree/Downloads/lms-master/src/libs/som && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/shree/Downloads/lms-master/src/libs/som/impl/Network.cpp -o CMakeFiles/lmssom.dir/impl/Network.cpp.s
+	cd /Users/shree/Downloads/Music-Streaming-Service/src/libs/som && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/shree/Downloads/Music-Streaming-Service/src/libs/som/impl/Network.cpp -o CMakeFiles/lmssom.dir/impl/Network.cpp.s
 
 # Object files for target lmssom
 lmssom_OBJECTS = \
@@ -115,18 +115,18 @@ src/libs/som/liblmssom.dylib: /opt/homebrew/lib/libboost_thread-mt.dylib
 src/libs/som/liblmssom.dylib: /opt/homebrew/lib/libboost_filesystem-mt.dylib
 src/libs/som/liblmssom.dylib: /opt/homebrew/lib/libboost_atomic-mt.dylib
 src/libs/som/liblmssom.dylib: src/libs/som/CMakeFiles/lmssom.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/shree/Downloads/lms-master/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX shared library liblmssom.dylib"
-	cd /Users/shree/Downloads/lms-master/src/libs/som && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lmssom.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/shree/Downloads/Music-Streaming-Service/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX shared library liblmssom.dylib"
+	cd /Users/shree/Downloads/Music-Streaming-Service/src/libs/som && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lmssom.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/libs/som/CMakeFiles/lmssom.dir/build: src/libs/som/liblmssom.dylib
 .PHONY : src/libs/som/CMakeFiles/lmssom.dir/build
 
 src/libs/som/CMakeFiles/lmssom.dir/clean:
-	cd /Users/shree/Downloads/lms-master/src/libs/som && $(CMAKE_COMMAND) -P CMakeFiles/lmssom.dir/cmake_clean.cmake
+	cd /Users/shree/Downloads/Music-Streaming-Service/src/libs/som && $(CMAKE_COMMAND) -P CMakeFiles/lmssom.dir/cmake_clean.cmake
 .PHONY : src/libs/som/CMakeFiles/lmssom.dir/clean
 
 src/libs/som/CMakeFiles/lmssom.dir/depend:
-	cd /Users/shree/Downloads/lms-master && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/shree/Downloads/lms-master /Users/shree/Downloads/lms-master/src/libs/som /Users/shree/Downloads/lms-master /Users/shree/Downloads/lms-master/src/libs/som /Users/shree/Downloads/lms-master/src/libs/som/CMakeFiles/lmssom.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/shree/Downloads/Music-Streaming-Service && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/shree/Downloads/Music-Streaming-Service /Users/shree/Downloads/Music-Streaming-Service/src/libs/som /Users/shree/Downloads/Music-Streaming-Service /Users/shree/Downloads/Music-Streaming-Service/src/libs/som /Users/shree/Downloads/Music-Streaming-Service/src/libs/som/CMakeFiles/lmssom.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : src/libs/som/CMakeFiles/lmssom.dir/depend
 

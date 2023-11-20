@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/shree/Downloads/lms-master/src/libs/image/impl/graphicsmagick/JPEGImage.cpp" "src/libs/image/CMakeFiles/lmsimage.dir/impl/graphicsmagick/JPEGImage.cpp.o" "gcc" "src/libs/image/CMakeFiles/lmsimage.dir/impl/graphicsmagick/JPEGImage.cpp.o.d"
-  "/Users/shree/Downloads/lms-master/src/libs/image/impl/graphicsmagick/RawImage.cpp" "src/libs/image/CMakeFiles/lmsimage.dir/impl/graphicsmagick/RawImage.cpp.o" "gcc" "src/libs/image/CMakeFiles/lmsimage.dir/impl/graphicsmagick/RawImage.cpp.o.d"
+  "/Users/shree/Downloads/Music-Streaming-Service/src/libs/image/impl/graphicsmagick/JPEGImage.cpp" "src/libs/image/CMakeFiles/lmsimage.dir/impl/graphicsmagick/JPEGImage.cpp.o" "gcc" "src/libs/image/CMakeFiles/lmsimage.dir/impl/graphicsmagick/JPEGImage.cpp.o.d"
+  "/Users/shree/Downloads/Music-Streaming-Service/src/libs/image/impl/graphicsmagick/RawImage.cpp" "src/libs/image/CMakeFiles/lmsimage.dir/impl/graphicsmagick/RawImage.cpp.o" "gcc" "src/libs/image/CMakeFiles/lmsimage.dir/impl/graphicsmagick/RawImage.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

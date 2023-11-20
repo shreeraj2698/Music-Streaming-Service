@@ -1,6 +1,6 @@
 src/lms/CMakeFiles/lms.dir/ui/common/DirectoryValidator.cpp.o: \
-  /Users/shree/Downloads/lms-master/src/lms/ui/common/DirectoryValidator.cpp \
-  /Users/shree/Downloads/lms-master/src/lms/ui/common/DirectoryValidator.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/lms/ui/common/DirectoryValidator.cpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/lms/ui/common/DirectoryValidator.hpp \
   /usr/local/include/Wt/WValidator.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/iostream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__assert \

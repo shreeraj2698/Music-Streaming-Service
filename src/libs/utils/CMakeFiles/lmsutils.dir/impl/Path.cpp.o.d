@@ -1,6 +1,6 @@
 src/libs/utils/CMakeFiles/lmsutils.dir/impl/Path.cpp.o: \
-  /Users/shree/Downloads/lms-master/src/libs/utils/impl/Path.cpp \
-  /Users/shree/Downloads/lms-master/src/libs/utils/include/utils/Path.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/utils/impl/Path.cpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/utils/include/utils/Path.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/filesystem \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__assert \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__config \
@@ -1083,7 +1083,7 @@ src/libs/utils/CMakeFiles/lmsutils.dir/impl/Path.cpp.o: \
   /opt/homebrew/include/boost/assert/source_location.hpp \
   /opt/homebrew/include/boost/current_function.hpp \
   /opt/homebrew/include/boost/cstdint.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/utils/include/utils/Crc32Calculator.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/utils/include/utils/Crc32Calculator.hpp \
   /opt/homebrew/include/boost/crc.hpp \
   /opt/homebrew/include/boost/array.hpp \
   /opt/homebrew/include/boost/core/swap.hpp \
@@ -1092,8 +1092,8 @@ src/libs/utils/CMakeFiles/lmsutils.dir/impl/Path.cpp.o: \
   /opt/homebrew/include/boost/integer_fwd.hpp \
   /opt/homebrew/include/boost/limits.hpp \
   /opt/homebrew/include/boost/integer_traits.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/utils/include/utils/Exception.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/utils/include/utils/Logger.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/utils/include/utils/Exception.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/utils/include/utils/Logger.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/sstream \
-  /Users/shree/Downloads/lms-master/src/libs/utils/include/utils/Service.hpp \
-  /Users/shree/Downloads/lms-master/src/libs/utils/include/utils/String.hpp
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/utils/include/utils/Service.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/libs/utils/include/utils/String.hpp

@@ -1,6 +1,6 @@
 src/lms/CMakeFiles/lms.dir/ui/common/UUIDValidator.cpp.o: \
-  /Users/shree/Downloads/lms-master/src/lms/ui/common/UUIDValidator.cpp \
-  /Users/shree/Downloads/lms-master/src/lms/ui/common/UUIDValidator.hpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/lms/ui/common/UUIDValidator.cpp \
+  /Users/shree/Downloads/Music-Streaming-Service/src/lms/ui/common/UUIDValidator.hpp \
   /usr/local/include/Wt/WValidator.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/iostream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__assert \

@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/shree/Downloads/lms-master/src/tools/cover/LmsCover.cpp" "src/tools/cover/CMakeFiles/lms-cover.dir/LmsCover.cpp.o" "gcc" "src/tools/cover/CMakeFiles/lms-cover.dir/LmsCover.cpp.o.d"
+  "/Users/shree/Downloads/Music-Streaming-Service/src/tools/cover/LmsCover.cpp" "src/tools/cover/CMakeFiles/lms-cover.dir/LmsCover.cpp.o" "gcc" "src/tools/cover/CMakeFiles/lms-cover.dir/LmsCover.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
